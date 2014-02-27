@@ -1,7 +1,7 @@
 {
   "name": "drupal",
   "main": "./lib/drupal",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "Drupal snippets, filetypes and hotkeys",
   "repository": "https://github.com/FavishInc/atom-drupal",

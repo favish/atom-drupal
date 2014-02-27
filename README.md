@@ -1,8 +1,8 @@
 # Drupal
 
-A starter Drupal package for the new Atom editor from the lovely folks at Github.
+A starter Drupal package for the Atom editor from the lovely folks at Github.
 
-Please issue pull requests for more snippets and features
+Please create issues and pull requests for more snippets and features.
 
 TODO
 ====

@@ -2,7 +2,7 @@
   "name": "drupal",
   "main": "./lib/drupal",
   "version": "0.1.2",
-  "private": true,
+  "private": false,
   "description": "Drupal snippets, filetypes and hotkeys",
   "repository": "https://github.com/FavishInc/atom-drupal",
   "license": "MIT",

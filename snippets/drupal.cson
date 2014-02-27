@@ -1,0 +1,61 @@
+'.php':
+  'dpm':
+    'prefix': 'dpm'
+    'body': 'dpm(${1:\$${2:content}});'
+  'dpm_once':
+    'prefix': 'dpmo'
+    'body': 'dpm_once(${1:\$${2:content}});'
+  'dpr':
+    'prefix': 'dpr'
+    'body': 'dpr(${1:\$${2:content}});'
+  'drupal_set_message':
+    'prefix': 'dsm'
+    'body': 'drupal_set_message(${1:t(\'${2:Message}\')});'
+  'kpr(get_defined_vars())':
+    'prefix': 'gdv'
+    'body': 'kpr(get_defined_vars());'
+  'kpr':
+    'prefix': 'kpr'
+    'body': 'kpr(${1:\$${2:content}});'
+  'l() variables':
+    'prefix': 'l'
+    'body': 'l(${1:\$${2:text}}, ${3:\$${4:path}}${5:, array($6)});$0'
+  'l() absolute':
+    'prefix': 'la'
+    'body': 'l(t(\'${1:Text}\'), \'${2:path}\', array(\'absolute\' => TRUE$3));$0'
+  'l() fragment':
+    'prefix': 'lf'
+    'body': 'l(t(\'${1:Text}\'), \'${2:path}\', array(\'fragment\' => \'${3:fragment}\'$4)$5);$0'
+  'variable_del':
+    'prefix': 'var'
+    'body': 'variable_del(\'${1:variable}\');'
+  'variable_get':
+    'prefix': 'var'
+    'body': 'variable_get(${1:\'${2:variable}\'}, ${3:\$${4:default}})'
+  'variable_set':
+    'prefix': 'var'
+    'body': 'variable_set(${1:\'${2:variable}\'}, ${3:\$${4:value}})'
+  'views_embed_view':
+    'prefix': 'v'
+    'body': 'views_embed_view(${1:\$name}, ${2:\$display_id = \'default\'});'
+  'views_get_view':
+    'prefix': 'v'
+    'body': 'views_get_view(${2:\$name}, ${1:\$reset = FALSE});'
+  'views_trace':
+    'prefix': 'v'
+    'body': 'views_trace();'
+  'views_var_export':
+    'prefix': 'v'
+    'body': 'views_var_export(${1:\$var}, ${2:\$prefix = \'\'});'
+  'vpr':
+    'prefix': 'v'
+    'body': 'vpr(${1:\$${2:content}});'
+  'vpr_trace':
+    'prefix': 'v'
+    'body': 'vpr_trace();'
+  'vsm_trace':
+    'prefix': 'v'
+    'body': 'vsm_trace();'
+  'entity_meta_data_wapper': {
+    'prefix': 'emw'
+    'body': '$${1:type}_wrapper = entity_metadata_wrapper('${1:type}', $${1:type});'

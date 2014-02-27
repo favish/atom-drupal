@@ -56,6 +56,3 @@
   'vsm_trace':
     'prefix': 'v'
     'body': 'vsm_trace();'
-  'entity_meta_data_wapper': {
-    'prefix': 'emw'
-    'body': '$${1:type}_wrapper = entity_metadata_wrapper('${1:type}', $${1:type});'

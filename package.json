@@ -1,0 +1,15 @@
+{
+  "name": "drupal",
+  "main": "./lib/drupal",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Drupal snippets, filetypes and hotkeys",
+  "repository": "https://github.com/favish/atom-drupal",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "language-php": "0.8.0"
+  }
+}

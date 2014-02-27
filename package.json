@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Drupal snippets, filetypes and hotkeys",
-  "repository": "https://github.com/favish/atom-drupal",
+  "repository": "https://github.com/FavishInc/atom-drupal",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

@@ -10,6 +10,5 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "language-php": "0.8.0"
   }
 }

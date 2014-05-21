@@ -1,0 +1,13 @@
+'.source.php':
+  'dd':
+    'prefix': 'dd'
+    'body': '''dd($1);'''
+  'ddebug':
+    'prefix': 'ddebug'
+    'body': '''ddebug_backtrace();'''
+  'dvm':
+    'prefix': 'dvm'
+    'body': '''dvm($1);'''
+  'kpr':
+    'prefix': 'kpr'
+    'body': '''kpr($1);'''

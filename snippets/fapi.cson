@@ -1,0 +1,51 @@
+'.source.php':
+  'fapi.fieldset':
+    'prefix': 'fapi.fieldset'
+    'body': '''
+array(
+	'#type' => 'fieldset',
+	'#title' => t('${1:title}'),
+);
+'''
+  'fapi.hidden':
+    'prefix': 'fapi.hidden'
+    'body': '''
+array(
+	'#type' => 'hidden',
+	'#title' => t('${1:title}'),
+);
+'''
+  'fapi.markup':
+    'prefix': 'fapi.markup'
+    'body': '''
+array(
+	'#type' => 'markup',
+	'#markup' => ${1:content},
+);
+'''
+  'fapi.submit':
+    'prefix': 'fapi.submit'
+    'body': '''
+array(
+	'#type' => 'submit',
+	'#value' => t('${1:title}'),
+);
+'''
+  'fapi.ta':
+    'prefix': 'fapi.ta'
+    'body': '''
+array(
+	'#type' => 'textarea',
+	'#title' => t('${1:title}'),
+	${2:'#default_value' => ${3:'${4:value}'},}
+);
+'''
+  'fapi.tf':
+    'prefix': 'fapi.tf'
+    'body': '''
+array(
+	'#type' => 'textfield',
+	'#title' => t('${1:title}'),
+	${2:'#default_value' => ${3:'${4:value}'},}
+);
+'''

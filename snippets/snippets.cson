@@ -1,0 +1,147 @@
+'.source.php':
+  'block':
+    'prefix': 'block'
+    'body': '''
+/**
+ * Implements hook_block_info().
+ */
+function ${1:hook}_block_info() {
+	\$blocks = array();
+
+	\$blocks['${1:hook_block_delta}'] = array(
+		'info' => t('${2:Title}'),
+		'cache' => DRUPAL_NO_CACHE,
+	);
+
+	return \$blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function ${1:hook}_block_view(\$delta = '') {
+	if (function_exists(\$delta . '_view')) {
+		return call_user_func(\$delta . '_view');
+	}
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function ${1:hook}_block_configure(\$delta = '') {
+	if (function_exists(\$delta . '_configure')) {
+		return call_user_func(\$delta . '_configure');
+	}
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function ${1:hook}_block_save(\$delta = '', \$edit = array()) {
+	if (function_exists(\$delta . '_save')) {
+		return call_user_func(\$delta . '_save', \$edit);
+	}
+}
+
+/**
+ * Block code to view $1
+ */
+function $1_view() {
+	\$block = array('subject' => '', 'content' => '');
+
+	$0
+
+	return \$block;
+}
+
+/**
+ * Block code to configure $1
+ */
+function $1_configure() {
+	\$form = array();
+	return \$form;
+}
+
+/**
+ * Block code to save $1
+ */
+function $1_save(\$edit = array()) {
+}
+'''
+  'module_path':
+    'prefix': 'module_path'
+    'body': '''drupal_get_path('module', '${1:hook}')'''
+  'efq':
+    'prefix': 'efq'
+    'body': '''
+\$${1:query} = new EntityFieldQuery();
+${2:\$$1->entityCondition('${3:entity_type}', '${4:node}')
+	->entityCondition('${5:bundle}', '${6:bundle}');}
+'''
+  'form_function':
+    'prefix': 'form_function'
+    'body': '''/**
+ * $2
+ */
+function ${1:hook}_${1:function}(\$form, &\$form_state) {
+	if (!is_array(\$form)) {
+		\$form = array();
+	}
+	$0
+	return \$form;
+}${3:
+
+/**
+ * Summit handler for ${1:hook}_$1
+ */
+function ${1:hook}_$1_submit(\$form, &$form_state) {
+
+}}'''
+  'get_cache':
+    'prefix': 'get_cache'
+    'body': '''
+\$${1:variable} = cache_get(${2:id}${3:, ${4:bin}});
+if (!\$$1 || (\$$1 && \$$1->expire >= time())) {
+	// looks like $2 is not cached, so get it
+	$0
+}
+else {
+	\$$1 = \$$1->data;
+}
+'''
+  'hook':
+    'prefix': 'hook'
+    'body': '''/**
+ * Implements hook_$1().
+ */
+function ${1:hook}_${1:function}(${2:args}) {
+	$0
+}'''
+  'menu':
+    'prefix': 'menu'
+    'body': '''
+\$${1:items}['${2:menu}'] = array(
+	'title' => '${3:title}',
+	'page callback' => '${4:callback}',
+	'type' => MENU_NORMAL_ITEM,$0
+);
+'''
+  'prefix':
+    'prefix': 'prefix'
+    'body': '''
+'#prefix' => '${1:<${2:div}$3>}',
+'#suffix' => '${4:</$2>}',
+'''
+  'query':
+    'prefix': 'query'
+    'body': '''
+\$${1:query} = db_select(${2:'${3:table}'}${4:, ${5:'${6:alias}'}});
+'''
+  'view':
+    'prefix': 'view'
+    'body': '''
+\$${1:view} = views_get_view('${2:view}');
+\$$1->init();
+\$$1->set_display(${3:\$${4:display}});
+\$$1->set_arguments(${5:\$${6:arguments}});
+'''

@@ -112,9 +112,9 @@ else {
   'hook':
     'prefix': 'hook'
     'body': '''/**
- * Implements hook_$1().
+ * Implements hook_${1:hook}().
  */
-function ${1:hook}_${1:function}(${2:args}) {
+function ${1:hook}_${2:function}(${3:args}) {
 	$0
 }'''
   'menu':

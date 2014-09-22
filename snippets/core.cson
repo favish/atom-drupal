@@ -9582,13 +9582,13 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''vancode2int(${1:, ${2:c}})'''
   'variable_del':
     'prefix': 'variable_del'
-    'body': '''variable_del('${1:variable}');$0'''
+    'body': '''variable_del('${1:variable}')$0'''
   'variable_get':
     'prefix': 'variable_get'
-    'body': '''variable_get('${1:variable}'${2:, ${3:default}});$0'''
+    'body': '''variable_get('${1:variable}'${2:, ${3:default}})$0'''
   'variable_set':
     'prefix': 'variable_set'
-    'body': '''variable_set('${1:variable}', ${2:value});$0'''
+    'body': '''variable_set('${1:variable}', ${2:value})$0'''
   'watchdog':
     'prefix': 'watchdog'
     'body': '''watchdog('$1', '${2:message}'${3:, array(${4})}${5:, WATCHDOG_NOTICE}${6:, '${7:link}'});'''

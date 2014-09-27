@@ -1,0 +1,10 @@
+'.source.php':
+  'qcon':
+    'prefix': 'qcon'
+    'body': '''\$${1:query}->condition(${2:'${3:field}'}, ${4:'${5:value}'}, '${6:=}')${7:;}'''
+  'qfields':
+    'prefix': 'qfields'
+    'body': '''\$${1:query}->fields('${2:table}'${3:, array(${4:items})})${5:;}'''
+  'qjoin':
+    'prefix': 'qjoin'
+    'body': '''\$${1:query}->join('${2:table}', '${3:${2/(\w).*/$1/}}', '${4:on}')${5:;}'''

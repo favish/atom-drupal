@@ -1,0 +1,53 @@
+'.source.php':
+  'DrupalUnitTestCase':
+    'prefix': 'DrupalUnitTestCase'
+    'body': '''
+/**
+ * $1 tests
+ */
+class ${1:TestCase} extends ${2:DrupalUnitTestCase} {
+	/**
+	 * Simple test info
+	 */
+	public static function getInfo() {
+		return array(
+			'name' => '${3:Test name}',
+			'description' => '${4:Test description}',
+			'group' => '${5:group}',
+    	);
+	}
+
+	$0
+}'''
+  'DrupalWebTestCase':
+    'prefix': 'DrupalWebTestCase'
+    'body': '''
+/**
+ * $1 tests
+ */
+class ${1:TestCase} extends ${2:DrupalWebTestCase} {
+	/**
+	 * Simple test info
+	 */
+	public static function getInfo() {
+		return array(
+			'name' => '${3:Test name}',
+			'description' => '${4:Test description}',
+			'group' => '${5:group}',
+    	);
+	}
+
+	$0
+}'''
+  'drupalCreateUser':
+    'prefix': 'drupalCreateUser'
+    'body': '''
+\$this->drupalCreateUser(array(
+	$0
+));'''
+  'drupalGet':
+    'prefix': 'drupalGet'
+    'body': '''\$this->drupalGet(${1:path}${2:, ${3:options}${4:, ${5:headers}}});'''
+  'drupalLogin':
+    'prefix': 'drupalLogin'
+    'body': '''\$this->drupalLogin(${1:\$${2:user}});'''

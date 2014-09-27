@@ -1,0 +1,556 @@
+'.source.php':
+  'aggregator_views_api':
+    'prefix': 'aggregator_views_api'
+    'body': '''aggregator_views_api()'''
+  'book_views_api':
+    'prefix': 'book_views_api'
+    'body': '''book_views_api()'''
+  'comment_views_api':
+    'prefix': 'comment_views_api'
+    'body': '''comment_views_api()'''
+  'contact_views_api':
+    'prefix': 'contact_views_api'
+    'body': '''contact_views_api()'''
+  'field_views_api':
+    'prefix': 'field_views_api'
+    'body': '''field_views_api()'''
+  'file_views_api':
+    'prefix': 'file_views_api'
+    'body': '''file_views_api()'''
+  'filter_views_api':
+    'prefix': 'filter_views_api'
+    'body': '''filter_views_api()'''
+  'h.views_api':
+    'prefix': 'h.views_api'
+    'body': '''/**
+ * Implements hook_views_api().
+ */
+function ${1:hook}_views_api() {
+	$0
+}'''
+  'h.views_data':
+    'prefix': 'h.views_data'
+    'body': '''/**
+ * Implements hook_views_data().
+ */
+function ${1:hook}_views_data() {
+	$0
+}'''
+  'h.views_data_alter':
+    'prefix': 'h.views_data_alter'
+    'body': '''/**
+ * Implements hook_views_data_alter().
+ */
+function ${1:hook}_views_data_alter(&\$data) {
+	$0
+}'''
+  'h.views_default_views':
+    'prefix': 'h.views_default_views'
+    'body': '''/**
+ * Implements hook_views_default_views().
+ */
+function ${1:hook}_views_default_views() {
+	$0
+}'''
+  'h.views_default_views_alter':
+    'prefix': 'h.views_default_views_alter'
+    'body': '''/**
+ * Implements hook_views_default_views_alter().
+ */
+function ${1:hook}_views_default_views_alter(&\$views) {
+	$0
+}'''
+  'h.views_form_submit':
+    'prefix': 'h.views_form_submit'
+    'body': '''/**
+ * Implements hook_views_form_submit().
+ */
+function ${1:hook}_views_form_submit(\$form, &\$form_state) {
+	$0
+}'''
+  'h.views_form_substitutions':
+    'prefix': 'h.views_form_substitutions'
+    'body': '''/**
+ * Implements hook_views_form_substitutions().
+ */
+function ${1:hook}_views_form_substitutions() {
+	$0
+}'''
+  'h.views_form_validate':
+    'prefix': 'h.views_form_validate'
+    'body': '''/**
+ * Implements hook_views_form_validate().
+ */
+function ${1:hook}_views_form_validate(\$form, &\$form_state) {
+	$0
+}'''
+  'h.views_plugins':
+    'prefix': 'h.views_plugins'
+    'body': '''/**
+ * Implements hook_views_plugins().
+ */
+function ${1:hook}_views_plugins() {
+	$0
+}'''
+  'h.views_plugins_alter':
+    'prefix': 'h.views_plugins_alter'
+    'body': '''/**
+ * Implements hook_views_plugins_alter().
+ */
+function ${1:hook}_views_plugins_alter(&\$plugins) {
+	$0
+}'''
+  'h.views_post_build':
+    'prefix': 'h.views_post_build'
+    'body': '''/**
+ * Implements hook_views_post_build().
+ */
+function ${1:hook}_views_post_build(&\$view) {
+	$0
+}'''
+  'h.views_post_execute':
+    'prefix': 'h.views_post_execute'
+    'body': '''/**
+ * Implements hook_views_post_execute().
+ */
+function ${1:hook}_views_post_execute(&\$view) {
+	$0
+}'''
+  'h.views_post_render':
+    'prefix': 'h.views_post_render'
+    'body': '''/**
+ * Implements hook_views_post_render().
+ */
+function ${1:hook}_views_post_render(&\$view, &\$output, &\$cache) {
+	$0
+}'''
+  'h.views_pre_build':
+    'prefix': 'h.views_pre_build'
+    'body': '''/**
+ * Implements hook_views_pre_build().
+ */
+function ${1:hook}_views_pre_build(&\$view) {
+	$0
+}'''
+  'h.views_pre_execute':
+    'prefix': 'h.views_pre_execute'
+    'body': '''/**
+ * Implements hook_views_pre_execute().
+ */
+function ${1:hook}_views_pre_execute(&\$view) {
+	$0
+}'''
+  'h.views_pre_render':
+    'prefix': 'h.views_pre_render'
+    'body': '''/**
+ * Implements hook_views_pre_render().
+ */
+function ${1:hook}_views_pre_render(&\$view) {
+	$0
+}'''
+  'h.views_pre_view':
+    'prefix': 'h.views_pre_view'
+    'body': '''/**
+ * Implements hook_views_pre_view().
+ */
+function ${1:hook}_views_pre_view(&\$view, &\$display_id, &\$args) {
+	$0
+}'''
+  'h.views_preview_info_alter':
+    'prefix': 'h.views_preview_info_alter'
+    'body': '''/**
+ * Implements hook_views_preview_info_alter().
+ */
+function ${1:hook}_views_preview_info_alter(&\$rows, \$view) {
+	$0
+}'''
+  'h.views_query_alter':
+    'prefix': 'h.views_query_alter'
+    'body': '''/**
+ * Implements hook_views_query_alter().
+ */
+function ${1:hook}_views_query_alter(&\$view, &\$query) {
+	$0
+}'''
+  'h.views_query_substitutions':
+    'prefix': 'h.views_query_substitutions'
+    'body': '''/**
+ * Implements hook_views_query_substitutions().
+ */
+function ${1:hook}_views_query_substitutions() {
+	$0
+}'''
+  'h.views_ui_display_top_links_alter':
+    'prefix': 'h.views_ui_display_top_links_alter'
+    'body': '''/**
+ * Implements hook_views_ui_display_top_links_alter().
+ */
+function ${1:hook}_views_ui_display_top_links_alter(&\$links, \$view, \$display_id) {
+	$0
+}'''
+  'image_views_api':
+    'prefix': 'image_views_api'
+    'body': '''image_views_api()'''
+  'locale_views_api':
+    'prefix': 'locale_views_api'
+    'body': '''locale_views_api()'''
+  'node_views_api':
+    'prefix': 'node_views_api'
+    'body': '''node_views_api()'''
+  'poll_views_api':
+    'prefix': 'poll_views_api'
+    'body': '''poll_views_api()'''
+  'profile_views_api':
+    'prefix': 'profile_views_api'
+    'body': '''profile_views_api()'''
+  'search_views_api':
+    'prefix': 'search_views_api'
+    'body': '''search_views_api()'''
+  'statistics_views_api':
+    'prefix': 'statistics_views_api'
+    'body': '''statistics_views_api()'''
+  'system_views_api':
+    'prefix': 'system_views_api'
+    'body': '''system_views_api()'''
+  'taxonomy_views_api':
+    'prefix': 'taxonomy_views_api'
+    'body': '''taxonomy_views_api()'''
+  'template_preprocess_views_ui_view_preview_section':
+    'prefix': 'template_preprocess_views_ui_view_preview_section'
+    'body': '''template_preprocess_views_ui_view_preview_section(${1:vars})'''
+  'theme_views_ui_view_preview_section':
+    'prefix': 'theme_views_ui_view_preview_section'
+    'body': '''theme_views_ui_view_preview_section(${1:vars})'''
+  'translation_views_api':
+    'prefix': 'translation_views_api'
+    'body': '''translation_views_api()'''
+  'upload_views_api':
+    'prefix': 'upload_views_api'
+    'body': '''upload_views_api()'''
+  'user_views_api':
+    'prefix': 'user_views_api'
+    'body': '''user_views_api()'''
+  'views_access':
+    'prefix': 'views_access'
+    'body': '''views_access()'''
+  'views_add_block_contextual_links':
+    'prefix': 'views_add_block_contextual_links'
+    'body': '''views_add_block_contextual_links(${1:block}, ${2:view}, ${3:display_id}${4:, ${5:block_type}})'''
+  'views_add_contextual_links':
+    'prefix': 'views_add_contextual_links'
+    'body': '''views_add_contextual_links(${1:render_element}, ${2:location}, ${3:view}, ${4:display_id})'''
+  'views_add_css':
+    'prefix': 'views_add_css'
+    'body': '''views_add_css(${1:file})'''
+  'views_add_js':
+    'prefix': 'views_add_js'
+    'body': '''views_add_js(${1:file})'''
+  'views_api_minimum_version':
+    'prefix': 'views_api_minimum_version'
+    'body': '''views_api_minimum_version()'''
+  'views_api_version':
+    'prefix': 'views_api_version'
+    'body': '''views_api_version()'''
+  'views_arg_load':
+    'prefix': 'views_arg_load'
+    'body': '''views_arg_load(${1:value}, ${2:name}, ${3:display_id}, ${4:index})'''
+  'views_block_info':
+    'prefix': 'views_block_info'
+    'body': '''views_block_info()'''
+  'views_block_view':
+    'prefix': 'views_block_view'
+    'body': '''views_block_view(${1:delta})'''
+  'views_check_perm':
+    'prefix': 'views_check_perm'
+    'body': '''views_check_perm(${1:perm}${2:, ${3:account}})'''
+  'views_check_roles':
+    'prefix': 'views_check_roles'
+    'body': '''views_check_roles(${1:rids}${2:, ${3:account}})'''
+  'views_contextual_links_view_alter':
+    'prefix': 'views_contextual_links_view_alter'
+    'body': '''views_contextual_links_view_alter(${1:element}, ${2:items})'''
+  'views_ctools_plugin_api_hook_name':
+    'prefix': 'views_ctools_plugin_api_hook_name'
+    'body': '''views_ctools_plugin_api_hook_name()'''
+  'views_delete_view':
+    'prefix': 'views_delete_view'
+    'body': '''views_delete_view(${1:view})'''
+  'views_embed_view':
+    'prefix': 'views_embed_view'
+    'body': '''views_embed_view(${1:name}${2:, ${3:display_id}})'''
+  'views_export_view':
+    'prefix': 'views_export_view'
+    'body': '''views_export_view(${1:view}${2:, ${3:indent}})'''
+  'views_exposed_form':
+    'prefix': 'views_exposed_form'
+    'body': '''views_exposed_form(${1:form}, ${2:form_state})'''
+  'views_exposed_form_cache':
+    'prefix': 'views_exposed_form_cache'
+    'body': '''views_exposed_form_cache(${1:views_name}, ${2:display_name}${3:, ${4:form_output}})'''
+  'views_exposed_form_submit':
+    'prefix': 'views_exposed_form_submit'
+    'body': '''views_exposed_form_submit(${1:form}, ${2:form_state})'''
+  'views_exposed_form_validate':
+    'prefix': 'views_exposed_form_validate'
+    'body': '''views_exposed_form_validate(${1:form}, ${2:form_state})'''
+  'views_fetch_data':
+    'prefix': 'views_fetch_data'
+    'body': '''views_fetch_data(${1:, ${2:table}${3:, ${4:move}${5:, ${6:reset}}}})'''
+  'views_fetch_plugin_data':
+    'prefix': 'views_fetch_plugin_data'
+    'body': '''views_fetch_plugin_data(${1:, ${2:type}${3:, ${4:plugin}${5:, ${6:reset}}}})'''
+  'views_field_create_instance':
+    'prefix': 'views_field_create_instance'
+    'body': '''views_field_create_instance(${1:instance})'''
+  'views_field_delete_instance':
+    'prefix': 'views_field_delete_instance'
+    'body': '''views_field_delete_instance(${1:instance})'''
+  'views_field_update_instance':
+    'prefix': 'views_field_update_instance'
+    'body': '''views_field_update_instance(${1:instance}, ${2:prior_instance})'''
+  'views_flush_caches':
+    'prefix': 'views_flush_caches'
+    'body': '''views_flush_caches()'''
+  'views_form':
+    'prefix': 'views_form'
+    'body': '''views_form(${1:form}, ${2:form_state}, ${3:view}, ${4:output})'''
+  'views_form_id':
+    'prefix': 'views_form_id'
+    'body': '''views_form_id(${1:view})'''
+  'views_form_submit':
+    'prefix': 'views_form_submit'
+    'body': '''views_form_submit(${1:form}, ${2:form_state})'''
+  'views_form_validate':
+    'prefix': 'views_form_validate'
+    'body': '''views_form_validate(${1:form}, ${2:form_state})'''
+  'views_form_views_exposed_form_alter':
+    'prefix': 'views_form_views_exposed_form_alter'
+    'body': '''views_form_views_exposed_form_alter(${1:form}, ${2:form_state})'''
+  'views_form_views_form':
+    'prefix': 'views_form_views_form'
+    'body': '''views_form_views_form(${1:form}, ${2:form_state}, ${3:view}, ${4:output})'''
+  'views_form_views_form_submit':
+    'prefix': 'views_form_views_form_submit'
+    'body': '''views_form_views_form_submit(${1:form}, ${2:form_state})'''
+  'views_form_views_form_validate':
+    'prefix': 'views_form_views_form_validate'
+    'body': '''views_form_views_form_validate(${1:form}, ${2:form_state})'''
+  'views_forms':
+    'prefix': 'views_forms'
+    'body': '''views_forms(${1:form_id}, ${2:args})'''
+  'views_get_all_templates':
+    'prefix': 'views_get_all_templates'
+    'body': '''views_get_all_templates()'''
+  'views_get_all_views':
+    'prefix': 'views_get_all_views'
+    'body': '''views_get_all_views(${1:, ${2:reset}})'''
+  'views_get_applicable_views':
+    'prefix': 'views_get_applicable_views'
+    'body': '''views_get_applicable_views(${1:type})'''
+  'views_get_disabled_views':
+    'prefix': 'views_get_disabled_views'
+    'body': '''views_get_disabled_views()'''
+  'views_get_enabled_views':
+    'prefix': 'views_get_enabled_views'
+    'body': '''views_get_enabled_views()'''
+  'views_get_handler':
+    'prefix': 'views_get_handler'
+    'body': '''views_get_handler(${1:table}, ${2:field}, ${3:key}${4:, ${5:override}})'''
+  'views_get_localization_plugin':
+    'prefix': 'views_get_localization_plugin'
+    'body': '''views_get_localization_plugin()'''
+  'views_get_module_apis':
+    'prefix': 'views_get_module_apis'
+    'body': '''views_get_module_apis(${1:, ${2:api}${3:, ${4:reset}}})'''
+  'views_get_plugin':
+    'prefix': 'views_get_plugin'
+    'body': '''views_get_plugin(${1:type}, ${2:plugin}${3:, ${4:reset}})'''
+  'views_get_view':
+    'prefix': 'views_get_view'
+    'body': '''views_get_view(${1:name}${2:, ${3:reset}})'''
+  'views_get_view_result':
+    'prefix': 'views_get_view_result'
+    'body': '''views_get_view_result(${1:name}${2:, ${3:display_id}})'''
+  'views_get_views_as_options':
+    'prefix': 'views_get_views_as_options'
+    'body': '''views_get_views_as_options(${1:, ${2:views_only}${3:, ${4:filter}${5:, ${6:exclude_view}${7:, ${8:optgroup}}}}})'''
+  'views_import_access':
+    'prefix': 'views_import_access'
+    'body': '''views_import_access()'''
+  'views_include':
+    'prefix': 'views_include'
+    'body': '''views_include(${1:file})'''
+  'views_include_handlers':
+    'prefix': 'views_include_handlers'
+    'body': '''views_include_handlers(${1:, ${2:reset}})'''
+  'views_invalidate_cache':
+    'prefix': 'views_invalidate_cache'
+    'body': '''views_invalidate_cache()'''
+  'views_language_list':
+    'prefix': 'views_language_list'
+    'body': '''views_language_list(${1:, ${2:field}${3:, ${4:all}}})'''
+  'views_load_display_records':
+    'prefix': 'views_load_display_records'
+    'body': '''views_load_display_records(${1:views})'''
+  'views_menu':
+    'prefix': 'views_menu'
+    'body': '''views_menu()'''
+  'views_menu_alter':
+    'prefix': 'views_menu_alter'
+    'body': '''views_menu_alter(${1:callbacks})'''
+  'views_module_include':
+    'prefix': 'views_module_include'
+    'body': '''views_module_include(${1:api}${2:, ${3:reset}})'''
+  'views_move_table':
+    'prefix': 'views_move_table'
+    'body': '''views_move_table(${1:table})'''
+  'views_new_view':
+    'prefix': 'views_new_view'
+    'body': '''views_new_view()'''
+  'views_page':
+    'prefix': 'views_page'
+    'body': '''views_page()'''
+  'views_page_alter':
+    'prefix': 'views_page_alter'
+    'body': '''views_page_alter(${1:page})'''
+  'views_permission':
+    'prefix': 'views_permission'
+    'body': '''views_permission()'''
+  'views_preprocess_comment':
+    'prefix': 'views_preprocess_comment'
+    'body': '''views_preprocess_comment(${1:vars})'''
+  'views_preprocess_html':
+    'prefix': 'views_preprocess_html'
+    'body': '''views_preprocess_html(${1:variables})'''
+  'views_preprocess_node':
+    'prefix': 'views_preprocess_node'
+    'body': '''views_preprocess_node(${1:vars})'''
+  'views_process_check_options':
+    'prefix': 'views_process_check_options'
+    'body': '''views_process_check_options(${1:element}, ${2:form_state})'''
+  'views_query_views_alter':
+    'prefix': 'views_query_views_alter'
+    'body': '''views_query_views_alter(${1:ueryAlterableInterface $query})'''
+  'views_save_view':
+    'prefix': 'views_save_view'
+    'body': '''views_save_view(${1:view})'''
+  'views_theme':
+    'prefix': 'views_theme'
+    'body': '''views_theme(${1:existing}, ${2:type}, ${3:theme}, ${4:path})'''
+  'views_theme_functions':
+    'prefix': 'views_theme_functions'
+    'body': '''views_theme_functions(${1:hook}, ${2:view}${3:, ${4:display}})'''
+  'views_trace':
+    'prefix': 'views_trace'
+    'body': '''views_trace()'''
+  'views_trim_text':
+    'prefix': 'views_trim_text'
+    'body': '''views_trim_text(${1:alter}, ${2:value})'''
+  'views_ui_ajax_get_form':
+    'prefix': 'views_ui_ajax_get_form'
+    'body': '''views_ui_ajax_get_form(${1:form_id})'''
+  'views_ui_cache_load':
+    'prefix': 'views_ui_cache_load'
+    'body': '''views_ui_cache_load(${1:name})'''
+  'views_ui_cache_set':
+    'prefix': 'views_ui_cache_set'
+    'body': '''views_ui_cache_set(${1:view})'''
+  'views_ui_contextual_links_suppress':
+    'prefix': 'views_ui_contextual_links_suppress'
+    'body': '''views_ui_contextual_links_suppress(${1:, ${2:set}})'''
+  'views_ui_contextual_links_suppress_pop':
+    'prefix': 'views_ui_contextual_links_suppress_pop'
+    'body': '''views_ui_contextual_links_suppress_pop()'''
+  'views_ui_contextual_links_suppress_push':
+    'prefix': 'views_ui_contextual_links_suppress_push'
+    'body': '''views_ui_contextual_links_suppress_push()'''
+  'views_ui_contextual_links_view_alter':
+    'prefix': 'views_ui_contextual_links_view_alter'
+    'body': '''views_ui_contextual_links_view_alter(${1:element}, ${2:items})'''
+  'views_ui_ctools_plugin_directory':
+    'prefix': 'views_ui_ctools_plugin_directory'
+    'body': '''views_ui_ctools_plugin_directory(${1:module}, ${2:plugin})'''
+  'views_ui_ctools_plugin_type':
+    'prefix': 'views_ui_ctools_plugin_type'
+    'body': '''views_ui_ctools_plugin_type()'''
+  'views_ui_custom_theme':
+    'prefix': 'views_ui_custom_theme'
+    'body': '''views_ui_custom_theme()'''
+  'views_ui_default_load':
+    'prefix': 'views_ui_default_load'
+    'body': '''views_ui_default_load(${1:name})'''
+  'views_ui_edit_page_title':
+    'prefix': 'views_ui_edit_page_title'
+    'body': '''views_ui_edit_page_title(${1:view})'''
+  'views_ui_get_form_wizard_instance':
+    'prefix': 'views_ui_get_form_wizard_instance'
+    'body': '''views_ui_get_form_wizard_instance(${1:wizard})'''
+  'views_ui_get_wizard':
+    'prefix': 'views_ui_get_wizard'
+    'body': '''views_ui_get_wizard(${1:wizard_type})'''
+  'views_ui_get_wizards':
+    'prefix': 'views_ui_get_wizards'
+    'body': '''views_ui_get_wizards()'''
+  'views_ui_library_alter':
+    'prefix': 'views_ui_library_alter'
+    'body': '''views_ui_library_alter(${1:libraries}, ${2:module})'''
+  'views_ui_list_views':
+    'prefix': 'views_ui_list_views'
+    'body': '''views_ui_list_views()'''
+  'views_ui_menu':
+    'prefix': 'views_ui_menu'
+    'body': '''views_ui_menu()'''
+  'views_ui_preprocess_views_view':
+    'prefix': 'views_ui_preprocess_views_view'
+    'body': '''views_ui_preprocess_views_view(${1:vars})'''
+  'views_ui_theme':
+    'prefix': 'views_ui_theme'
+    'body': '''views_ui_theme()'''
+  'views_ui_truncate':
+    'prefix': 'views_ui_truncate'
+    'body': '''views_ui_truncate(${1:string}, ${2:length})'''
+  'views_ui_view_preview_section_display_category_links':
+    'prefix': 'views_ui_view_preview_section_display_category_links'
+    'body': '''views_ui_view_preview_section_display_category_links(${1:view}, ${2:type}, ${3:title})'''
+  'views_ui_view_preview_section_handler_links':
+    'prefix': 'views_ui_view_preview_section_handler_links'
+    'body': '''views_ui_view_preview_section_handler_links(${1:view}, ${2:type}${3:, ${4:title}})'''
+  'views_ui_view_preview_section_rows_links':
+    'prefix': 'views_ui_view_preview_section_rows_links'
+    'body': '''views_ui_view_preview_section_rows_links(${1:view})'''
+  'views_ui_views_plugins_alter':
+    'prefix': 'views_ui_views_plugins_alter'
+    'body': '''views_ui_views_plugins_alter(${1:plugins})'''
+  'views_ui_views_wizard_defaults':
+    'prefix': 'views_ui_views_wizard_defaults'
+    'body': '''views_ui_views_wizard_defaults()'''
+  'views_var_export':
+    'prefix': 'views_var_export'
+    'body': '''views_var_export(${1:var}${2:, ${3:prefix}${4:, ${5:init}}})'''
+  'views_view_has_form_elements':
+    'prefix': 'views_view_has_form_elements'
+    'body': '''views_view_has_form_elements(${1:view})'''
+  'views_view_is_disabled':
+    'prefix': 'views_view_is_disabled'
+    'body': '''views_view_is_disabled(${1:view})'''
+  'views_view_is_enabled':
+    'prefix': 'views_view_is_enabled'
+    'body': '''views_view_is_enabled(${1:view})'''
+  'views_views_api':
+    'prefix': 'views_views_api'
+    'body': '''views_views_api()'''
+  'views_views_exportables':
+    'prefix': 'views_views_exportables'
+    'body': '''views_views_exportables(${1:, ${2:op}${3:, ${4:views}${5:, ${6:name}}}})'''
+  'views_views_query_substitutions':
+    'prefix': 'views_views_query_substitutions'
+    'body': '''views_views_query_substitutions(${1:view})'''
+  'vpr_trace':
+    'prefix': 'vpr_trace'
+    'body': '''vpr_trace()'''
+  'vsm':
+    'prefix': 'vsm'
+    'body': '''vsm(${1:message})'''
+  'vsm_trace':
+    'prefix': 'vsm_trace'
+    'body': '''vsm_trace()'''

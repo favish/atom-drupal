@@ -1,0 +1,1377 @@
+'.source.php':
+  'pre_admin_block':
+    'prefix': 'pre_admin_block'
+    'body': '''/**
+ * Implements theme_preprocess_admin_block().
+ */
+function ${1:hook}_preprocess_admin_block(&\$vars) {
+	$0
+}'''
+  'pre_admin_block_content':
+    'prefix': 'pre_admin_block_content'
+    'body': '''/**
+ * Implements theme_preprocess_admin_block_content().
+ */
+function ${1:hook}_preprocess_admin_block_content(&\$vars) {
+	$0
+}'''
+  'pre_admin_page':
+    'prefix': 'pre_admin_page'
+    'body': '''/**
+ * Implements theme_preprocess_admin_page().
+ */
+function ${1:hook}_preprocess_admin_page(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_block_item':
+    'prefix': 'pre_aggregator_block_item'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_block_item().
+ */
+function ${1:hook}_preprocess_aggregator_block_item(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_categorize_items':
+    'prefix': 'pre_aggregator_categorize_items'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_categorize_items().
+ */
+function ${1:hook}_preprocess_aggregator_categorize_items(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_feed_source':
+    'prefix': 'pre_aggregator_feed_source'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_feed_source().
+ */
+function ${1:hook}_preprocess_aggregator_feed_source(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_item':
+    'prefix': 'pre_aggregator_item'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_item().
+ */
+function ${1:hook}_preprocess_aggregator_item(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_page_opml':
+    'prefix': 'pre_aggregator_page_opml'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_page_opml().
+ */
+function ${1:hook}_preprocess_aggregator_page_opml(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_page_rss':
+    'prefix': 'pre_aggregator_page_rss'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_page_rss().
+ */
+function ${1:hook}_preprocess_aggregator_page_rss(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_summary_item':
+    'prefix': 'pre_aggregator_summary_item'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_summary_item().
+ */
+function ${1:hook}_preprocess_aggregator_summary_item(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_summary_items':
+    'prefix': 'pre_aggregator_summary_items'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_summary_items().
+ */
+function ${1:hook}_preprocess_aggregator_summary_items(&\$vars) {
+	$0
+}'''
+  'pre_aggregator_wrapper':
+    'prefix': 'pre_aggregator_wrapper'
+    'body': '''/**
+ * Implements theme_preprocess_aggregator_wrapper().
+ */
+function ${1:hook}_preprocess_aggregator_wrapper(&\$vars) {
+	$0
+}'''
+  'pre_block':
+    'prefix': 'pre_block'
+    'body': '''/**
+ * Implements theme_preprocess_block().
+ */
+function ${1:hook}_preprocess_block(&\$vars) {
+	$0
+}'''
+  'pre_block_admin_display_form':
+    'prefix': 'pre_block_admin_display_form'
+    'body': '''/**
+ * Implements theme_preprocess_block_admin_display_form().
+ */
+function ${1:hook}_preprocess_block_admin_display_form(&\$vars) {
+	$0
+}'''
+  'pre_book_admin_table':
+    'prefix': 'pre_book_admin_table'
+    'body': '''/**
+ * Implements theme_preprocess_book_admin_table().
+ */
+function ${1:hook}_preprocess_book_admin_table(&\$vars) {
+	$0
+}'''
+  'pre_book_all_books_block':
+    'prefix': 'pre_book_all_books_block'
+    'body': '''/**
+ * Implements theme_preprocess_book_all_books_block().
+ */
+function ${1:hook}_preprocess_book_all_books_block(&\$vars) {
+	$0
+}'''
+  'pre_book_export_html':
+    'prefix': 'pre_book_export_html'
+    'body': '''/**
+ * Implements theme_preprocess_book_export_html().
+ */
+function ${1:hook}_preprocess_book_export_html(&\$vars) {
+	$0
+}'''
+  'pre_book_navigation':
+    'prefix': 'pre_book_navigation'
+    'body': '''/**
+ * Implements theme_preprocess_book_navigation().
+ */
+function ${1:hook}_preprocess_book_navigation(&\$vars) {
+	$0
+}'''
+  'pre_book_node_export_html':
+    'prefix': 'pre_book_node_export_html'
+    'body': '''/**
+ * Implements theme_preprocess_book_node_export_html().
+ */
+function ${1:hook}_preprocess_book_node_export_html(&\$vars) {
+	$0
+}'''
+  'pre_book_title_link':
+    'prefix': 'pre_book_title_link'
+    'body': '''/**
+ * Implements theme_preprocess_book_title_link().
+ */
+function ${1:hook}_preprocess_book_title_link(&\$vars) {
+	$0
+}'''
+  'pre_breadcrumb':
+    'prefix': 'pre_breadcrumb'
+    'body': '''/**
+ * Implements theme_preprocess_breadcrumb().
+ */
+function ${1:hook}_preprocess_breadcrumb(&\$vars) {
+	$0
+}'''
+  'pre_button':
+    'prefix': 'pre_button'
+    'body': '''/**
+ * Implements theme_preprocess_button().
+ */
+function ${1:hook}_preprocess_button(&\$vars) {
+	$0
+}'''
+  'pre_checkbox':
+    'prefix': 'pre_checkbox'
+    'body': '''/**
+ * Implements theme_preprocess_checkbox().
+ */
+function ${1:hook}_preprocess_checkbox(&\$vars) {
+	$0
+}'''
+  'pre_checkboxes':
+    'prefix': 'pre_checkboxes'
+    'body': '''/**
+ * Implements theme_preprocess_checkboxes().
+ */
+function ${1:hook}_preprocess_checkboxes(&\$vars) {
+	$0
+}'''
+  'pre_color_scheme_form':
+    'prefix': 'pre_color_scheme_form'
+    'body': '''/**
+ * Implements theme_preprocess_color_scheme_form().
+ */
+function ${1:hook}_preprocess_color_scheme_form(&\$vars) {
+	$0
+}'''
+  'pre_comment':
+    'prefix': 'pre_comment'
+    'body': '''/**
+ * Implements theme_preprocess_comment().
+ */
+function ${1:hook}_preprocess_comment(&\$vars) {
+	$0
+}'''
+  'pre_comment_block':
+    'prefix': 'pre_comment_block'
+    'body': '''/**
+ * Implements theme_preprocess_comment_block().
+ */
+function ${1:hook}_preprocess_comment_block(&\$vars) {
+	$0
+}'''
+  'pre_comment_post_forbidden':
+    'prefix': 'pre_comment_post_forbidden'
+    'body': '''/**
+ * Implements theme_preprocess_comment_post_forbidden().
+ */
+function ${1:hook}_preprocess_comment_post_forbidden(&\$vars) {
+	$0
+}'''
+  'pre_comment_wrapper':
+    'prefix': 'pre_comment_wrapper'
+    'body': '''/**
+ * Implements theme_preprocess_comment_wrapper().
+ */
+function ${1:hook}_preprocess_comment_wrapper(&\$vars) {
+	$0
+}'''
+  'pre_confirm_form':
+    'prefix': 'pre_confirm_form'
+    'body': '''/**
+ * Implements theme_preprocess_confirm_form().
+ */
+function ${1:hook}_preprocess_confirm_form(&\$vars) {
+	$0
+}'''
+  'pre_container':
+    'prefix': 'pre_container'
+    'body': '''/**
+ * Implements theme_preprocess_container().
+ */
+function ${1:hook}_preprocess_container(&\$vars) {
+	$0
+}'''
+  'pre_dashboard':
+    'prefix': 'pre_dashboard'
+    'body': '''/**
+ * Implements theme_preprocess_dashboard().
+ */
+function ${1:hook}_preprocess_dashboard(&\$vars) {
+	$0
+}'''
+  'pre_dashboard_admin':
+    'prefix': 'pre_dashboard_admin'
+    'body': '''/**
+ * Implements theme_preprocess_dashboard_admin().
+ */
+function ${1:hook}_preprocess_dashboard_admin(&\$vars) {
+	$0
+}'''
+  'pre_dashboard_disabled_block':
+    'prefix': 'pre_dashboard_disabled_block'
+    'body': '''/**
+ * Implements theme_preprocess_dashboard_disabled_block().
+ */
+function ${1:hook}_preprocess_dashboard_disabled_block(&\$vars) {
+	$0
+}'''
+  'pre_dashboard_disabled_blocks':
+    'prefix': 'pre_dashboard_disabled_blocks'
+    'body': '''/**
+ * Implements theme_preprocess_dashboard_disabled_blocks().
+ */
+function ${1:hook}_preprocess_dashboard_disabled_blocks(&\$vars) {
+	$0
+}'''
+  'pre_dashboard_region':
+    'prefix': 'pre_dashboard_region'
+    'body': '''/**
+ * Implements theme_preprocess_dashboard_region().
+ */
+function ${1:hook}_preprocess_dashboard_region(&\$vars) {
+	$0
+}'''
+  'pre_date':
+    'prefix': 'pre_date'
+    'body': '''/**
+ * Implements theme_preprocess_date().
+ */
+function ${1:hook}_preprocess_date(&\$vars) {
+	$0
+}'''
+  'pre_dblog_message':
+    'prefix': 'pre_dblog_message'
+    'body': '''/**
+ * Implements theme_preprocess_dblog_message().
+ */
+function ${1:hook}_preprocess_dblog_message(&\$vars) {
+	$0
+}'''
+  'pre_exposed_filters':
+    'prefix': 'pre_exposed_filters'
+    'body': '''/**
+ * Implements theme_preprocess_exposed_filters().
+ */
+function ${1:hook}_preprocess_exposed_filters(&\$vars) {
+	$0
+}'''
+  'pre_feed_icon':
+    'prefix': 'pre_feed_icon'
+    'body': '''/**
+ * Implements theme_preprocess_feed_icon().
+ */
+function ${1:hook}_preprocess_feed_icon(&\$vars) {
+	$0
+}'''
+  'pre_field':
+    'prefix': 'pre_field'
+    'body': '''/**
+ * Implements theme_preprocess_field().
+ */
+function ${1:hook}_preprocess_field(&\$vars) {
+	$0
+}'''
+  'pre_field_multiple_value_form':
+    'prefix': 'pre_field_multiple_value_form'
+    'body': '''/**
+ * Implements theme_preprocess_field_multiple_value_form().
+ */
+function ${1:hook}_preprocess_field_multiple_value_form(&\$vars) {
+	$0
+}'''
+  'pre_field_ui_table':
+    'prefix': 'pre_field_ui_table'
+    'body': '''/**
+ * Implements theme_preprocess_field_ui_table().
+ */
+function ${1:hook}_preprocess_field_ui_table(&\$vars) {
+	$0
+}'''
+  'pre_fieldset':
+    'prefix': 'pre_fieldset'
+    'body': '''/**
+ * Implements theme_preprocess_fieldset().
+ */
+function ${1:hook}_preprocess_fieldset(&\$vars) {
+	$0
+}'''
+  'pre_file':
+    'prefix': 'pre_file'
+    'body': '''/**
+ * Implements theme_preprocess_file().
+ */
+function ${1:hook}_preprocess_file(&\$vars) {
+	$0
+}'''
+  'pre_file_formatter_table':
+    'prefix': 'pre_file_formatter_table'
+    'body': '''/**
+ * Implements theme_preprocess_file_formatter_table().
+ */
+function ${1:hook}_preprocess_file_formatter_table(&\$vars) {
+	$0
+}'''
+  'pre_file_icon':
+    'prefix': 'pre_file_icon'
+    'body': '''/**
+ * Implements theme_preprocess_file_icon().
+ */
+function ${1:hook}_preprocess_file_icon(&\$vars) {
+	$0
+}'''
+  'pre_file_link':
+    'prefix': 'pre_file_link'
+    'body': '''/**
+ * Implements theme_preprocess_file_link().
+ */
+function ${1:hook}_preprocess_file_link(&\$vars) {
+	$0
+}'''
+  'pre_file_managed_file':
+    'prefix': 'pre_file_managed_file'
+    'body': '''/**
+ * Implements theme_preprocess_file_managed_file().
+ */
+function ${1:hook}_preprocess_file_managed_file(&\$vars) {
+	$0
+}'''
+  'pre_file_upload_help':
+    'prefix': 'pre_file_upload_help'
+    'body': '''/**
+ * Implements theme_preprocess_file_upload_help().
+ */
+function ${1:hook}_preprocess_file_upload_help(&\$vars) {
+	$0
+}'''
+  'pre_file_widget':
+    'prefix': 'pre_file_widget'
+    'body': '''/**
+ * Implements theme_preprocess_file_widget().
+ */
+function ${1:hook}_preprocess_file_widget(&\$vars) {
+	$0
+}'''
+  'pre_file_widget_multiple':
+    'prefix': 'pre_file_widget_multiple'
+    'body': '''/**
+ * Implements theme_preprocess_file_widget_multiple().
+ */
+function ${1:hook}_preprocess_file_widget_multiple(&\$vars) {
+	$0
+}'''
+  'pre_filter_admin_format_filter_order':
+    'prefix': 'pre_filter_admin_format_filter_order'
+    'body': '''/**
+ * Implements theme_preprocess_filter_admin_format_filter_order().
+ */
+function ${1:hook}_preprocess_filter_admin_format_filter_order(&\$vars) {
+	$0
+}'''
+  'pre_filter_admin_overview':
+    'prefix': 'pre_filter_admin_overview'
+    'body': '''/**
+ * Implements theme_preprocess_filter_admin_overview().
+ */
+function ${1:hook}_preprocess_filter_admin_overview(&\$vars) {
+	$0
+}'''
+  'pre_filter_guidelines':
+    'prefix': 'pre_filter_guidelines'
+    'body': '''/**
+ * Implements theme_preprocess_filter_guidelines().
+ */
+function ${1:hook}_preprocess_filter_guidelines(&\$vars) {
+	$0
+}'''
+  'pre_filter_tips':
+    'prefix': 'pre_filter_tips'
+    'body': '''/**
+ * Implements theme_preprocess_filter_tips().
+ */
+function ${1:hook}_preprocess_filter_tips(&\$vars) {
+	$0
+}'''
+  'pre_filter_tips_more_info':
+    'prefix': 'pre_filter_tips_more_info'
+    'body': '''/**
+ * Implements theme_preprocess_filter_tips_more_info().
+ */
+function ${1:hook}_preprocess_filter_tips_more_info(&\$vars) {
+	$0
+}'''
+  'pre_form':
+    'prefix': 'pre_form'
+    'body': '''/**
+ * Implements theme_preprocess_form().
+ */
+function ${1:hook}_preprocess_form(&\$vars) {
+	$0
+}'''
+  'pre_form_element':
+    'prefix': 'pre_form_element'
+    'body': '''/**
+ * Implements theme_preprocess_form_element().
+ */
+function ${1:hook}_preprocess_form_element(&\$vars) {
+	$0
+}'''
+  'pre_form_element_label':
+    'prefix': 'pre_form_element_label'
+    'body': '''/**
+ * Implements theme_preprocess_form_element_label().
+ */
+function ${1:hook}_preprocess_form_element_label(&\$vars) {
+	$0
+}'''
+  'pre_form_required_marker':
+    'prefix': 'pre_form_required_marker'
+    'body': '''/**
+ * Implements theme_preprocess_form_required_marker().
+ */
+function ${1:hook}_preprocess_form_required_marker(&\$vars) {
+	$0
+}'''
+  'pre_forum_form':
+    'prefix': 'pre_forum_form'
+    'body': '''/**
+ * Implements theme_preprocess_forum_form().
+ */
+function ${1:hook}_preprocess_forum_form(&\$vars) {
+	$0
+}'''
+  'pre_forum_icon':
+    'prefix': 'pre_forum_icon'
+    'body': '''/**
+ * Implements theme_preprocess_forum_icon().
+ */
+function ${1:hook}_preprocess_forum_icon(&\$vars) {
+	$0
+}'''
+  'pre_forum_list':
+    'prefix': 'pre_forum_list'
+    'body': '''/**
+ * Implements theme_preprocess_forum_list().
+ */
+function ${1:hook}_preprocess_forum_list(&\$vars) {
+	$0
+}'''
+  'pre_forum_submitted':
+    'prefix': 'pre_forum_submitted'
+    'body': '''/**
+ * Implements theme_preprocess_forum_submitted().
+ */
+function ${1:hook}_preprocess_forum_submitted(&\$vars) {
+	$0
+}'''
+  'pre_forum_topic_list':
+    'prefix': 'pre_forum_topic_list'
+    'body': '''/**
+ * Implements theme_preprocess_forum_topic_list().
+ */
+function ${1:hook}_preprocess_forum_topic_list(&\$vars) {
+	$0
+}'''
+  'pre_forums':
+    'prefix': 'pre_forums'
+    'body': '''/**
+ * Implements theme_preprocess_forums().
+ */
+function ${1:hook}_preprocess_forums(&\$vars) {
+	$0
+}'''
+  'pre_hidden':
+    'prefix': 'pre_hidden'
+    'body': '''/**
+ * Implements theme_preprocess_hidden().
+ */
+function ${1:hook}_preprocess_hidden(&\$vars) {
+	$0
+}'''
+  'pre_html':
+    'prefix': 'pre_html'
+    'body': '''/**
+ * Implements theme_preprocess_html().
+ */
+function ${1:hook}_preprocess_html(&\$vars) {
+	$0
+}'''
+  'pre_html_tag':
+    'prefix': 'pre_html_tag'
+    'body': '''/**
+ * Implements theme_preprocess_html_tag().
+ */
+function ${1:hook}_preprocess_html_tag(&\$vars) {
+	$0
+}'''
+  'pre_image':
+    'prefix': 'pre_image'
+    'body': '''/**
+ * Implements theme_preprocess_image().
+ */
+function ${1:hook}_preprocess_image(&\$vars) {
+	$0
+}'''
+  'pre_image_anchor':
+    'prefix': 'pre_image_anchor'
+    'body': '''/**
+ * Implements theme_preprocess_image_anchor().
+ */
+function ${1:hook}_preprocess_image_anchor(&\$vars) {
+	$0
+}'''
+  'pre_image_button':
+    'prefix': 'pre_image_button'
+    'body': '''/**
+ * Implements theme_preprocess_image_button().
+ */
+function ${1:hook}_preprocess_image_button(&\$vars) {
+	$0
+}'''
+  'pre_image_crop_summary':
+    'prefix': 'pre_image_crop_summary'
+    'body': '''/**
+ * Implements theme_preprocess_image_crop_summary().
+ */
+function ${1:hook}_preprocess_image_crop_summary(&\$vars) {
+	$0
+}'''
+  'pre_image_formatter':
+    'prefix': 'pre_image_formatter'
+    'body': '''/**
+ * Implements theme_preprocess_image_formatter().
+ */
+function ${1:hook}_preprocess_image_formatter(&\$vars) {
+	$0
+}'''
+  'pre_image_resize_summary':
+    'prefix': 'pre_image_resize_summary'
+    'body': '''/**
+ * Implements theme_preprocess_image_resize_summary().
+ */
+function ${1:hook}_preprocess_image_resize_summary(&\$vars) {
+	$0
+}'''
+  'pre_image_rotate_summary':
+    'prefix': 'pre_image_rotate_summary'
+    'body': '''/**
+ * Implements theme_preprocess_image_rotate_summary().
+ */
+function ${1:hook}_preprocess_image_rotate_summary(&\$vars) {
+	$0
+}'''
+  'pre_image_scale_summary':
+    'prefix': 'pre_image_scale_summary'
+    'body': '''/**
+ * Implements theme_preprocess_image_scale_summary().
+ */
+function ${1:hook}_preprocess_image_scale_summary(&\$vars) {
+	$0
+}'''
+  'pre_image_style':
+    'prefix': 'pre_image_style'
+    'body': '''/**
+ * Implements theme_preprocess_image_style().
+ */
+function ${1:hook}_preprocess_image_style(&\$vars) {
+	$0
+}'''
+  'pre_image_style_effects':
+    'prefix': 'pre_image_style_effects'
+    'body': '''/**
+ * Implements theme_preprocess_image_style_effects().
+ */
+function ${1:hook}_preprocess_image_style_effects(&\$vars) {
+	$0
+}'''
+  'pre_image_style_list':
+    'prefix': 'pre_image_style_list'
+    'body': '''/**
+ * Implements theme_preprocess_image_style_list().
+ */
+function ${1:hook}_preprocess_image_style_list(&\$vars) {
+	$0
+}'''
+  'pre_image_style_preview':
+    'prefix': 'pre_image_style_preview'
+    'body': '''/**
+ * Implements theme_preprocess_image_style_preview().
+ */
+function ${1:hook}_preprocess_image_style_preview(&\$vars) {
+	$0
+}'''
+  'pre_image_widget':
+    'prefix': 'pre_image_widget'
+    'body': '''/**
+ * Implements theme_preprocess_image_widget().
+ */
+function ${1:hook}_preprocess_image_widget(&\$vars) {
+	$0
+}'''
+  'pre_indentation':
+    'prefix': 'pre_indentation'
+    'body': '''/**
+ * Implements theme_preprocess_indentation().
+ */
+function ${1:hook}_preprocess_indentation(&\$vars) {
+	$0
+}'''
+  'pre_item_list':
+    'prefix': 'pre_item_list'
+    'body': '''/**
+ * Implements theme_preprocess_item_list().
+ */
+function ${1:hook}_preprocess_item_list(&\$vars) {
+	$0
+}'''
+  'pre_link':
+    'prefix': 'pre_link'
+    'body': '''/**
+ * Implements theme_preprocess_link().
+ */
+function ${1:hook}_preprocess_link(&\$vars) {
+	$0
+}'''
+  'pre_links':
+    'prefix': 'pre_links'
+    'body': '''/**
+ * Implements theme_preprocess_links().
+ */
+function ${1:hook}_preprocess_links(&\$vars) {
+	$0
+}'''
+  'pre_locale_date_format_form':
+    'prefix': 'pre_locale_date_format_form'
+    'body': '''/**
+ * Implements theme_preprocess_locale_date_format_form().
+ */
+function ${1:hook}_preprocess_locale_date_format_form(&\$vars) {
+	$0
+}'''
+  'pre_locale_languages_configure_form':
+    'prefix': 'pre_locale_languages_configure_form'
+    'body': '''/**
+ * Implements theme_preprocess_locale_languages_configure_form().
+ */
+function ${1:hook}_preprocess_locale_languages_configure_form(&\$vars) {
+	$0
+}'''
+  'pre_locale_languages_overview_form':
+    'prefix': 'pre_locale_languages_overview_form'
+    'body': '''/**
+ * Implements theme_preprocess_locale_languages_overview_form().
+ */
+function ${1:hook}_preprocess_locale_languages_overview_form(&\$vars) {
+	$0
+}'''
+  'pre_maintenance_page':
+    'prefix': 'pre_maintenance_page'
+    'body': '''/**
+ * Implements theme_preprocess_maintenance_page().
+ */
+function ${1:hook}_preprocess_maintenance_page(&\$vars) {
+	$0
+}'''
+  'pre_mark':
+    'prefix': 'pre_mark'
+    'body': '''/**
+ * Implements theme_preprocess_mark().
+ */
+function ${1:hook}_preprocess_mark(&\$vars) {
+	$0
+}'''
+  'pre_menu_admin_overview':
+    'prefix': 'pre_menu_admin_overview'
+    'body': '''/**
+ * Implements theme_preprocess_menu_admin_overview().
+ */
+function ${1:hook}_preprocess_menu_admin_overview(&\$vars) {
+	$0
+}'''
+  'pre_menu_link':
+    'prefix': 'pre_menu_link'
+    'body': '''/**
+ * Implements theme_preprocess_menu_link().
+ */
+function ${1:hook}_preprocess_menu_link(&\$vars) {
+	$0
+}'''
+  'pre_menu_local_action':
+    'prefix': 'pre_menu_local_action'
+    'body': '''/**
+ * Implements theme_preprocess_menu_local_action().
+ */
+function ${1:hook}_preprocess_menu_local_action(&\$vars) {
+	$0
+}'''
+  'pre_menu_local_task':
+    'prefix': 'pre_menu_local_task'
+    'body': '''/**
+ * Implements theme_preprocess_menu_local_task().
+ */
+function ${1:hook}_preprocess_menu_local_task(&\$vars) {
+	$0
+}'''
+  'pre_menu_local_tasks':
+    'prefix': 'pre_menu_local_tasks'
+    'body': '''/**
+ * Implements theme_preprocess_menu_local_tasks().
+ */
+function ${1:hook}_preprocess_menu_local_tasks(&\$vars) {
+	$0
+}'''
+  'pre_menu_overview_form':
+    'prefix': 'pre_menu_overview_form'
+    'body': '''/**
+ * Implements theme_preprocess_menu_overview_form().
+ */
+function ${1:hook}_preprocess_menu_overview_form(&\$vars) {
+	$0
+}'''
+  'pre_menu_tree':
+    'prefix': 'pre_menu_tree'
+    'body': '''/**
+ * Implements theme_preprocess_menu_tree().
+ */
+function ${1:hook}_preprocess_menu_tree(&\$vars) {
+	$0
+}'''
+  'pre_more_help_link':
+    'prefix': 'pre_more_help_link'
+    'body': '''/**
+ * Implements theme_preprocess_more_help_link().
+ */
+function ${1:hook}_preprocess_more_help_link(&\$vars) {
+	$0
+}'''
+  'pre_more_link':
+    'prefix': 'pre_more_link'
+    'body': '''/**
+ * Implements theme_preprocess_more_link().
+ */
+function ${1:hook}_preprocess_more_link(&\$vars) {
+	$0
+}'''
+  'pre_node':
+    'prefix': 'pre_node'
+    'body': '''/**
+ * Implements theme_preprocess_node().
+ */
+function ${1:hook}_preprocess_node(&\$vars) {
+	$0
+}'''
+  'pre_node_add_list':
+    'prefix': 'pre_node_add_list'
+    'body': '''/**
+ * Implements theme_preprocess_node_add_list().
+ */
+function ${1:hook}_preprocess_node_add_list(&\$vars) {
+	$0
+}'''
+  'pre_node_admin_overview':
+    'prefix': 'pre_node_admin_overview'
+    'body': '''/**
+ * Implements theme_preprocess_node_admin_overview().
+ */
+function ${1:hook}_preprocess_node_admin_overview(&\$vars) {
+	$0
+}'''
+  'pre_node_preview':
+    'prefix': 'pre_node_preview'
+    'body': '''/**
+ * Implements theme_preprocess_node_preview().
+ */
+function ${1:hook}_preprocess_node_preview(&\$vars) {
+	$0
+}'''
+  'pre_node_recent_block':
+    'prefix': 'pre_node_recent_block'
+    'body': '''/**
+ * Implements theme_preprocess_node_recent_block().
+ */
+function ${1:hook}_preprocess_node_recent_block(&\$vars) {
+	$0
+}'''
+  'pre_node_recent_content':
+    'prefix': 'pre_node_recent_content'
+    'body': '''/**
+ * Implements theme_preprocess_node_recent_content().
+ */
+function ${1:hook}_preprocess_node_recent_content(&\$vars) {
+	$0
+}'''
+  'pre_node_search_admin':
+    'prefix': 'pre_node_search_admin'
+    'body': '''/**
+ * Implements theme_preprocess_node_search_admin().
+ */
+function ${1:hook}_preprocess_node_search_admin(&\$vars) {
+	$0
+}'''
+  'pre_options_none':
+    'prefix': 'pre_options_none'
+    'body': '''/**
+ * Implements theme_preprocess_options_none().
+ */
+function ${1:hook}_preprocess_options_none(&\$vars) {
+	$0
+}'''
+  'pre_overlay':
+    'prefix': 'pre_overlay'
+    'body': '''/**
+ * Implements theme_preprocess_overlay().
+ */
+function ${1:hook}_preprocess_overlay(&\$vars) {
+	$0
+}'''
+  'pre_overlay_disable_message':
+    'prefix': 'pre_overlay_disable_message'
+    'body': '''/**
+ * Implements theme_preprocess_overlay_disable_message().
+ */
+function ${1:hook}_preprocess_overlay_disable_message(&\$vars) {
+	$0
+}'''
+  'pre_page':
+    'prefix': 'pre_page'
+    'body': '''/**
+ * Implements theme_preprocess_page().
+ */
+function ${1:hook}_preprocess_page(&\$vars) {
+	$0
+}'''
+  'pre_pager':
+    'prefix': 'pre_pager'
+    'body': '''/**
+ * Implements theme_preprocess_pager().
+ */
+function ${1:hook}_preprocess_pager(&\$vars) {
+	$0
+}'''
+  'pre_pager_first':
+    'prefix': 'pre_pager_first'
+    'body': '''/**
+ * Implements theme_preprocess_pager_first().
+ */
+function ${1:hook}_preprocess_pager_first(&\$vars) {
+	$0
+}'''
+  'pre_pager_last':
+    'prefix': 'pre_pager_last'
+    'body': '''/**
+ * Implements theme_preprocess_pager_last().
+ */
+function ${1:hook}_preprocess_pager_last(&\$vars) {
+	$0
+}'''
+  'pre_pager_link':
+    'prefix': 'pre_pager_link'
+    'body': '''/**
+ * Implements theme_preprocess_pager_link().
+ */
+function ${1:hook}_preprocess_pager_link(&\$vars) {
+	$0
+}'''
+  'pre_pager_next':
+    'prefix': 'pre_pager_next'
+    'body': '''/**
+ * Implements theme_preprocess_pager_next().
+ */
+function ${1:hook}_preprocess_pager_next(&\$vars) {
+	$0
+}'''
+  'pre_pager_previous':
+    'prefix': 'pre_pager_previous'
+    'body': '''/**
+ * Implements theme_preprocess_pager_previous().
+ */
+function ${1:hook}_preprocess_pager_previous(&\$vars) {
+	$0
+}'''
+  'pre_password':
+    'prefix': 'pre_password'
+    'body': '''/**
+ * Implements theme_preprocess_password().
+ */
+function ${1:hook}_preprocess_password(&\$vars) {
+	$0
+}'''
+  'pre_poll_choices':
+    'prefix': 'pre_poll_choices'
+    'body': '''/**
+ * Implements theme_preprocess_poll_choices().
+ */
+function ${1:hook}_preprocess_poll_choices(&\$vars) {
+	$0
+}'''
+  'pre_poll_results':
+    'prefix': 'pre_poll_results'
+    'body': '''/**
+ * Implements theme_preprocess_poll_results().
+ */
+function ${1:hook}_preprocess_poll_results(&\$vars) {
+	$0
+}'''
+  'pre_poll_vote':
+    'prefix': 'pre_poll_vote'
+    'body': '''/**
+ * Implements theme_preprocess_poll_vote().
+ */
+function ${1:hook}_preprocess_poll_vote(&\$vars) {
+	$0
+}'''
+  'pre_profile_admin_overview':
+    'prefix': 'pre_profile_admin_overview'
+    'body': '''/**
+ * Implements theme_preprocess_profile_admin_overview().
+ */
+function ${1:hook}_preprocess_profile_admin_overview(&\$vars) {
+	$0
+}'''
+  'pre_progress_bar':
+    'prefix': 'pre_progress_bar'
+    'body': '''/**
+ * Implements theme_preprocess_progress_bar().
+ */
+function ${1:hook}_preprocess_progress_bar(&\$vars) {
+	$0
+}'''
+  'pre_radio':
+    'prefix': 'pre_radio'
+    'body': '''/**
+ * Implements theme_preprocess_radio().
+ */
+function ${1:hook}_preprocess_radio(&\$vars) {
+	$0
+}'''
+  'pre_radios':
+    'prefix': 'pre_radios'
+    'body': '''/**
+ * Implements theme_preprocess_radios().
+ */
+function ${1:hook}_preprocess_radios(&\$vars) {
+	$0
+}'''
+  'pre_rdf_metadata':
+    'prefix': 'pre_rdf_metadata'
+    'body': '''/**
+ * Implements theme_preprocess_rdf_metadata().
+ */
+function ${1:hook}_preprocess_rdf_metadata(&\$vars) {
+	$0
+}'''
+  'pre_rdf_template_variable_wrapper':
+    'prefix': 'pre_rdf_template_variable_wrapper'
+    'body': '''/**
+ * Implements theme_preprocess_rdf_template_variable_wrapper().
+ */
+function ${1:hook}_preprocess_rdf_template_variable_wrapper(&\$vars) {
+	$0
+}'''
+  'pre_region':
+    'prefix': 'pre_region'
+    'body': '''/**
+ * Implements theme_preprocess_region().
+ */
+function ${1:hook}_preprocess_region(&\$vars) {
+	$0
+}'''
+  'pre_search_result':
+    'prefix': 'pre_search_result'
+    'body': '''/**
+ * Implements theme_preprocess_search_result().
+ */
+function ${1:hook}_preprocess_search_result(&\$vars) {
+	$0
+}'''
+  'pre_search_results':
+    'prefix': 'pre_search_results'
+    'body': '''/**
+ * Implements theme_preprocess_search_results().
+ */
+function ${1:hook}_preprocess_search_results(&\$vars) {
+	$0
+}'''
+  'pre_select':
+    'prefix': 'pre_select'
+    'body': '''/**
+ * Implements theme_preprocess_select().
+ */
+function ${1:hook}_preprocess_select(&\$vars) {
+	$0
+}'''
+  'pre_shortcut_set_customize':
+    'prefix': 'pre_shortcut_set_customize'
+    'body': '''/**
+ * Implements theme_preprocess_shortcut_set_customize().
+ */
+function ${1:hook}_preprocess_shortcut_set_customize(&\$vars) {
+	$0
+}'''
+  'pre_simpletest_result_summary':
+    'prefix': 'pre_simpletest_result_summary'
+    'body': '''/**
+ * Implements theme_preprocess_simpletest_result_summary().
+ */
+function ${1:hook}_preprocess_simpletest_result_summary(&\$vars) {
+	$0
+}'''
+  'pre_status_messages':
+    'prefix': 'pre_status_messages'
+    'body': '''/**
+ * Implements theme_preprocess_status_messages().
+ */
+function ${1:hook}_preprocess_status_messages(&\$vars) {
+	$0
+}'''
+  'pre_status_report':
+    'prefix': 'pre_status_report'
+    'body': '''/**
+ * Implements theme_preprocess_status_report().
+ */
+function ${1:hook}_preprocess_status_report(&\$vars) {
+	$0
+}'''
+  'pre_submit':
+    'prefix': 'pre_submit'
+    'body': '''/**
+ * Implements theme_preprocess_submit().
+ */
+function ${1:hook}_preprocess_submit(&\$vars) {
+	$0
+}'''
+  'pre_system_admin_index':
+    'prefix': 'pre_system_admin_index'
+    'body': '''/**
+ * Implements theme_preprocess_system_admin_index().
+ */
+function ${1:hook}_preprocess_system_admin_index(&\$vars) {
+	$0
+}'''
+  'pre_system_compact_link':
+    'prefix': 'pre_system_compact_link'
+    'body': '''/**
+ * Implements theme_preprocess_system_compact_link().
+ */
+function ${1:hook}_preprocess_system_compact_link(&\$vars) {
+	$0
+}'''
+  'pre_system_date_time_settings':
+    'prefix': 'pre_system_date_time_settings'
+    'body': '''/**
+ * Implements theme_preprocess_system_date_time_settings().
+ */
+function ${1:hook}_preprocess_system_date_time_settings(&\$vars) {
+	$0
+}'''
+  'pre_system_modules_fieldset':
+    'prefix': 'pre_system_modules_fieldset'
+    'body': '''/**
+ * Implements theme_preprocess_system_modules_fieldset().
+ */
+function ${1:hook}_preprocess_system_modules_fieldset(&\$vars) {
+	$0
+}'''
+  'pre_system_modules_incompatible':
+    'prefix': 'pre_system_modules_incompatible'
+    'body': '''/**
+ * Implements theme_preprocess_system_modules_incompatible().
+ */
+function ${1:hook}_preprocess_system_modules_incompatible(&\$vars) {
+	$0
+}'''
+  'pre_system_modules_uninstall':
+    'prefix': 'pre_system_modules_uninstall'
+    'body': '''/**
+ * Implements theme_preprocess_system_modules_uninstall().
+ */
+function ${1:hook}_preprocess_system_modules_uninstall(&\$vars) {
+	$0
+}'''
+  'pre_system_powered_by':
+    'prefix': 'pre_system_powered_by'
+    'body': '''/**
+ * Implements theme_preprocess_system_powered_by().
+ */
+function ${1:hook}_preprocess_system_powered_by(&\$vars) {
+	$0
+}'''
+  'pre_system_settings_form':
+    'prefix': 'pre_system_settings_form'
+    'body': '''/**
+ * Implements theme_preprocess_system_settings_form().
+ */
+function ${1:hook}_preprocess_system_settings_form(&\$vars) {
+	$0
+}'''
+  'pre_system_themes_page':
+    'prefix': 'pre_system_themes_page'
+    'body': '''/**
+ * Implements theme_preprocess_system_themes_page().
+ */
+function ${1:hook}_preprocess_system_themes_page(&\$vars) {
+	$0
+}'''
+  'pre_table':
+    'prefix': 'pre_table'
+    'body': '''/**
+ * Implements theme_preprocess_table().
+ */
+function ${1:hook}_preprocess_table(&\$vars) {
+	$0
+}'''
+  'pre_tableselect':
+    'prefix': 'pre_tableselect'
+    'body': '''/**
+ * Implements theme_preprocess_tableselect().
+ */
+function ${1:hook}_preprocess_tableselect(&\$vars) {
+	$0
+}'''
+  'pre_tablesort_indicator':
+    'prefix': 'pre_tablesort_indicator'
+    'body': '''/**
+ * Implements theme_preprocess_tablesort_indicator().
+ */
+function ${1:hook}_preprocess_tablesort_indicator(&\$vars) {
+	$0
+}'''
+  'pre_task_list':
+    'prefix': 'pre_task_list'
+    'body': '''/**
+ * Implements theme_preprocess_task_list().
+ */
+function ${1:hook}_preprocess_task_list(&\$vars) {
+	$0
+}'''
+  'pre_taxonomy_overview_terms':
+    'prefix': 'pre_taxonomy_overview_terms'
+    'body': '''/**
+ * Implements theme_preprocess_taxonomy_overview_terms().
+ */
+function ${1:hook}_preprocess_taxonomy_overview_terms(&\$vars) {
+	$0
+}'''
+  'pre_taxonomy_overview_vocabularies':
+    'prefix': 'pre_taxonomy_overview_vocabularies'
+    'body': '''/**
+ * Implements theme_preprocess_taxonomy_overview_vocabularies().
+ */
+function ${1:hook}_preprocess_taxonomy_overview_vocabularies(&\$vars) {
+	$0
+}'''
+  'pre_taxonomy_term':
+    'prefix': 'pre_taxonomy_term'
+    'body': '''/**
+ * Implements theme_preprocess_taxonomy_term().
+ */
+function ${1:hook}_preprocess_taxonomy_term(&\$vars) {
+	$0
+}'''
+  'pre_text_format_wrapper':
+    'prefix': 'pre_text_format_wrapper'
+    'body': '''/**
+ * Implements theme_preprocess_text_format_wrapper().
+ */
+function ${1:hook}_preprocess_text_format_wrapper(&\$vars) {
+	$0
+}'''
+  'pre_textarea':
+    'prefix': 'pre_textarea'
+    'body': '''/**
+ * Implements theme_preprocess_textarea().
+ */
+function ${1:hook}_preprocess_textarea(&\$vars) {
+	$0
+}'''
+  'pre_textfield':
+    'prefix': 'pre_textfield'
+    'body': '''/**
+ * Implements theme_preprocess_textfield().
+ */
+function ${1:hook}_preprocess_textfield(&\$vars) {
+	$0
+}'''
+  'pre_toolbar':
+    'prefix': 'pre_toolbar'
+    'body': '''/**
+ * Implements theme_preprocess_toolbar().
+ */
+function ${1:hook}_preprocess_toolbar(&\$vars) {
+	$0
+}'''
+  'pre_trigger_display':
+    'prefix': 'pre_trigger_display'
+    'body': '''/**
+ * Implements theme_preprocess_trigger_display().
+ */
+function ${1:hook}_preprocess_trigger_display(&\$vars) {
+	$0
+}'''
+  'pre_update_last_check':
+    'prefix': 'pre_update_last_check'
+    'body': '''/**
+ * Implements theme_preprocess_update_last_check().
+ */
+function ${1:hook}_preprocess_update_last_check(&\$vars) {
+	$0
+}'''
+  'pre_update_manager_update_form':
+    'prefix': 'pre_update_manager_update_form'
+    'body': '''/**
+ * Implements theme_preprocess_update_manager_update_form().
+ */
+function ${1:hook}_preprocess_update_manager_update_form(&\$vars) {
+	$0
+}'''
+  'pre_update_report':
+    'prefix': 'pre_update_report'
+    'body': '''/**
+ * Implements theme_preprocess_update_report().
+ */
+function ${1:hook}_preprocess_update_report(&\$vars) {
+	$0
+}'''
+  'pre_update_status_label':
+    'prefix': 'pre_update_status_label'
+    'body': '''/**
+ * Implements theme_preprocess_update_status_label().
+ */
+function ${1:hook}_preprocess_update_status_label(&\$vars) {
+	$0
+}'''
+  'pre_update_version':
+    'prefix': 'pre_update_version'
+    'body': '''/**
+ * Implements theme_preprocess_update_version().
+ */
+function ${1:hook}_preprocess_update_version(&\$vars) {
+	$0
+}'''
+  'pre_user_admin_permissions':
+    'prefix': 'pre_user_admin_permissions'
+    'body': '''/**
+ * Implements theme_preprocess_user_admin_permissions().
+ */
+function ${1:hook}_preprocess_user_admin_permissions(&\$vars) {
+	$0
+}'''
+  'pre_user_admin_roles':
+    'prefix': 'pre_user_admin_roles'
+    'body': '''/**
+ * Implements theme_preprocess_user_admin_roles().
+ */
+function ${1:hook}_preprocess_user_admin_roles(&\$vars) {
+	$0
+}'''
+  'pre_user_list':
+    'prefix': 'pre_user_list'
+    'body': '''/**
+ * Implements theme_preprocess_user_list().
+ */
+function ${1:hook}_preprocess_user_list(&\$vars) {
+	$0
+}'''
+  'pre_user_permission_description':
+    'prefix': 'pre_user_permission_description'
+    'body': '''/**
+ * Implements theme_preprocess_user_permission_description().
+ */
+function ${1:hook}_preprocess_user_permission_description(&\$vars) {
+	$0
+}'''
+  'pre_user_picture':
+    'prefix': 'pre_user_picture'
+    'body': '''/**
+ * Implements theme_preprocess_user_picture().
+ */
+function ${1:hook}_preprocess_user_picture(&\$vars) {
+	$0
+}'''
+  'pre_user_profile':
+    'prefix': 'pre_user_profile'
+    'body': '''/**
+ * Implements theme_preprocess_user_profile().
+ */
+function ${1:hook}_preprocess_user_profile(&\$vars) {
+	$0
+}'''
+  'pre_user_signature':
+    'prefix': 'pre_user_signature'
+    'body': '''/**
+ * Implements theme_preprocess_user_signature().
+ */
+function ${1:hook}_preprocess_user_signature(&\$vars) {
+	$0
+}'''
+  'pre_username':
+    'prefix': 'pre_username'
+    'body': '''/**
+ * Implements theme_preprocess_username().
+ */
+function ${1:hook}_preprocess_username(&\$vars) {
+	$0
+}'''
+  'pre_vertical_tabs':
+    'prefix': 'pre_vertical_tabs'
+    'body': '''/**
+ * Implements theme_preprocess_vertical_tabs().
+ */
+function ${1:hook}_preprocess_vertical_tabs(&\$vars) {
+	$0
+}'''

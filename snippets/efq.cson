@@ -1,0 +1,7 @@
+'.source.php':
+  'entityCondition':
+    'prefix': 'entityCondition'
+    'body': '''entityCondition(${1:name}, ${2:value}${3:, ${4:operator}})${5:;}'''
+  'propertyCondition':
+    'prefix': 'propertyCondition'
+    'body': '''propertyCondition(${1:column}, ${2:value}${3:, ${4:operator}})${5:;}'''

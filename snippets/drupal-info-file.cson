@@ -1,0 +1,6 @@
+'.undefined':
+  'undefined':
+    'prefix': 'undefined'
+    'body': '''
+${1:name} = ${2:value}
+'''

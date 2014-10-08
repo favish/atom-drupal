@@ -2404,7 +2404,8 @@ drupal_implode_tags(${1:tags})
     'body': '''hide(${1:element})'''
   'h.action_info':
     'prefix': 'h.action_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_action_info().
  */
 function ${1:hook}_action_info() {
@@ -2412,7 +2413,8 @@ function ${1:hook}_action_info() {
 }'''
   'h.action_info_alter':
     'prefix': 'h.action_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_action_info_alter().
  */
 function ${1:hook}_action_info_alter(&\$actions) {
@@ -2420,7 +2422,8 @@ function ${1:hook}_action_info_alter(&\$actions) {
 }'''
   'h.actions_delete':
     'prefix': 'h.actions_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_actions_delete().
  */
 function ${1:hook}_actions_delete(\$aid) {
@@ -2428,7 +2431,8 @@ function ${1:hook}_actions_delete(\$aid) {
 }'''
   'h.admin_paths':
     'prefix': 'h.admin_paths'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_admin_paths().
  */
 function ${1:hook}_admin_paths() {
@@ -2436,7 +2440,8 @@ function ${1:hook}_admin_paths() {
 }'''
   'h.admin_paths_alter':
     'prefix': 'h.admin_paths_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_admin_paths_alter().
  */
 function ${1:hook}_admin_paths_alter(&\$paths) {
@@ -2444,7 +2449,8 @@ function ${1:hook}_admin_paths_alter(&\$paths) {
 }'''
   'h.aggregator_fetch':
     'prefix': 'h.aggregator_fetch'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_fetch().
  */
 function ${1:hook}_aggregator_fetch(\$feed) {
@@ -2452,7 +2458,8 @@ function ${1:hook}_aggregator_fetch(\$feed) {
 }'''
   'h.aggregator_fetch_info':
     'prefix': 'h.aggregator_fetch_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_fetch_info().
  */
 function ${1:hook}_aggregator_fetch_info() {
@@ -2460,7 +2467,8 @@ function ${1:hook}_aggregator_fetch_info() {
 }'''
   'h.aggregator_parse':
     'prefix': 'h.aggregator_parse'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_parse().
  */
 function ${1:hook}_aggregator_parse(\$feed) {
@@ -2468,7 +2476,8 @@ function ${1:hook}_aggregator_parse(\$feed) {
 }'''
   'h.aggregator_parse_info':
     'prefix': 'h.aggregator_parse_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_parse_info().
  */
 function ${1:hook}_aggregator_parse_info() {
@@ -2476,7 +2485,8 @@ function ${1:hook}_aggregator_parse_info() {
 }'''
   'h.aggregator_process':
     'prefix': 'h.aggregator_process'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_process().
  */
 function ${1:hook}_aggregator_process(\$feed) {
@@ -2484,7 +2494,8 @@ function ${1:hook}_aggregator_process(\$feed) {
 }'''
   'h.aggregator_process_info':
     'prefix': 'h.aggregator_process_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_process_info().
  */
 function ${1:hook}_aggregator_process_info(\$feed) {
@@ -2492,7 +2503,8 @@ function ${1:hook}_aggregator_process_info(\$feed) {
 }'''
   'h.aggregator_remove':
     'prefix': 'h.aggregator_remove'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_aggregator_remove().
  */
 function ${1:hook}_aggregator_remove(\$feed) {
@@ -2500,7 +2512,8 @@ function ${1:hook}_aggregator_remove(\$feed) {
 }'''
   'h.ajax_render_alter':
     'prefix': 'h.ajax_render_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_ajax_render_alter().
  */
 function ${1:hook}_ajax_render_alter(\$commands) {
@@ -2508,7 +2521,8 @@ function ${1:hook}_ajax_render_alter(\$commands) {
 }'''
   'h.archiver_info':
     'prefix': 'h.archiver_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_archiver_info().
  */
 function ${1:hook}_archiver_info() {
@@ -2516,7 +2530,8 @@ function ${1:hook}_archiver_info() {
 }'''
   'h.archiver_info_alter':
     'prefix': 'h.archiver_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_archiver_info_alter().
  */
 function ${1:hook}_archiver_info_alter(&\$info) {
@@ -2524,7 +2539,8 @@ function ${1:hook}_archiver_info_alter(&\$info) {
 }'''
   'h.batch_alter':
     'prefix': 'h.batch_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_batch_alter().
  */
 function ${1:hook}_batch_alter(&\$batch) {
@@ -2532,7 +2548,8 @@ function ${1:hook}_batch_alter(&\$batch) {
 }'''
   'h.block_configure':
     'prefix': 'h.block_configure'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_configure().
  */
 function ${1:hook}_block_configure(\$delta = '') {
@@ -2550,7 +2567,8 @@ function ${1:hook}_${1:block_info}() {
 '''
   'h.block_info_alter':
     'prefix': 'h.block_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_info_alter().
  */
 function ${1:hook}_block_info_alter(&\$blocks, \$theme, \$code_blocks) {
@@ -2558,7 +2576,8 @@ function ${1:hook}_block_info_alter(&\$blocks, \$theme, \$code_blocks) {
 }'''
   'h.block_list_alter':
     'prefix': 'h.block_list_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_list_alter().
  */
 function ${1:hook}_block_list_alter(&\$blocks) {
@@ -2576,7 +2595,8 @@ function ${1:hook}_${1:block_save}(\$delta = '', \$edit = array()) {
 '''
   'h.block_view':
     'prefix': 'h.block_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_view().
  */
 function ${1:hook}_block_view(\$delta = '') {
@@ -2584,7 +2604,8 @@ function ${1:hook}_block_view(\$delta = '') {
 }'''
   'h.block_view_MODULE_DELTA_alter':
     'prefix': 'h.block_view_MODULE_DELTA_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_view_MODULE_DELTA_alter().
  */
 function ${1:hook}_block_view_MODULE_DELTA_alter(&\$data, \$block) {
@@ -2592,7 +2613,8 @@ function ${1:hook}_block_view_MODULE_DELTA_alter(&\$data, \$block) {
 }'''
   'h.block_view_alter':
     'prefix': 'h.block_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_block_view_alter().
  */
 function ${1:hook}_block_view_alter(&\$data, \$block) {
@@ -2600,7 +2622,8 @@ function ${1:hook}_block_view_alter(&\$data, \$block) {
 }'''
   'h.boot':
     'prefix': 'h.boot'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_boot().
  */
 function ${1:hook}_boot() {
@@ -2608,7 +2631,8 @@ function ${1:hook}_boot() {
 }'''
   'h.comment_delete':
     'prefix': 'h.comment_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_delete().
  */
 function ${1:hook}_comment_delete(\$comment) {
@@ -2616,7 +2640,8 @@ function ${1:hook}_comment_delete(\$comment) {
 }'''
   'h.comment_insert':
     'prefix': 'h.comment_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_insert().
  */
 function ${1:hook}_comment_insert(\$comment) {
@@ -2624,7 +2649,8 @@ function ${1:hook}_comment_insert(\$comment) {
 }'''
   'h.comment_load':
     'prefix': 'h.comment_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_load().
  */
 function ${1:hook}_comment_load(\$comments) {
@@ -2632,7 +2658,8 @@ function ${1:hook}_comment_load(\$comments) {
 }'''
   'h.comment_presave':
     'prefix': 'h.comment_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_presave().
  */
 function ${1:hook}_comment_presave(\$comment) {
@@ -2640,7 +2667,8 @@ function ${1:hook}_comment_presave(\$comment) {
 }'''
   'h.comment_publish':
     'prefix': 'h.comment_publish'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_publish().
  */
 function ${1:hook}_comment_publish(\$comment) {
@@ -2648,7 +2676,8 @@ function ${1:hook}_comment_publish(\$comment) {
 }'''
   'h.comment_unpublish':
     'prefix': 'h.comment_unpublish'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_unpublish().
  */
 function ${1:hook}_comment_unpublish(\$comment) {
@@ -2656,7 +2685,8 @@ function ${1:hook}_comment_unpublish(\$comment) {
 }'''
   'h.comment_update':
     'prefix': 'h.comment_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_update().
  */
 function ${1:hook}_comment_update(\$comment) {
@@ -2664,7 +2694,8 @@ function ${1:hook}_comment_update(\$comment) {
 }'''
   'h.comment_view':
     'prefix': 'h.comment_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_view().
  */
 function ${1:hook}_comment_view(\$comment, \$view_mode, \$langcode) {
@@ -2672,7 +2703,8 @@ function ${1:hook}_comment_view(\$comment, \$view_mode, \$langcode) {
 }'''
   'h.comment_view_alter':
     'prefix': 'h.comment_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_comment_view_alter().
  */
 function ${1:hook}_comment_view_alter(&\$build) {
@@ -2680,7 +2712,8 @@ function ${1:hook}_comment_view_alter(&\$build) {
 }'''
   'h.contextual_links_view_alter':
     'prefix': 'h.contextual_links_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_contextual_links_view_alter().
  */
 function ${1:hook}_contextual_links_view_alter(&\$element, \$items) {
@@ -2688,7 +2721,8 @@ function ${1:hook}_contextual_links_view_alter(&\$element, \$items) {
 }'''
   'h.countries_alter':
     'prefix': 'h.countries_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_countries_alter().
  */
 function ${1:hook}_countries_alter(&\$countries) {
@@ -2706,7 +2740,8 @@ function ${1:hook}_${1:cron}() {
 '''
   'h.cron_queue_info':
     'prefix': 'h.cron_queue_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_cron_queue_info().
  */
 function ${1:hook}_cron_queue_info() {
@@ -2714,7 +2749,8 @@ function ${1:hook}_cron_queue_info() {
 }'''
   'h.cron_queue_info_alter':
     'prefix': 'h.cron_queue_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_cron_queue_info_alter().
  */
 function ${1:hook}_cron_queue_info_alter(&\$queues) {
@@ -2722,7 +2758,8 @@ function ${1:hook}_cron_queue_info_alter(&\$queues) {
 }'''
   'h.css_alter':
     'prefix': 'h.css_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_css_alter().
  */
 function ${1:hook}_css_alter(&\$css) {
@@ -2730,7 +2767,8 @@ function ${1:hook}_css_alter(&\$css) {
 }'''
   'h.custom_theme':
     'prefix': 'h.custom_theme'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_custom_theme().
  */
 function ${1:hook}_custom_theme() {
@@ -2738,7 +2776,8 @@ function ${1:hook}_custom_theme() {
 }'''
   'h.dashboard_regions':
     'prefix': 'h.dashboard_regions'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_dashboard_regions().
  */
 function ${1:hook}_dashboard_regions() {
@@ -2746,7 +2785,8 @@ function ${1:hook}_dashboard_regions() {
 }'''
   'h.dashboard_regions_alter':
     'prefix': 'h.dashboard_regions_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_dashboard_regions_alter().
  */
 function ${1:hook}_dashboard_regions_alter(\$regions) {
@@ -2754,7 +2794,8 @@ function ${1:hook}_dashboard_regions_alter(\$regions) {
 }'''
   'h.date_format_types':
     'prefix': 'h.date_format_types'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_date_format_types().
  */
 function ${1:hook}_date_format_types() {
@@ -2762,7 +2803,8 @@ function ${1:hook}_date_format_types() {
 }'''
   'h.date_format_types_alter':
     'prefix': 'h.date_format_types_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_date_format_types_alter().
  */
 function ${1:hook}_date_format_types_alter(&\$types) {
@@ -2770,7 +2812,8 @@ function ${1:hook}_date_format_types_alter(&\$types) {
 }'''
   'h.date_formats':
     'prefix': 'h.date_formats'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_date_formats().
  */
 function ${1:hook}_date_formats() {
@@ -2778,7 +2821,8 @@ function ${1:hook}_date_formats() {
 }'''
   'h.date_formats_alter':
     'prefix': 'h.date_formats_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_date_formats_alter().
  */
 function ${1:hook}_date_formats_alter(&\$formats) {
@@ -2786,7 +2830,8 @@ function ${1:hook}_date_formats_alter(&\$formats) {
 }'''
   'h.delete':
     'prefix': 'h.delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_delete().
  */
 function ${1:hook}_delete(\$node) {
@@ -2794,7 +2839,8 @@ function ${1:hook}_delete(\$node) {
 }'''
   'h.disable':
     'prefix': 'h.disable'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_disable().
  */
 function ${1:hook}_disable() {
@@ -2802,7 +2848,8 @@ function ${1:hook}_disable() {
 }'''
   'h.drupal_goto_alter':
     'prefix': 'h.drupal_goto_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_drupal_goto_alter().
  */
 function ${1:hook}_drupal_goto_alter(&\$path, &\$options, &\$http_response_code) {
@@ -2810,7 +2857,8 @@ function ${1:hook}_drupal_goto_alter(&\$path, &\$options, &\$http_response_code)
 }'''
   'h.element_info':
     'prefix': 'h.element_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_element_info().
  */
 function ${1:hook}_element_info() {
@@ -2818,7 +2866,8 @@ function ${1:hook}_element_info() {
 }'''
   'h.element_info_alter':
     'prefix': 'h.element_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_element_info_alter().
  */
 function ${1:hook}_element_info_alter(&\$type) {
@@ -2826,7 +2875,8 @@ function ${1:hook}_element_info_alter(&\$type) {
 }'''
   'h.enable':
     'prefix': 'h.enable'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_enable().
  */
 function ${1:hook}_enable() {
@@ -2834,7 +2884,8 @@ function ${1:hook}_enable() {
 }'''
   'h.entity_delete':
     'prefix': 'h.entity_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_delete().
  */
 function ${1:hook}_entity_delete(\$entity, \$type) {
@@ -2842,7 +2893,8 @@ function ${1:hook}_entity_delete(\$entity, \$type) {
 }'''
   'h.entity_info':
     'prefix': 'h.entity_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_info().
  */
 function ${1:hook}_entity_info() {
@@ -2850,7 +2902,8 @@ function ${1:hook}_entity_info() {
 }'''
   'h.entity_info_alter':
     'prefix': 'h.entity_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_info_alter().
  */
 function ${1:hook}_entity_info_alter(&\$entity_info) {
@@ -2858,7 +2911,8 @@ function ${1:hook}_entity_info_alter(&\$entity_info) {
 }'''
   'h.entity_insert':
     'prefix': 'h.entity_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_insert().
  */
 function ${1:hook}_entity_insert(\$entity, \$type) {
@@ -2866,7 +2920,8 @@ function ${1:hook}_entity_insert(\$entity, \$type) {
 }'''
   'h.entity_load':
     'prefix': 'h.entity_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_load().
  */
 function ${1:hook}_entity_load(\$entities, \$type) {
@@ -2874,7 +2929,8 @@ function ${1:hook}_entity_load(\$entities, \$type) {
 }'''
   'h.entity_prepare_view':
     'prefix': 'h.entity_prepare_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_prepare_view().
  */
 function ${1:hook}_entity_prepare_view(\$entities, \$type, \$langcode) {
@@ -2882,7 +2938,8 @@ function ${1:hook}_entity_prepare_view(\$entities, \$type, \$langcode) {
 }'''
   'h.entity_presave':
     'prefix': 'h.entity_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_presave().
  */
 function ${1:hook}_entity_presave(\$entity, \$type) {
@@ -2890,7 +2947,8 @@ function ${1:hook}_entity_presave(\$entity, \$type) {
 }'''
   'h.entity_query_alter':
     'prefix': 'h.entity_query_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_query_alter().
  */
 function ${1:hook}_entity_query_alter(\$query) {
@@ -2898,7 +2956,8 @@ function ${1:hook}_entity_query_alter(\$query) {
 }'''
   'h.entity_update':
     'prefix': 'h.entity_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_update().
  */
 function ${1:hook}_entity_update(\$entity, \$type) {
@@ -2906,7 +2965,8 @@ function ${1:hook}_entity_update(\$entity, \$type) {
 }'''
   'h.entity_view':
     'prefix': 'h.entity_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_view().
  */
 function ${1:hook}_entity_view(\$entity, \$type, \$view_mode, \$langcode) {
@@ -2914,7 +2974,8 @@ function ${1:hook}_entity_view(\$entity, \$type, \$view_mode, \$langcode) {
 }'''
   'h.entity_view_alter':
     'prefix': 'h.entity_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_entity_view_alter().
  */
 function ${1:hook}_entity_view_alter(&\$build, \$type) {
@@ -2922,7 +2983,8 @@ function ${1:hook}_entity_view_alter(&\$build, \$type) {
 }'''
   'h.exit':
     'prefix': 'h.exit'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_exit().
  */
 function ${1:hook}_exit(\$destination = NULL) {
@@ -2930,7 +2992,8 @@ function ${1:hook}_exit(\$destination = NULL) {
 }'''
   'h.field_access':
     'prefix': 'h.field_access'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_access().
  */
 function ${1:hook}_field_access(\$op, \$field, \$entity_type, \$entity, \$account) {
@@ -2938,7 +3001,8 @@ function ${1:hook}_field_access(\$op, \$field, \$entity_type, \$entity, \$accoun
 }'''
   'h.field_attach_create_bundle':
     'prefix': 'h.field_attach_create_bundle'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_create_bundle().
  */
 function ${1:hook}_field_attach_create_bundle(\$entity_type, \$bundle) {
@@ -2946,7 +3010,8 @@ function ${1:hook}_field_attach_create_bundle(\$entity_type, \$bundle) {
 }'''
   'h.field_attach_delete':
     'prefix': 'h.field_attach_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_delete().
  */
 function ${1:hook}_field_attach_delete(\$entity_type, \$entity) {
@@ -2954,7 +3019,8 @@ function ${1:hook}_field_attach_delete(\$entity_type, \$entity) {
 }'''
   'h.field_attach_delete_bundle':
     'prefix': 'h.field_attach_delete_bundle'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_delete_bundle().
  */
 function ${1:hook}_field_attach_delete_bundle(\$entity_type, \$bundle, \$instances) {
@@ -2962,7 +3028,8 @@ function ${1:hook}_field_attach_delete_bundle(\$entity_type, \$bundle, \$instanc
 }'''
   'h.field_attach_delete_revision':
     'prefix': 'h.field_attach_delete_revision'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_delete_revision().
  */
 function ${1:hook}_field_attach_delete_revision(\$entity_type, \$entity) {
@@ -2970,7 +3037,8 @@ function ${1:hook}_field_attach_delete_revision(\$entity_type, \$entity) {
 }'''
   'h.field_attach_form':
     'prefix': 'h.field_attach_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_form().
  */
 function ${1:hook}_field_attach_form(\$entity_type, \$entity, &\$form, &\$form_state, \$langcode) {
@@ -2978,7 +3046,8 @@ function ${1:hook}_field_attach_form(\$entity_type, \$entity, &\$form, &\$form_s
 }'''
   'h.field_attach_insert':
     'prefix': 'h.field_attach_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_insert().
  */
 function ${1:hook}_field_attach_insert(\$entity_type, \$entity) {
@@ -2986,7 +3055,8 @@ function ${1:hook}_field_attach_insert(\$entity_type, \$entity) {
 }'''
   'h.field_attach_load':
     'prefix': 'h.field_attach_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_load().
  */
 function ${1:hook}_field_attach_load(\$entity_type, \$entities, \$age, \$options) {
@@ -2994,7 +3064,8 @@ function ${1:hook}_field_attach_load(\$entity_type, \$entities, \$age, \$options
 }'''
   'h.field_attach_prepare_translation_alter':
     'prefix': 'h.field_attach_prepare_translation_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_prepare_translation_alter().
  */
 function ${1:hook}_field_attach_prepare_translation_alter(&\$entity, \$context) {
@@ -3002,7 +3073,8 @@ function ${1:hook}_field_attach_prepare_translation_alter(&\$entity, \$context) 
 }'''
   'h.field_attach_preprocess_alter':
     'prefix': 'h.field_attach_preprocess_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_preprocess_alter().
  */
 function ${1:hook}_field_attach_preprocess_alter(&\$variables, \$context) {
@@ -3010,7 +3082,8 @@ function ${1:hook}_field_attach_preprocess_alter(&\$variables, \$context) {
 }'''
   'h.field_attach_presave':
     'prefix': 'h.field_attach_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_presave().
  */
 function ${1:hook}_field_attach_presave(\$entity_type, \$entity) {
@@ -3018,7 +3091,8 @@ function ${1:hook}_field_attach_presave(\$entity_type, \$entity) {
 }'''
   'h.field_attach_purge':
     'prefix': 'h.field_attach_purge'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_purge().
  */
 function ${1:hook}_field_attach_purge(\$entity_type, \$entity, \$field, \$instance) {
@@ -3026,7 +3100,8 @@ function ${1:hook}_field_attach_purge(\$entity_type, \$entity, \$field, \$instan
 }'''
   'h.field_attach_rename_bundle':
     'prefix': 'h.field_attach_rename_bundle'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_rename_bundle().
  */
 function ${1:hook}_field_attach_rename_bundle(\$entity_type, \$bundle_old, \$bundle_new) {
@@ -3034,7 +3109,8 @@ function ${1:hook}_field_attach_rename_bundle(\$entity_type, \$bundle_old, \$bun
 }'''
   'h.field_attach_submit':
     'prefix': 'h.field_attach_submit'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_submit().
  */
 function ${1:hook}_field_attach_submit(\$entity_type, \$entity, \$form, &\$form_state) {
@@ -3042,7 +3118,8 @@ function ${1:hook}_field_attach_submit(\$entity_type, \$entity, \$form, &\$form_
 }'''
   'h.field_attach_update':
     'prefix': 'h.field_attach_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_update().
  */
 function ${1:hook}_field_attach_update(\$entity_type, \$entity) {
@@ -3050,7 +3127,8 @@ function ${1:hook}_field_attach_update(\$entity_type, \$entity) {
 }'''
   'h.field_attach_validate':
     'prefix': 'h.field_attach_validate'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_validate().
  */
 function ${1:hook}_field_attach_validate(\$entity_type, \$entity, &\$errors) {
@@ -3058,7 +3136,8 @@ function ${1:hook}_field_attach_validate(\$entity_type, \$entity, &\$errors) {
 }'''
   'h.field_attach_view_alter':
     'prefix': 'h.field_attach_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_attach_view_alter().
  */
 function ${1:hook}_field_attach_view_alter(&\$output, \$context) {
@@ -3066,7 +3145,8 @@ function ${1:hook}_field_attach_view_alter(&\$output, \$context) {
 }'''
   'h.field_available_languages_alter':
     'prefix': 'h.field_available_languages_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_available_languages_alter().
  */
 function ${1:hook}_field_available_languages_alter(&\$languages, \$context) {
@@ -3074,7 +3154,8 @@ function ${1:hook}_field_available_languages_alter(&\$languages, \$context) {
 }'''
   'h.field_create_field':
     'prefix': 'h.field_create_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_create_field().
  */
 function ${1:hook}_field_create_field(\$field) {
@@ -3082,7 +3163,8 @@ function ${1:hook}_field_create_field(\$field) {
 }'''
   'h.field_create_instance':
     'prefix': 'h.field_create_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_create_instance().
  */
 function ${1:hook}_field_create_instance(\$instance) {
@@ -3090,7 +3172,8 @@ function ${1:hook}_field_create_instance(\$instance) {
 }'''
   'h.field_delete':
     'prefix': 'h.field_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_delete().
  */
 function ${1:hook}_field_delete(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items) {
@@ -3098,7 +3181,8 @@ function ${1:hook}_field_delete(\$entity_type, \$entity, \$field, \$instance, \$
 }'''
   'h.field_delete_field':
     'prefix': 'h.field_delete_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_delete_field().
  */
 function ${1:hook}_field_delete_field(\$field) {
@@ -3106,7 +3190,8 @@ function ${1:hook}_field_delete_field(\$field) {
 }'''
   'h.field_delete_instance':
     'prefix': 'h.field_delete_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_delete_instance().
  */
 function ${1:hook}_field_delete_instance(\$instance) {
@@ -3114,7 +3199,8 @@ function ${1:hook}_field_delete_instance(\$instance) {
 }'''
   'h.field_delete_revision':
     'prefix': 'h.field_delete_revision'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_delete_revision().
  */
 function ${1:hook}_field_delete_revision(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items) {
@@ -3122,7 +3208,8 @@ function ${1:hook}_field_delete_revision(\$entity_type, \$entity, \$field, \$ins
 }'''
   'h.field_display_ENTITY_TYPE_alter':
     'prefix': 'h.field_display_ENTITY_TYPE_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_display_ENTITY_TYPE_alter().
  */
 function ${1:hook}_field_display_ENTITY_TYPE_alter(&\$display, \$context) {
@@ -3130,7 +3217,8 @@ function ${1:hook}_field_display_ENTITY_TYPE_alter(&\$display, \$context) {
 }'''
   'h.field_display_alter':
     'prefix': 'h.field_display_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_display_alter().
  */
 function ${1:hook}_field_display_alter(&\$display, \$context) {
@@ -3138,7 +3226,8 @@ function ${1:hook}_field_display_alter(&\$display, \$context) {
 }'''
   'h.field_extra_fields':
     'prefix': 'h.field_extra_fields'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_extra_fields().
  */
 function ${1:hook}_field_extra_fields() {
@@ -3146,7 +3235,8 @@ function ${1:hook}_field_extra_fields() {
 }'''
   'h.field_extra_fields_alter':
     'prefix': 'h.field_extra_fields_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_extra_fields_alter().
  */
 function ${1:hook}_field_extra_fields_alter(&\$info) {
@@ -3154,7 +3244,8 @@ function ${1:hook}_field_extra_fields_alter(&\$info) {
 }'''
   'h.field_extra_fields_display_alter':
     'prefix': 'h.field_extra_fields_display_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_extra_fields_display_alter().
  */
 function ${1:hook}_field_extra_fields_display_alter(&\$displays, \$context) {
@@ -3162,7 +3253,8 @@ function ${1:hook}_field_extra_fields_display_alter(&\$displays, \$context) {
 }'''
   'h.field_formatter_info':
     'prefix': 'h.field_formatter_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_info().
  */
 function ${1:hook}_field_formatter_info() {
@@ -3170,7 +3262,8 @@ function ${1:hook}_field_formatter_info() {
 }'''
   'h.field_formatter_info_alter':
     'prefix': 'h.field_formatter_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_info_alter().
  */
 function ${1:hook}_field_formatter_info_alter(&\$info) {
@@ -3178,7 +3271,8 @@ function ${1:hook}_field_formatter_info_alter(&\$info) {
 }'''
   'h.field_formatter_prepare_view':
     'prefix': 'h.field_formatter_prepare_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_prepare_view().
  */
 function ${1:hook}_field_formatter_prepare_view(\$entity_type, \$entities, \$field, \$instances, \$langcode, &\$items, \$displays) {
@@ -3186,7 +3280,8 @@ function ${1:hook}_field_formatter_prepare_view(\$entity_type, \$entities, \$fie
 }'''
   'h.field_formatter_settings_form':
     'prefix': 'h.field_formatter_settings_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_settings_form().
  */
 function ${1:hook}_field_formatter_settings_form(\$field, \$instance, \$view_mode, \$form, &\$form_state) {
@@ -3194,7 +3289,8 @@ function ${1:hook}_field_formatter_settings_form(\$field, \$instance, \$view_mod
 }'''
   'h.field_formatter_settings_summary':
     'prefix': 'h.field_formatter_settings_summary'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_settings_summary().
  */
 function ${1:hook}_field_formatter_settings_summary(\$field, \$instance, \$view_mode) {
@@ -3202,7 +3298,8 @@ function ${1:hook}_field_formatter_settings_summary(\$field, \$instance, \$view_
 }'''
   'h.field_formatter_view':
     'prefix': 'h.field_formatter_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_formatter_view().
  */
 function ${1:hook}_field_formatter_view(\$entity_type, \$entity, \$field, \$instance, \$langcode, \$items, \$display) {
@@ -3210,15 +3307,18 @@ function ${1:hook}_field_formatter_view(\$entity_type, \$entity, \$field, \$inst
 }'''
   'h.field_info':
     'prefix': 'h.field_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_info().
  */
 function ${1:hook}_field_info() {
 	$0
-}'''
+}
+'''
   'h.field_info_alter':
     'prefix': 'h.field_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_info_alter().
  */
 function ${1:hook}_field_info_alter(&\$info) {
@@ -3226,7 +3326,8 @@ function ${1:hook}_field_info_alter(&\$info) {
 }'''
   'h.field_info_max_weight':
     'prefix': 'h.field_info_max_weight'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_info_max_weight().
  */
 function ${1:hook}_field_info_max_weight(\$entity_type, \$bundle, \$context) {
@@ -3234,7 +3335,8 @@ function ${1:hook}_field_info_max_weight(\$entity_type, \$bundle, \$context) {
 }'''
   'h.field_insert':
     'prefix': 'h.field_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_insert().
  */
 function ${1:hook}_field_insert(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items) {
@@ -3242,7 +3344,8 @@ function ${1:hook}_field_insert(\$entity_type, \$entity, \$field, \$instance, \$
 }'''
   'h.field_instance_settings_form':
     'prefix': 'h.field_instance_settings_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_instance_settings_form().
  */
 function ${1:hook}_field_instance_settings_form(\$field, \$instance) {
@@ -3250,7 +3353,8 @@ function ${1:hook}_field_instance_settings_form(\$field, \$instance) {
 }'''
   'h.field_is_empty':
     'prefix': 'h.field_is_empty'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_is_empty().
  */
 function ${1:hook}_field_is_empty(\$item, \$field) {
@@ -3258,7 +3362,8 @@ function ${1:hook}_field_is_empty(\$item, \$field) {
 }'''
   'h.field_language_alter':
     'prefix': 'h.field_language_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_language_alter().
  */
 function ${1:hook}_field_language_alter(&\$display_language, \$context) {
@@ -3266,7 +3371,8 @@ function ${1:hook}_field_language_alter(&\$display_language, \$context) {
 }'''
   'h.field_load':
     'prefix': 'h.field_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_load().
  */
 function ${1:hook}_field_load(\$entity_type, \$entities, \$field, \$instances, \$langcode, &\$items, \$age) {
@@ -3274,7 +3380,8 @@ function ${1:hook}_field_load(\$entity_type, \$entities, \$field, \$instances, \
 }'''
   'h.field_prepare_translation':
     'prefix': 'h.field_prepare_translation'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_prepare_translation().
  */
 function ${1:hook}_field_prepare_translation(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items, \$source_entity, \$source_langcode) {
@@ -3282,7 +3389,8 @@ function ${1:hook}_field_prepare_translation(\$entity_type, \$entity, \$field, \
 }'''
   'h.field_prepare_view':
     'prefix': 'h.field_prepare_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_prepare_view().
  */
 function ${1:hook}_field_prepare_view(\$entity_type, \$entities, \$field, \$instances, \$langcode, &\$items) {
@@ -3290,7 +3398,8 @@ function ${1:hook}_field_prepare_view(\$entity_type, \$entities, \$field, \$inst
 }'''
   'h.field_presave':
     'prefix': 'h.field_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_presave().
  */
 function ${1:hook}_field_presave(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items) {
@@ -3298,7 +3407,8 @@ function ${1:hook}_field_presave(\$entity_type, \$entity, \$field, \$instance, \
 }'''
   'h.field_purge_field':
     'prefix': 'h.field_purge_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_purge_field().
  */
 function ${1:hook}_field_purge_field(\$field) {
@@ -3306,7 +3416,8 @@ function ${1:hook}_field_purge_field(\$field) {
 }'''
   'h.field_purge_instance':
     'prefix': 'h.field_purge_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_purge_instance().
  */
 function ${1:hook}_field_purge_instance(\$instance) {
@@ -3314,7 +3425,8 @@ function ${1:hook}_field_purge_instance(\$instance) {
 }'''
   'h.field_read_field':
     'prefix': 'h.field_read_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_read_field().
  */
 function ${1:hook}_field_read_field(\$field) {
@@ -3322,7 +3434,8 @@ function ${1:hook}_field_read_field(\$field) {
 }'''
   'h.field_read_instance':
     'prefix': 'h.field_read_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_read_instance().
  */
 function ${1:hook}_field_read_instance(\$instance) {
@@ -3330,7 +3443,8 @@ function ${1:hook}_field_read_instance(\$instance) {
 }'''
   'h.field_schema':
     'prefix': 'h.field_schema'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_schema().
  */
 function ${1:hook}_field_schema(\$field) {
@@ -3338,7 +3452,8 @@ function ${1:hook}_field_schema(\$field) {
 }'''
   'h.field_settings_form':
     'prefix': 'h.field_settings_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_settings_form().
  */
 function ${1:hook}_field_settings_form(\$field, \$instance, \$has_data) {
@@ -3346,7 +3461,8 @@ function ${1:hook}_field_settings_form(\$field, \$instance, \$has_data) {
 }'''
   'h.field_storage_create_field':
     'prefix': 'h.field_storage_create_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_create_field().
  */
 function ${1:hook}_field_storage_create_field(\$field) {
@@ -3354,7 +3470,8 @@ function ${1:hook}_field_storage_create_field(\$field) {
 }'''
   'h.field_storage_delete':
     'prefix': 'h.field_storage_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_delete().
  */
 function ${1:hook}_field_storage_delete(\$entity_type, \$entity, \$fields) {
@@ -3362,7 +3479,8 @@ function ${1:hook}_field_storage_delete(\$entity_type, \$entity, \$fields) {
 }'''
   'h.field_storage_delete_field':
     'prefix': 'h.field_storage_delete_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_delete_field().
  */
 function ${1:hook}_field_storage_delete_field(\$field) {
@@ -3370,7 +3488,8 @@ function ${1:hook}_field_storage_delete_field(\$field) {
 }'''
   'h.field_storage_delete_instance':
     'prefix': 'h.field_storage_delete_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_delete_instance().
  */
 function ${1:hook}_field_storage_delete_instance(\$instance) {
@@ -3378,7 +3497,8 @@ function ${1:hook}_field_storage_delete_instance(\$instance) {
 }'''
   'h.field_storage_delete_revision':
     'prefix': 'h.field_storage_delete_revision'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_delete_revision().
  */
 function ${1:hook}_field_storage_delete_revision(\$entity_type, \$entity, \$fields) {
@@ -3386,7 +3506,8 @@ function ${1:hook}_field_storage_delete_revision(\$entity_type, \$entity, \$fiel
 }'''
   'h.field_storage_details':
     'prefix': 'h.field_storage_details'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_details().
  */
 function ${1:hook}_field_storage_details(\$field) {
@@ -3394,7 +3515,8 @@ function ${1:hook}_field_storage_details(\$field) {
 }'''
   'h.field_storage_details_alter':
     'prefix': 'h.field_storage_details_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_details_alter().
  */
 function ${1:hook}_field_storage_details_alter(&\$details, \$field) {
@@ -3402,7 +3524,8 @@ function ${1:hook}_field_storage_details_alter(&\$details, \$field) {
 }'''
   'h.field_storage_info':
     'prefix': 'h.field_storage_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_info().
  */
 function ${1:hook}_field_storage_info() {
@@ -3410,7 +3533,8 @@ function ${1:hook}_field_storage_info() {
 }'''
   'h.field_storage_info_alter':
     'prefix': 'h.field_storage_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_info_alter().
  */
 function ${1:hook}_field_storage_info_alter(&\$info) {
@@ -3418,7 +3542,8 @@ function ${1:hook}_field_storage_info_alter(&\$info) {
 }'''
   'h.field_storage_load':
     'prefix': 'h.field_storage_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_load().
  */
 function ${1:hook}_field_storage_load(\$entity_type, \$entities, \$age, \$fields, \$options) {
@@ -3426,7 +3551,8 @@ function ${1:hook}_field_storage_load(\$entity_type, \$entities, \$age, \$fields
 }'''
   'h.field_storage_pre_insert':
     'prefix': 'h.field_storage_pre_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_pre_insert().
  */
 function ${1:hook}_field_storage_pre_insert(\$entity_type, \$entity, &\$skip_fields) {
@@ -3434,7 +3560,8 @@ function ${1:hook}_field_storage_pre_insert(\$entity_type, \$entity, &\$skip_fie
 }'''
   'h.field_storage_pre_load':
     'prefix': 'h.field_storage_pre_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_pre_load().
  */
 function ${1:hook}_field_storage_pre_load(\$entity_type, \$entities, \$age, &\$skip_fields, \$options) {
@@ -3442,7 +3569,8 @@ function ${1:hook}_field_storage_pre_load(\$entity_type, \$entities, \$age, &\$s
 }'''
   'h.field_storage_pre_update':
     'prefix': 'h.field_storage_pre_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_pre_update().
  */
 function ${1:hook}_field_storage_pre_update(\$entity_type, \$entity, &\$skip_fields) {
@@ -3450,7 +3578,8 @@ function ${1:hook}_field_storage_pre_update(\$entity_type, \$entity, &\$skip_fie
 }'''
   'h.field_storage_purge':
     'prefix': 'h.field_storage_purge'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_purge().
  */
 function ${1:hook}_field_storage_purge(\$entity_type, \$entity, \$field, \$instance) {
@@ -3458,7 +3587,8 @@ function ${1:hook}_field_storage_purge(\$entity_type, \$entity, \$field, \$insta
 }'''
   'h.field_storage_purge_field':
     'prefix': 'h.field_storage_purge_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_purge_field().
  */
 function ${1:hook}_field_storage_purge_field(\$field) {
@@ -3466,7 +3596,8 @@ function ${1:hook}_field_storage_purge_field(\$field) {
 }'''
   'h.field_storage_purge_field_instance':
     'prefix': 'h.field_storage_purge_field_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_purge_field_instance().
  */
 function ${1:hook}_field_storage_purge_field_instance(\$instance) {
@@ -3474,7 +3605,8 @@ function ${1:hook}_field_storage_purge_field_instance(\$instance) {
 }'''
   'h.field_storage_query':
     'prefix': 'h.field_storage_query'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_query().
  */
 function ${1:hook}_field_storage_query(\$query) {
@@ -3482,7 +3614,8 @@ function ${1:hook}_field_storage_query(\$query) {
 }'''
   'h.field_storage_update_field':
     'prefix': 'h.field_storage_update_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_update_field().
  */
 function ${1:hook}_field_storage_update_field(\$field, \$prior_field, \$has_data) {
@@ -3490,7 +3623,8 @@ function ${1:hook}_field_storage_update_field(\$field, \$prior_field, \$has_data
 }'''
   'h.field_storage_write':
     'prefix': 'h.field_storage_write'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_storage_write().
  */
 function ${1:hook}_field_storage_write(\$entity_type, \$entity, \$op, \$fields) {
@@ -3498,7 +3632,8 @@ function ${1:hook}_field_storage_write(\$entity_type, \$entity, \$op, \$fields) 
 }'''
   'h.field_update':
     'prefix': 'h.field_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_update().
  */
 function ${1:hook}_field_update(\$entity_type, \$entity, \$field, \$instance, \$langcode, &\$items) {
@@ -3506,7 +3641,8 @@ function ${1:hook}_field_update(\$entity_type, \$entity, \$field, \$instance, \$
 }'''
   'h.field_update_field':
     'prefix': 'h.field_update_field'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_update_field().
  */
 function ${1:hook}_field_update_field(\$field, \$prior_field, \$has_data) {
@@ -3514,7 +3650,8 @@ function ${1:hook}_field_update_field(\$field, \$prior_field, \$has_data) {
 }'''
   'h.field_update_forbid':
     'prefix': 'h.field_update_forbid'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_update_forbid().
  */
 function ${1:hook}_field_update_forbid(\$field, \$prior_field, \$has_data) {
@@ -3522,7 +3659,8 @@ function ${1:hook}_field_update_forbid(\$field, \$prior_field, \$has_data) {
 }'''
   'h.field_update_instance':
     'prefix': 'h.field_update_instance'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_update_instance().
  */
 function ${1:hook}_field_update_instance(\$instance, \$prior_instance) {
@@ -3530,7 +3668,8 @@ function ${1:hook}_field_update_instance(\$instance, \$prior_instance) {
 }'''
   'h.field_validate':
     'prefix': 'h.field_validate'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_validate().
  */
 function ${1:hook}_field_validate(\$entity_type, \$entity, \$field, \$instance, \$langcode, \$items, &\$errors) {
@@ -3538,7 +3677,8 @@ function ${1:hook}_field_validate(\$entity_type, \$entity, \$field, \$instance, 
 }'''
   'h.field_widget_WIDGET_TYPE_form_alter':
     'prefix': 'h.field_widget_WIDGET_TYPE_form_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_WIDGET_TYPE_form_alter().
  */
 function ${1:hook}_field_widget_WIDGET_TYPE_form_alter(&\$element, &\$form_state, \$context) {
@@ -3546,7 +3686,8 @@ function ${1:hook}_field_widget_WIDGET_TYPE_form_alter(&\$element, &\$form_state
 }'''
   'h.field_widget_error':
     'prefix': 'h.field_widget_error'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_error().
  */
 function ${1:hook}_field_widget_error(\$element, \$error, \$form, &\$form_state) {
@@ -3554,7 +3695,8 @@ function ${1:hook}_field_widget_error(\$element, \$error, \$form, &\$form_state)
 }'''
   'h.field_widget_form':
     'prefix': 'h.field_widget_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_form().
  */
 function ${1:hook}_field_widget_form(&\$form, &\$form_state, \$field, \$instance, \$langcode, \$items, \$delta, \$element) {
@@ -3562,7 +3704,8 @@ function ${1:hook}_field_widget_form(&\$form, &\$form_state, \$field, \$instance
 }'''
   'h.field_widget_form_alter':
     'prefix': 'h.field_widget_form_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_form_alter().
  */
 function ${1:hook}_field_widget_form_alter(&\$element, &\$form_state, \$context) {
@@ -3570,7 +3713,8 @@ function ${1:hook}_field_widget_form_alter(&\$element, &\$form_state, \$context)
 }'''
   'h.field_widget_info':
     'prefix': 'h.field_widget_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_info().
  */
 function ${1:hook}_field_widget_info() {
@@ -3578,7 +3722,8 @@ function ${1:hook}_field_widget_info() {
 }'''
   'h.field_widget_info_alter':
     'prefix': 'h.field_widget_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_info_alter().
  */
 function ${1:hook}_field_widget_info_alter(&\$info) {
@@ -3586,7 +3731,8 @@ function ${1:hook}_field_widget_info_alter(&\$info) {
 }'''
   'h.field_widget_properties_ENTITY_TYPE_alter':
     'prefix': 'h.field_widget_properties_ENTITY_TYPE_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_properties_ENTITY_TYPE_alter().
  */
 function ${1:hook}_field_widget_properties_ENTITY_TYPE_alter(&\$widget, \$context) {
@@ -3594,7 +3740,8 @@ function ${1:hook}_field_widget_properties_ENTITY_TYPE_alter(&\$widget, \$contex
 }'''
   'h.field_widget_properties_alter':
     'prefix': 'h.field_widget_properties_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_properties_alter().
  */
 function ${1:hook}_field_widget_properties_alter(&\$widget, \$context) {
@@ -3602,7 +3749,8 @@ function ${1:hook}_field_widget_properties_alter(&\$widget, \$context) {
 }'''
   'h.field_widget_settings_form':
     'prefix': 'h.field_widget_settings_form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_field_widget_settings_form().
  */
 function ${1:hook}_field_widget_settings_form(\$field, \$instance) {
@@ -3610,7 +3758,8 @@ function ${1:hook}_field_widget_settings_form(\$field, \$instance) {
 }'''
   'h.file_copy':
     'prefix': 'h.file_copy'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_copy().
  */
 function ${1:hook}_file_copy(\$file, \$source) {
@@ -3618,7 +3767,8 @@ function ${1:hook}_file_copy(\$file, \$source) {
 }'''
   'h.file_delete':
     'prefix': 'h.file_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_delete().
  */
 function ${1:hook}_file_delete(\$file) {
@@ -3626,7 +3776,8 @@ function ${1:hook}_file_delete(\$file) {
 }'''
   'h.file_download':
     'prefix': 'h.file_download'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_download().
  */
 function ${1:hook}_file_download(\$uri) {
@@ -3634,7 +3785,8 @@ function ${1:hook}_file_download(\$uri) {
 }'''
   'h.file_download_access':
     'prefix': 'h.file_download_access'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_download_access().
  */
 function ${1:hook}_file_download_access(\$file_item, \$entity_type, \$entity) {
@@ -3642,7 +3794,8 @@ function ${1:hook}_file_download_access(\$file_item, \$entity_type, \$entity) {
 }'''
   'h.file_download_access_alter':
     'prefix': 'h.file_download_access_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_download_access_alter().
  */
 function ${1:hook}_file_download_access_alter(&\$grants, \$file_item, \$entity_type, \$entity) {
@@ -3650,7 +3803,8 @@ function ${1:hook}_file_download_access_alter(&\$grants, \$file_item, \$entity_t
 }'''
   'h.file_insert':
     'prefix': 'h.file_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_insert().
  */
 function ${1:hook}_file_insert(\$file) {
@@ -3658,7 +3812,8 @@ function ${1:hook}_file_insert(\$file) {
 }'''
   'h.file_load':
     'prefix': 'h.file_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_load().
  */
 function ${1:hook}_file_load(\$files) {
@@ -3666,7 +3821,8 @@ function ${1:hook}_file_load(\$files) {
 }'''
   'h.file_mimetype_mapping_alter':
     'prefix': 'h.file_mimetype_mapping_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_mimetype_mapping_alter().
  */
 function ${1:hook}_file_mimetype_mapping_alter(&\$mapping) {
@@ -3674,7 +3830,8 @@ function ${1:hook}_file_mimetype_mapping_alter(&\$mapping) {
 }'''
   'h.file_move':
     'prefix': 'h.file_move'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_move().
  */
 function ${1:hook}_file_move(\$file, \$source) {
@@ -3682,7 +3839,8 @@ function ${1:hook}_file_move(\$file, \$source) {
 }'''
   'h.file_presave':
     'prefix': 'h.file_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_presave().
  */
 function ${1:hook}_file_presave(\$file) {
@@ -3690,7 +3848,8 @@ function ${1:hook}_file_presave(\$file) {
 }'''
   'h.file_update':
     'prefix': 'h.file_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_update().
  */
 function ${1:hook}_file_update(\$file) {
@@ -3698,7 +3857,8 @@ function ${1:hook}_file_update(\$file) {
 }'''
   'h.file_url_alter':
     'prefix': 'h.file_url_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_url_alter().
  */
 function ${1:hook}_file_url_alter(&\$uri) {
@@ -3706,7 +3866,8 @@ function ${1:hook}_file_url_alter(&\$uri) {
 }'''
   'h.file_validate':
     'prefix': 'h.file_validate'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_file_validate().
  */
 function ${1:hook}_file_validate(\$file) {
@@ -3714,7 +3875,8 @@ function ${1:hook}_file_validate(\$file) {
 }'''
   'h.filetransfer_info':
     'prefix': 'h.filetransfer_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filetransfer_info().
  */
 function ${1:hook}_filetransfer_info() {
@@ -3722,7 +3884,8 @@ function ${1:hook}_filetransfer_info() {
 }'''
   'h.filetransfer_info_alter':
     'prefix': 'h.filetransfer_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filetransfer_info_alter().
  */
 function ${1:hook}_filetransfer_info_alter(&\$filetransfer_info) {
@@ -3730,7 +3893,8 @@ function ${1:hook}_filetransfer_info_alter(&\$filetransfer_info) {
 }'''
   'h.filter_FILTER_prepare':
     'prefix': 'h.filter_FILTER_prepare'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_FILTER_prepare() for ${1:FILTER}.
  */
 function ${1:hook}_filter_${1}_prepare(\$text, \$filter, \$format, \$langcode, \$cache, \$cache_id) {
@@ -3738,7 +3902,8 @@ function ${1:hook}_filter_${1}_prepare(\$text, \$filter, \$format, \$langcode, \
 }'''
   'h.filter_FILTER_process':
     'prefix': 'h.filter_FILTER_process'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_FILTER_process() for ${1:FILTER}.
  */
 function ${1:hook}_filter_${1}_process(\$text, \$filter, \$format, \$langcode, \$cache, \$cache_id) {
@@ -3746,7 +3911,8 @@ function ${1:hook}_filter_${1}_process(\$text, \$filter, \$format, \$langcode, \
 }'''
   'h.filter_FILTER_settings':
     'prefix': 'h.filter_FILTER_settings'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_FILTER_settings() for ${1:FILTER}.
  */
 function ${1:hook}_filter_${1}_settings(\$form, &\$form_state, \$filter, \$format, \$defaults, \$filters) {
@@ -3754,7 +3920,8 @@ function ${1:hook}_filter_${1}_settings(\$form, &\$form_state, \$filter, \$forma
 }'''
   'h.filter_FILTER_tips':
     'prefix': 'h.filter_FILTER_tips'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_FILTER_tips() for ${1:FILTER}.
  */
 function ${1:hook}_filter_${1}_tips(\$filter, \$format, \$long) {
@@ -3762,7 +3929,8 @@ function ${1:hook}_filter_${1}_tips(\$filter, \$format, \$long) {
 }'''
   'h.filter_format_disable':
     'prefix': 'h.filter_format_disable'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_format_disable().
  */
 function ${1:hook}_filter_format_disable(\$format) {
@@ -3770,7 +3938,8 @@ function ${1:hook}_filter_format_disable(\$format) {
 }'''
   'h.filter_format_insert':
     'prefix': 'h.filter_format_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_format_insert().
  */
 function ${1:hook}_filter_format_insert(\$format) {
@@ -3778,7 +3947,8 @@ function ${1:hook}_filter_format_insert(\$format) {
 }'''
   'h.filter_format_update':
     'prefix': 'h.filter_format_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_format_update().
  */
 function ${1:hook}_filter_format_update(\$format) {
@@ -3786,7 +3956,8 @@ function ${1:hook}_filter_format_update(\$format) {
 }'''
   'h.filter_info':
     'prefix': 'h.filter_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_info().
  */
 function ${1:hook}_filter_info() {
@@ -3794,7 +3965,8 @@ function ${1:hook}_filter_info() {
 }'''
   'h.filter_info_alter':
     'prefix': 'h.filter_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_filter_info_alter().
  */
 function ${1:hook}_filter_info_alter(&\$info) {
@@ -3802,7 +3974,8 @@ function ${1:hook}_filter_info_alter(&\$info) {
 }'''
   'h.flush_caches':
     'prefix': 'h.flush_caches'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_flush_caches().
  */
 function ${1:hook}_flush_caches() {
@@ -3810,7 +3983,8 @@ function ${1:hook}_flush_caches() {
 }'''
   'h.form':
     'prefix': 'h.form'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_form().
  */
 function ${1:hook}_form(\$node, &\$form_state) {
@@ -3818,23 +3992,26 @@ function ${1:hook}_form(\$node, &\$form_state) {
 }'''
   'h.form_BASE_FORM_ID_alter':
     'prefix': 'h.form_BASE_FORM_ID_alter'
-    'body': '''/**
- * Implements hook_form_BASE_FORM_ID_alter() for ${1:BASE_FORM_ID}().
+    'body': '''
+/**
+ * Implements hook_form_BASE_FORM_ID_alter() for ${2:BASE_FORM_ID}().
  */
-function ${1:hook}_form_${1}_alter(&\$form, &\$form_state, \$form_id) {
+function ${1:hook}_form_$2_alter(&\$form, &\$form_state, \$form_id) {
 	$0
 }'''
   'h.form_FORM_ID_alter':
     'prefix': 'h.form_FORM_ID_alter'
-    'body': '''/**
- * Implements hook_form_FORM_ID_alter() for ${1:FORM_ID}().
+    'body': '''
+/**
+ * Implements hook_form_FORM_ID_alter() for ${2:FORM_ID}().
  */
-function ${1:hook}_form_${1}_alter(&\$form, &\$form_state, \$form_id) {
+function ${1:hook}_form_$2_alter(&\$form, &\$form_state, \$form_id) {
 	$0
 }'''
   'h.form_alter':
     'prefix': 'h.form_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_form_alter().
  */
 function ${1:hook}_form_alter(&\$form, &\$form_state, \$form_id) {
@@ -3842,7 +4019,8 @@ function ${1:hook}_form_alter(&\$form, &\$form_state, \$form_id) {
 }'''
   'h.form_system_theme_settings_alter':
     'prefix': 'h.form_system_theme_settings_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_form_system_theme_settings_alter().
  */
 function ${1:hook}_form_system_theme_settings_alter(&\$form, &\$form_state) {
@@ -3850,7 +4028,8 @@ function ${1:hook}_form_system_theme_settings_alter(&\$form, &\$form_state) {
 }'''
   'h.forms':
     'prefix': 'h.forms'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_forms().
  */
 function ${1:hook}_forms(\$form_id, \$args) {
@@ -3868,7 +4047,8 @@ function ${1:hook}_${1:function_name}(${2:args}) {
 '''
   'h.help':
     'prefix': 'h.help'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_help().
  */
 function ${1:hook}_help(\$path, \$arg) {
@@ -3876,7 +4056,8 @@ function ${1:hook}_help(\$path, \$arg) {
 }'''
   'h.info':
     'prefix': 'h.info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_hook_info().
  */
 function ${1:hook}_${1:hook}_info() {
@@ -3884,7 +4065,8 @@ function ${1:hook}_${1:hook}_info() {
 }'''
   'h.info_alter':
     'prefix': 'h.info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_hook_info_alter().
  */
 function ${1:hook}_${1:hook}_info_alter(&\$hooks) {
@@ -3892,7 +4074,8 @@ function ${1:hook}_${1:hook}_info_alter(&\$hooks) {
 }'''
   'h.html_head_alter':
     'prefix': 'h.html_head_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_html_head_alter().
  */
 function ${1:hook}_html_head_alter(&\$head_elements) {
@@ -3900,7 +4083,8 @@ function ${1:hook}_html_head_alter(&\$head_elements) {
 }'''
   'h.image_default_styles':
     'prefix': 'h.image_default_styles'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_default_styles().
  */
 function ${1:hook}_image_default_styles() {
@@ -3908,7 +4092,8 @@ function ${1:hook}_image_default_styles() {
 }'''
   'h.image_effect_info':
     'prefix': 'h.image_effect_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_effect_info().
  */
 function ${1:hook}_image_effect_info() {
@@ -3916,7 +4101,8 @@ function ${1:hook}_image_effect_info() {
 }'''
   'h.image_effect_info_alter':
     'prefix': 'h.image_effect_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_effect_info_alter().
  */
 function ${1:hook}_image_effect_info_alter(&\$effects) {
@@ -3924,7 +4110,8 @@ function ${1:hook}_image_effect_info_alter(&\$effects) {
 }'''
   'h.image_style_delete':
     'prefix': 'h.image_style_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_style_delete().
  */
 function ${1:hook}_image_style_delete(\$style) {
@@ -3932,7 +4119,8 @@ function ${1:hook}_image_style_delete(\$style) {
 }'''
   'h.image_style_flush':
     'prefix': 'h.image_style_flush'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_style_flush().
  */
 function ${1:hook}_image_style_flush(\$style) {
@@ -3940,7 +4128,8 @@ function ${1:hook}_image_style_flush(\$style) {
 }'''
   'h.image_style_save':
     'prefix': 'h.image_style_save'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_style_save().
  */
 function ${1:hook}_image_style_save(\$style) {
@@ -3948,7 +4137,8 @@ function ${1:hook}_image_style_save(\$style) {
 }'''
   'h.image_styles_alter':
     'prefix': 'h.image_styles_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_styles_alter().
  */
 function ${1:hook}_image_styles_alter(&\$styles) {
@@ -3956,7 +4146,8 @@ function ${1:hook}_image_styles_alter(&\$styles) {
 }'''
   'h.image_toolkits':
     'prefix': 'h.image_toolkits'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_image_toolkits().
  */
 function ${1:hook}_image_toolkits() {
@@ -3964,7 +4155,8 @@ function ${1:hook}_image_toolkits() {
 }'''
   'h.init':
     'prefix': 'h.init'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_init().
  */
 function ${1:hook}_init() {
@@ -3972,7 +4164,8 @@ function ${1:hook}_init() {
 }'''
   'h.insert':
     'prefix': 'h.insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_insert().
  */
 function ${1:hook}_insert(\$node) {
@@ -3980,7 +4173,8 @@ function ${1:hook}_insert(\$node) {
 }'''
   'h.install':
     'prefix': 'h.install'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_install().
  */
 function ${1:hook}_install() {
@@ -3988,7 +4182,8 @@ function ${1:hook}_install() {
 }'''
   'h.install_tasks':
     'prefix': 'h.install_tasks'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_install_tasks().
  */
 function ${1:hook}_install_tasks() {
@@ -3996,7 +4191,8 @@ function ${1:hook}_install_tasks() {
 }'''
   'h.install_tasks_alter':
     'prefix': 'h.install_tasks_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_install_tasks_alter().
  */
 function ${1:hook}_install_tasks_alter(&\$tasks, \$install_state) {
@@ -4004,7 +4200,8 @@ function ${1:hook}_install_tasks_alter(&\$tasks, \$install_state) {
 }'''
   'h.js_alter':
     'prefix': 'h.js_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_js_alter().
  */
 function ${1:hook}_js_alter(&\$javascript) {
@@ -4012,7 +4209,8 @@ function ${1:hook}_js_alter(&\$javascript) {
 }'''
   'h.library':
     'prefix': 'h.library'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_library().
  */
 function ${1:hook}_library() {
@@ -4029,7 +4227,8 @@ function ${1:hook}_library() {
 }'''
   'h.library_alter':
     'prefix': 'h.library_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_library_alter().
  */
 function ${1:hook}_library_alter(&\$libraries, \$module) {
@@ -4037,7 +4236,8 @@ function ${1:hook}_library_alter(&\$libraries, \$module) {
 }'''
   'h.load':
     'prefix': 'h.load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_load().
  */
 function ${1:hook}_load(\$nodes) {
@@ -4045,7 +4245,8 @@ function ${1:hook}_load(\$nodes) {
 }'''
   'h.locale':
     'prefix': 'h.locale'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_locale().
  */
 function ${1:hook}_locale(\$op = 'groups') {
@@ -4053,7 +4254,8 @@ function ${1:hook}_locale(\$op = 'groups') {
 }'''
   'h.mail':
     'prefix': 'h.mail'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_mail().
  */
 function ${1:hook}_mail(\$key, &\$message, \$params) {
@@ -4061,7 +4263,8 @@ function ${1:hook}_mail(\$key, &\$message, \$params) {
 }'''
   'h.mail_alter':
     'prefix': 'h.mail_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_mail_alter().
  */
 function ${1:hook}_mail_alter(&\$message) {
@@ -4069,7 +4272,8 @@ function ${1:hook}_mail_alter(&\$message) {
 }'''
   'h.menu':
     'prefix': 'h.menu'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu().
  */
 function ${1:hook}_menu() {
@@ -4082,7 +4286,8 @@ function ${1:hook}_menu() {
 }'''
   'h.menu_alter':
     'prefix': 'h.menu_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_alter().
  */
 function ${1:hook}_menu_alter(&\$items) {
@@ -4090,7 +4295,8 @@ function ${1:hook}_menu_alter(&\$items) {
 }'''
   'h.menu_breadcrumb_alter':
     'prefix': 'h.menu_breadcrumb_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_breadcrumb_alter().
  */
 function ${1:hook}_menu_breadcrumb_alter(&\$active_trail, \$item) {
@@ -4098,7 +4304,8 @@ function ${1:hook}_menu_breadcrumb_alter(&\$active_trail, \$item) {
 }'''
   'h.menu_contextual_links_alter':
     'prefix': 'h.menu_contextual_links_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_contextual_links_alter().
  */
 function ${1:hook}_menu_contextual_links_alter(&\$links, \$router_item, \$root_path) {
@@ -4106,7 +4313,8 @@ function ${1:hook}_menu_contextual_links_alter(&\$links, \$router_item, \$root_p
 }'''
   'h.menu_delete':
     'prefix': 'h.menu_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_delete().
  */
 function ${1:hook}_menu_delete(\$menu) {
@@ -4114,7 +4322,8 @@ function ${1:hook}_menu_delete(\$menu) {
 }'''
   'h.menu_get_item_alter':
     'prefix': 'h.menu_get_item_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_get_item_alter().
  */
 function ${1:hook}_menu_get_item_alter(&\$router_item, \$path, \$original_map) {
@@ -4122,7 +4331,8 @@ function ${1:hook}_menu_get_item_alter(&\$router_item, \$path, \$original_map) {
 }'''
   'h.menu_insert':
     'prefix': 'h.menu_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_insert().
  */
 function ${1:hook}_menu_insert(\$menu) {
@@ -4130,7 +4340,8 @@ function ${1:hook}_menu_insert(\$menu) {
 }'''
   'h.menu_link_alter':
     'prefix': 'h.menu_link_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_link_alter().
  */
 function ${1:hook}_menu_link_alter(&\$item) {
@@ -4138,7 +4349,8 @@ function ${1:hook}_menu_link_alter(&\$item) {
 }'''
   'h.menu_link_delete':
     'prefix': 'h.menu_link_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_link_delete().
  */
 function ${1:hook}_menu_link_delete(\$link) {
@@ -4146,7 +4358,8 @@ function ${1:hook}_menu_link_delete(\$link) {
 }'''
   'h.menu_link_insert':
     'prefix': 'h.menu_link_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_link_insert().
  */
 function ${1:hook}_menu_link_insert(\$link) {
@@ -4154,7 +4367,8 @@ function ${1:hook}_menu_link_insert(\$link) {
 }'''
   'h.menu_link_update':
     'prefix': 'h.menu_link_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_link_update().
  */
 function ${1:hook}_menu_link_update(\$link) {
@@ -4162,7 +4376,8 @@ function ${1:hook}_menu_link_update(\$link) {
 }'''
   'h.menu_local_tasks_alter':
     'prefix': 'h.menu_local_tasks_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_local_tasks_alter().
  */
 function ${1:hook}_menu_local_tasks_alter(&\$data, \$router_item, \$root_path) {
@@ -4170,7 +4385,8 @@ function ${1:hook}_menu_local_tasks_alter(&\$data, \$router_item, \$root_path) {
 }'''
   'h.menu_site_status_alter':
     'prefix': 'h.menu_site_status_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_site_status_alter().
  */
 function ${1:hook}_menu_site_status_alter(&\$menu_site_status, \$path) {
@@ -4178,7 +4394,8 @@ function ${1:hook}_menu_site_status_alter(&\$menu_site_status, \$path) {
 }'''
   'h.menu_update':
     'prefix': 'h.menu_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_menu_update().
  */
 function ${1:hook}_menu_update(\$menu) {
@@ -4186,7 +4403,8 @@ function ${1:hook}_menu_update(\$menu) {
 }'''
   'h.module_implements_alter':
     'prefix': 'h.module_implements_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_module_implements_alter().
  */
 function ${1:hook}_module_implements_alter(&\$implementations, \$hook) {
@@ -4194,7 +4412,8 @@ function ${1:hook}_module_implements_alter(&\$implementations, \$hook) {
 }'''
   'h.modules_disabled':
     'prefix': 'h.modules_disabled'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_modules_disabled().
  */
 function ${1:hook}_modules_disabled(\$modules) {
@@ -4202,7 +4421,8 @@ function ${1:hook}_modules_disabled(\$modules) {
 }'''
   'h.modules_enabled':
     'prefix': 'h.modules_enabled'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_modules_enabled().
  */
 function ${1:hook}_modules_enabled(\$modules) {
@@ -4210,7 +4430,8 @@ function ${1:hook}_modules_enabled(\$modules) {
 }'''
   'h.modules_installed':
     'prefix': 'h.modules_installed'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_modules_installed().
  */
 function ${1:hook}_modules_installed(\$modules) {
@@ -4218,7 +4439,8 @@ function ${1:hook}_modules_installed(\$modules) {
 }'''
   'h.modules_uninstalled':
     'prefix': 'h.modules_uninstalled'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_modules_uninstalled().
  */
 function ${1:hook}_modules_uninstalled(\$modules) {
@@ -4226,7 +4448,8 @@ function ${1:hook}_modules_uninstalled(\$modules) {
 }'''
   'h.multilingual_settings_changed':
     'prefix': 'h.multilingual_settings_changed'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_multilingual_settings_changed().
  */
 function ${1:hook}_multilingual_settings_changed() {
@@ -4234,7 +4457,8 @@ function ${1:hook}_multilingual_settings_changed() {
 }'''
   'h.node_access':
     'prefix': 'h.node_access'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_access().
  */
 function ${1:hook}_node_access(\$node, \$op, \$account) {
@@ -4242,7 +4466,8 @@ function ${1:hook}_node_access(\$node, \$op, \$account) {
 }'''
   'h.node_access_records':
     'prefix': 'h.node_access_records'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_access_records().
  */
 function ${1:hook}_node_access_records(\$node) {
@@ -4250,7 +4475,8 @@ function ${1:hook}_node_access_records(\$node) {
 }'''
   'h.node_access_records_alter':
     'prefix': 'h.node_access_records_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_access_records_alter().
  */
 function ${1:hook}_node_access_records_alter(&\$grants, \$node) {
@@ -4258,7 +4484,8 @@ function ${1:hook}_node_access_records_alter(&\$grants, \$node) {
 }'''
   'h.node_delete':
     'prefix': 'h.node_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_delete().
  */
 function ${1:hook}_node_delete(\$node) {
@@ -4266,7 +4493,8 @@ function ${1:hook}_node_delete(\$node) {
 }'''
   'h.node_grants':
     'prefix': 'h.node_grants'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_grants().
  */
 function ${1:hook}_node_grants(\$account, \$op) {
@@ -4274,7 +4502,8 @@ function ${1:hook}_node_grants(\$account, \$op) {
 }'''
   'h.node_grants_alter':
     'prefix': 'h.node_grants_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_grants_alter().
  */
 function ${1:hook}_node_grants_alter(&\$grants, \$account, \$op) {
@@ -4282,7 +4511,8 @@ function ${1:hook}_node_grants_alter(&\$grants, \$account, \$op) {
 }'''
   'h.node_info':
     'prefix': 'h.node_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_info().
  */
 function ${1:hook}_node_info() {
@@ -4290,7 +4520,8 @@ function ${1:hook}_node_info() {
 }'''
   'h.node_insert':
     'prefix': 'h.node_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_insert().
  */
 function ${1:hook}_node_insert(\$node) {
@@ -4298,7 +4529,8 @@ function ${1:hook}_node_insert(\$node) {
 }'''
   'h.node_load':
     'prefix': 'h.node_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_load().
  */
 function ${1:hook}_node_load(\$nodes, \$types) {
@@ -4306,7 +4538,8 @@ function ${1:hook}_node_load(\$nodes, \$types) {
 }'''
   'h.node_operations':
     'prefix': 'h.node_operations'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_operations().
  */
 function ${1:hook}_node_operations() {
@@ -4314,7 +4547,8 @@ function ${1:hook}_node_operations() {
 }'''
   'h.node_prepare':
     'prefix': 'h.node_prepare'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_prepare().
  */
 function ${1:hook}_node_prepare(\$node) {
@@ -4322,7 +4556,8 @@ function ${1:hook}_node_prepare(\$node) {
 }'''
   'h.node_presave':
     'prefix': 'h.node_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_presave().
  */
 function ${1:hook}_node_presave(\$node) {
@@ -4330,7 +4565,8 @@ function ${1:hook}_node_presave(\$node) {
 }'''
   'h.node_revision_delete':
     'prefix': 'h.node_revision_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_revision_delete().
  */
 function ${1:hook}_node_revision_delete(\$node) {
@@ -4338,7 +4574,8 @@ function ${1:hook}_node_revision_delete(\$node) {
 }'''
   'h.node_search_result':
     'prefix': 'h.node_search_result'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_search_result().
  */
 function ${1:hook}_node_search_result(\$node) {
@@ -4346,7 +4583,8 @@ function ${1:hook}_node_search_result(\$node) {
 }'''
   'h.node_submit':
     'prefix': 'h.node_submit'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_submit().
  */
 function ${1:hook}_node_submit(\$node, \$form, &\$form_state) {
@@ -4354,7 +4592,8 @@ function ${1:hook}_node_submit(\$node, \$form, &\$form_state) {
 }'''
   'h.node_type_delete':
     'prefix': 'h.node_type_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_type_delete().
  */
 function ${1:hook}_node_type_delete(\$info) {
@@ -4362,7 +4601,8 @@ function ${1:hook}_node_type_delete(\$info) {
 }'''
   'h.node_type_insert':
     'prefix': 'h.node_type_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_type_insert().
  */
 function ${1:hook}_node_type_insert(\$info) {
@@ -4370,7 +4610,8 @@ function ${1:hook}_node_type_insert(\$info) {
 }'''
   'h.node_type_update':
     'prefix': 'h.node_type_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_type_update().
  */
 function ${1:hook}_node_type_update(\$info) {
@@ -4378,7 +4619,8 @@ function ${1:hook}_node_type_update(\$info) {
 }'''
   'h.node_update':
     'prefix': 'h.node_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_update().
  */
 function ${1:hook}_node_update(\$node) {
@@ -4386,7 +4628,8 @@ function ${1:hook}_node_update(\$node) {
 }'''
   'h.node_update_index':
     'prefix': 'h.node_update_index'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_update_index().
  */
 function ${1:hook}_node_update_index(\$node) {
@@ -4394,7 +4637,8 @@ function ${1:hook}_node_update_index(\$node) {
 }'''
   'h.node_validate':
     'prefix': 'h.node_validate'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_validate().
  */
 function ${1:hook}_node_validate(\$node, \$form, &\$form_state) {
@@ -4402,7 +4646,8 @@ function ${1:hook}_node_validate(\$node, \$form, &\$form_state) {
 }'''
   'h.node_view':
     'prefix': 'h.node_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_view().
  */
 function ${1:hook}_node_view(\$node, \$view_mode, \$langcode) {
@@ -4410,7 +4655,8 @@ function ${1:hook}_node_view(\$node, \$view_mode, \$langcode) {
 }'''
   'h.node_view_alter':
     'prefix': 'h.node_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_node_view_alter().
  */
 function ${1:hook}_node_view_alter(&\$build) {
@@ -4418,7 +4664,8 @@ function ${1:hook}_node_view_alter(&\$build) {
 }'''
   'h.openid':
     'prefix': 'h.openid'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid().
  */
 function ${1:hook}_openid(\$op, \$request) {
@@ -4426,7 +4673,8 @@ function ${1:hook}_openid(\$op, \$request) {
 }'''
   'h.openid_discovery_method_info':
     'prefix': 'h.openid_discovery_method_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid_discovery_method_info().
  */
 function ${1:hook}_openid_discovery_method_info() {
@@ -4434,7 +4682,8 @@ function ${1:hook}_openid_discovery_method_info() {
 }'''
   'h.openid_discovery_method_info_alter':
     'prefix': 'h.openid_discovery_method_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid_discovery_method_info_alter().
  */
 function ${1:hook}_openid_discovery_method_info_alter(&\$methods) {
@@ -4442,7 +4691,8 @@ function ${1:hook}_openid_discovery_method_info_alter(&\$methods) {
 }'''
   'h.openid_normalization_method_info':
     'prefix': 'h.openid_normalization_method_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid_normalization_method_info().
  */
 function ${1:hook}_openid_normalization_method_info() {
@@ -4450,7 +4700,8 @@ function ${1:hook}_openid_normalization_method_info() {
 }'''
   'h.openid_normalization_method_info_alter':
     'prefix': 'h.openid_normalization_method_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid_normalization_method_info_alter().
  */
 function ${1:hook}_openid_normalization_method_info_alter(&\$methods) {
@@ -4458,7 +4709,8 @@ function ${1:hook}_openid_normalization_method_info_alter(&\$methods) {
 }'''
   'h.openid_response':
     'prefix': 'h.openid_response'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_openid_response().
  */
 function ${1:hook}_openid_response(\$response, \$account) {
@@ -4466,7 +4718,8 @@ function ${1:hook}_openid_response(\$response, \$account) {
 }'''
   'h.options_list':
     'prefix': 'h.options_list'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_options_list().
  */
 function ${1:hook}_options_list(\$field, \$instance, \$entity_type, \$entity) {
@@ -4474,7 +4727,8 @@ function ${1:hook}_options_list(\$field, \$instance, \$entity_type, \$entity) {
 }'''
   'h.overlay_child_initialize':
     'prefix': 'h.overlay_child_initialize'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_overlay_child_initialize().
  */
 function ${1:hook}_overlay_child_initialize() {
@@ -4482,7 +4736,8 @@ function ${1:hook}_overlay_child_initialize() {
 }'''
   'h.overlay_parent_initialize':
     'prefix': 'h.overlay_parent_initialize'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_overlay_parent_initialize().
  */
 function ${1:hook}_overlay_parent_initialize() {
@@ -4490,7 +4745,8 @@ function ${1:hook}_overlay_parent_initialize() {
 }'''
   'h.page_alter':
     'prefix': 'h.page_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_page_alter().
  */
 function ${1:hook}_page_alter(&\$page) {
@@ -4498,7 +4754,8 @@ function ${1:hook}_page_alter(&\$page) {
 }'''
   'h.page_build':
     'prefix': 'h.page_build'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_page_build().
  */
 function ${1:hook}_page_build(&\$page) {
@@ -4506,7 +4763,8 @@ function ${1:hook}_page_build(&\$page) {
 }'''
   'h.page_delivery_callback_alter':
     'prefix': 'h.page_delivery_callback_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_page_delivery_callback_alter().
  */
 function ${1:hook}_page_delivery_callback_alter(&\$callback) {
@@ -4514,7 +4772,8 @@ function ${1:hook}_page_delivery_callback_alter(&\$callback) {
 }'''
   'h.path_delete':
     'prefix': 'h.path_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_path_delete().
  */
 function ${1:hook}_path_delete(\$path) {
@@ -4522,7 +4781,8 @@ function ${1:hook}_path_delete(\$path) {
 }'''
   'h.path_insert':
     'prefix': 'h.path_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_path_insert().
  */
 function ${1:hook}_path_insert(\$path) {
@@ -4530,7 +4790,8 @@ function ${1:hook}_path_insert(\$path) {
 }'''
   'h.path_update':
     'prefix': 'h.path_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_path_update().
  */
 function ${1:hook}_path_update(\$path) {
@@ -4538,7 +4799,8 @@ function ${1:hook}_path_update(\$path) {
 }'''
   'h.permission':
     'prefix': 'h.permission'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_permission().
  */
 function ${1:hook}_permission() {
@@ -4546,7 +4808,8 @@ function ${1:hook}_permission() {
 }'''
   'h.prepare':
     'prefix': 'h.prepare'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_prepare().
  */
 function ${1:hook}_prepare(\$node) {
@@ -4554,7 +4817,8 @@ function ${1:hook}_prepare(\$node) {
 }'''
   'h.preprocess':
     'prefix': 'h.preprocess'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_preprocess().
  */
 function ${1:hook}_preprocess(&\$variables, \$hook) {
@@ -4562,7 +4826,8 @@ function ${1:hook}_preprocess(&\$variables, \$hook) {
 }'''
   'h.preprocess_HOOK':
     'prefix': 'h.preprocess_HOOK'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_preprocess_HOOK().
  */
 function ${1:hook}_preprocess_HOOK(&\$variables) {
@@ -4570,7 +4835,8 @@ function ${1:hook}_preprocess_HOOK(&\$variables) {
 }'''
   'h.preprocess_html':
     'prefix': 'h.preprocess_html'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_preprocess_html().
  */
 function ${1:hook}_preprocess_html(&\$variables) {
@@ -4578,7 +4844,8 @@ function ${1:hook}_preprocess_html(&\$variables) {
 }'''
   'h.preprocess_page':
     'prefix': 'h.preprocess_page'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_preprocess_page().
  */
 function ${1:hook}_preprocess_page(&\$variables) {
@@ -4586,7 +4853,8 @@ function ${1:hook}_preprocess_page(&\$variables) {
 }'''
   'h.process':
     'prefix': 'h.process'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_process().
  */
 function ${1:hook}_process(&\$variables, \$hook) {
@@ -4594,7 +4862,8 @@ function ${1:hook}_process(&\$variables, \$hook) {
 }'''
   'h.process_HOOK':
     'prefix': 'h.process_HOOK'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_process_HOOK().
  */
 function ${1:hook}_process_HOOK(&\$variables) {
@@ -4602,7 +4871,8 @@ function ${1:hook}_process_HOOK(&\$variables) {
 }'''
   'h.query_TAG_alter':
     'prefix': 'h.query_TAG_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_query_TAG_alter().
  */
 function ${1:hook}_query_TAG_alter(QueryAlterableInterface \$query) {
@@ -4610,7 +4880,8 @@ function ${1:hook}_query_TAG_alter(QueryAlterableInterface \$query) {
 }'''
   'h.query_alter':
     'prefix': 'h.query_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_query_alter().
  */
 function ${1:hook}_query_alter(QueryAlterableInterface \$query) {
@@ -4618,7 +4889,8 @@ function ${1:hook}_query_alter(QueryAlterableInterface \$query) {
 }'''
   'h.ranking':
     'prefix': 'h.ranking'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_ranking().
  */
 function ${1:hook}_ranking() {
@@ -4626,7 +4898,8 @@ function ${1:hook}_ranking() {
 }'''
   'h.rdf_mapping':
     'prefix': 'h.rdf_mapping'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_rdf_mapping().
  */
 function ${1:hook}_rdf_mapping() {
@@ -4634,7 +4907,8 @@ function ${1:hook}_rdf_mapping() {
 }'''
   'h.rdf_namespaces':
     'prefix': 'h.rdf_namespaces'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_rdf_namespaces().
  */
 function ${1:hook}_rdf_namespaces() {
@@ -4642,7 +4916,8 @@ function ${1:hook}_rdf_namespaces() {
 }'''
   'h.registry_files_alter':
     'prefix': 'h.registry_files_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_registry_files_alter().
  */
 function ${1:hook}_registry_files_alter(&\$files, \$modules) {
@@ -4650,7 +4925,8 @@ function ${1:hook}_registry_files_alter(&\$files, \$modules) {
 }'''
   'h.requirements':
     'prefix': 'h.requirements'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_requirements().
  */
 function ${1:hook}_requirements(\$phase) {
@@ -4658,7 +4934,8 @@ function ${1:hook}_requirements(\$phase) {
 }'''
   'h.schema':
     'prefix': 'h.schema'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_schema().
  */
 function ${1:hook}_schema() {
@@ -4666,7 +4943,8 @@ function ${1:hook}_schema() {
 }'''
   'h.schema_alter':
     'prefix': 'h.schema_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_schema_alter().
  */
 function ${1:hook}_schema_alter(&\$schema) {
@@ -4674,7 +4952,8 @@ function ${1:hook}_schema_alter(&\$schema) {
 }'''
   'h.search_access':
     'prefix': 'h.search_access'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_access().
  */
 function ${1:hook}_search_access() {
@@ -4682,7 +4961,8 @@ function ${1:hook}_search_access() {
 }'''
   'h.search_admin':
     'prefix': 'h.search_admin'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_admin().
  */
 function ${1:hook}_search_admin() {
@@ -4690,7 +4970,8 @@ function ${1:hook}_search_admin() {
 }'''
   'h.search_execute':
     'prefix': 'h.search_execute'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_execute().
  */
 function ${1:hook}_search_execute(\$keys = NULL, \$conditions = NULL) {
@@ -4698,7 +4979,8 @@ function ${1:hook}_search_execute(\$keys = NULL, \$conditions = NULL) {
 }'''
   'h.search_info':
     'prefix': 'h.search_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_info().
  */
 function ${1:hook}_search_info() {
@@ -4706,7 +4988,8 @@ function ${1:hook}_search_info() {
 }'''
   'h.search_page':
     'prefix': 'h.search_page'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_page().
  */
 function ${1:hook}_search_page(\$results) {
@@ -4714,7 +4997,8 @@ function ${1:hook}_search_page(\$results) {
 }'''
   'h.search_preprocess':
     'prefix': 'h.search_preprocess'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_preprocess().
  */
 function ${1:hook}_search_preprocess(\$text) {
@@ -4722,7 +5006,8 @@ function ${1:hook}_search_preprocess(\$text) {
 }'''
   'h.search_reset':
     'prefix': 'h.search_reset'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_reset().
  */
 function ${1:hook}_search_reset() {
@@ -4730,7 +5015,8 @@ function ${1:hook}_search_reset() {
 }'''
   'h.search_status':
     'prefix': 'h.search_status'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_search_status().
  */
 function ${1:hook}_search_status() {
@@ -4738,7 +5024,8 @@ function ${1:hook}_search_status() {
 }'''
   'h.shortcut_default_set':
     'prefix': 'h.shortcut_default_set'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_shortcut_default_set().
  */
 function ${1:hook}_shortcut_default_set(\$account) {
@@ -4746,7 +5033,8 @@ function ${1:hook}_shortcut_default_set(\$account) {
 }'''
   'h.simpletest_alter':
     'prefix': 'h.simpletest_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_simpletest_alter().
  */
 function ${1:hook}_simpletest_alter(&\$groups) {
@@ -4754,7 +5042,8 @@ function ${1:hook}_simpletest_alter(&\$groups) {
 }'''
   'h.stream_wrappers':
     'prefix': 'h.stream_wrappers'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_stream_wrappers().
  */
 function ${1:hook}_stream_wrappers() {
@@ -4762,7 +5051,8 @@ function ${1:hook}_stream_wrappers() {
 }'''
   'h.stream_wrappers_alter':
     'prefix': 'h.stream_wrappers_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_stream_wrappers_alter().
  */
 function ${1:hook}_stream_wrappers_alter(&\$wrappers) {
@@ -4770,7 +5060,8 @@ function ${1:hook}_stream_wrappers_alter(&\$wrappers) {
 }'''
   'h.system_info_alter':
     'prefix': 'h.system_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_system_info_alter().
  */
 function ${1:hook}_system_info_alter(&\$info, \$file, \$type) {
@@ -4778,7 +5069,8 @@ function ${1:hook}_system_info_alter(&\$info, \$file, \$type) {
 }'''
   'h.system_theme_info':
     'prefix': 'h.system_theme_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_system_theme_info().
  */
 function ${1:hook}_system_theme_info() {
@@ -4786,7 +5078,8 @@ function ${1:hook}_system_theme_info() {
 }'''
   'h.system_themes_page_alter':
     'prefix': 'h.system_themes_page_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_system_themes_page_alter().
  */
 function ${1:hook}_system_themes_page_alter(&\$theme_groups) {
@@ -4794,7 +5087,8 @@ function ${1:hook}_system_themes_page_alter(&\$theme_groups) {
 }'''
   'h.taxonomy_term_delete':
     'prefix': 'h.taxonomy_term_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_delete().
  */
 function ${1:hook}_taxonomy_term_delete(\$term) {
@@ -4802,7 +5096,8 @@ function ${1:hook}_taxonomy_term_delete(\$term) {
 }'''
   'h.taxonomy_term_insert':
     'prefix': 'h.taxonomy_term_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_insert().
  */
 function ${1:hook}_taxonomy_term_insert(\$term) {
@@ -4810,7 +5105,8 @@ function ${1:hook}_taxonomy_term_insert(\$term) {
 }'''
   'h.taxonomy_term_load':
     'prefix': 'h.taxonomy_term_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_load().
  */
 function ${1:hook}_taxonomy_term_load(\$terms) {
@@ -4818,7 +5114,8 @@ function ${1:hook}_taxonomy_term_load(\$terms) {
 }'''
   'h.taxonomy_term_presave':
     'prefix': 'h.taxonomy_term_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_presave().
  */
 function ${1:hook}_taxonomy_term_presave(\$term) {
@@ -4826,7 +5123,8 @@ function ${1:hook}_taxonomy_term_presave(\$term) {
 }'''
   'h.taxonomy_term_update':
     'prefix': 'h.taxonomy_term_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_update().
  */
 function ${1:hook}_taxonomy_term_update(\$term) {
@@ -4834,7 +5132,8 @@ function ${1:hook}_taxonomy_term_update(\$term) {
 }'''
   'h.taxonomy_term_view_alter':
     'prefix': 'h.taxonomy_term_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_term_view_alter().
  */
 function ${1:hook}_taxonomy_term_view_alter(&\$build) {
@@ -4842,7 +5141,8 @@ function ${1:hook}_taxonomy_term_view_alter(&\$build) {
 }'''
   'h.taxonomy_vocabulary_delete':
     'prefix': 'h.taxonomy_vocabulary_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_vocabulary_delete().
  */
 function ${1:hook}_taxonomy_vocabulary_delete(\$vocabulary) {
@@ -4850,7 +5150,8 @@ function ${1:hook}_taxonomy_vocabulary_delete(\$vocabulary) {
 }'''
   'h.taxonomy_vocabulary_insert':
     'prefix': 'h.taxonomy_vocabulary_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_vocabulary_insert().
  */
 function ${1:hook}_taxonomy_vocabulary_insert(\$vocabulary) {
@@ -4858,7 +5159,8 @@ function ${1:hook}_taxonomy_vocabulary_insert(\$vocabulary) {
 }'''
   'h.taxonomy_vocabulary_load':
     'prefix': 'h.taxonomy_vocabulary_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_vocabulary_load().
  */
 function ${1:hook}_taxonomy_vocabulary_load(\$vocabularies) {
@@ -4866,7 +5168,8 @@ function ${1:hook}_taxonomy_vocabulary_load(\$vocabularies) {
 }'''
   'h.taxonomy_vocabulary_presave':
     'prefix': 'h.taxonomy_vocabulary_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_vocabulary_presave().
  */
 function ${1:hook}_taxonomy_vocabulary_presave(\$vocabulary) {
@@ -4874,7 +5177,8 @@ function ${1:hook}_taxonomy_vocabulary_presave(\$vocabulary) {
 }'''
   'h.taxonomy_vocabulary_update':
     'prefix': 'h.taxonomy_vocabulary_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_taxonomy_vocabulary_update().
  */
 function ${1:hook}_taxonomy_vocabulary_update(\$vocabulary) {
@@ -4882,7 +5186,8 @@ function ${1:hook}_taxonomy_vocabulary_update(\$vocabulary) {
 }'''
   'h.test_finished':
     'prefix': 'h.test_finished'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_test_finished().
  */
 function ${1:hook}_test_finished(\$results) {
@@ -4890,7 +5195,8 @@ function ${1:hook}_test_finished(\$results) {
 }'''
   'h.test_group_finished':
     'prefix': 'h.test_group_finished'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_test_group_finished().
  */
 function ${1:hook}_test_group_finished() {
@@ -4898,7 +5204,8 @@ function ${1:hook}_test_group_finished() {
 }'''
   'h.test_group_started':
     'prefix': 'h.test_group_started'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_test_group_started().
  */
 function ${1:hook}_test_group_started() {
@@ -4906,7 +5213,8 @@ function ${1:hook}_test_group_started() {
 }'''
   'h.theme':
     'prefix': 'h.theme'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_theme().
  */
 function ${1:hook}_theme(\$existing, \$type, \$theme, \$path) {
@@ -4918,7 +5226,8 @@ function ${1:hook}_theme(\$existing, \$type, \$theme, \$path) {
 }'''
   'h.theme_registry_alter':
     'prefix': 'h.theme_registry_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_theme_registry_alter().
  */
 function ${1:hook}_theme_registry_alter(&\$theme_registry) {
@@ -4926,7 +5235,8 @@ function ${1:hook}_theme_registry_alter(&\$theme_registry) {
 }'''
   'h.themes_disabled':
     'prefix': 'h.themes_disabled'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_themes_disabled().
  */
 function ${1:hook}_themes_disabled(\$theme_list) {
@@ -4934,7 +5244,8 @@ function ${1:hook}_themes_disabled(\$theme_list) {
 }'''
   'h.themes_enabled':
     'prefix': 'h.themes_enabled'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_themes_enabled().
  */
 function ${1:hook}_themes_enabled(\$theme_list) {
@@ -4942,7 +5253,8 @@ function ${1:hook}_themes_enabled(\$theme_list) {
 }'''
   'h.token_info':
     'prefix': 'h.token_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_token_info().
  */
 function ${1:hook}_token_info() {
@@ -4954,7 +5266,8 @@ function ${1:hook}_token_info() {
 }'''
   'h.token_info_alter':
     'prefix': 'h.token_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_token_info_alter().
  */
 function ${1:hook}_token_info_alter(&\$data) {
@@ -4962,7 +5275,8 @@ function ${1:hook}_token_info_alter(&\$data) {
 }'''
   'h.tokens':
     'prefix': 'h.tokens'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_tokens().
  */
 function ${1:hook}_tokens(\$type, \$tokens, \$data = array(), \$options = array()) {
@@ -4970,7 +5284,8 @@ function ${1:hook}_tokens(\$type, \$tokens, \$data = array(), \$options = array(
 }'''
   'h.tokens_alter':
     'prefix': 'h.tokens_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_tokens_alter().
  */
 function ${1:hook}_tokens_alter(array &\$replacements, array \$context) {
@@ -4978,7 +5293,8 @@ function ${1:hook}_tokens_alter(array &\$replacements, array \$context) {
 }'''
   'h.translated_menu_link_alter':
     'prefix': 'h.translated_menu_link_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_translated_menu_link_alter().
  */
 function ${1:hook}_translated_menu_link_alter(&\$item, \$map) {
@@ -4986,7 +5302,8 @@ function ${1:hook}_translated_menu_link_alter(&\$item, \$map) {
 }'''
   'h.trigger_info':
     'prefix': 'h.trigger_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_trigger_info().
  */
 function ${1:hook}_trigger_info() {
@@ -4994,7 +5311,8 @@ function ${1:hook}_trigger_info() {
 }'''
   'h.trigger_info_alter':
     'prefix': 'h.trigger_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_trigger_info_alter().
  */
 function ${1:hook}_trigger_info_alter(&\$triggers) {
@@ -5002,7 +5320,8 @@ function ${1:hook}_trigger_info_alter(&\$triggers) {
 }'''
   'h.uninstall':
     'prefix': 'h.uninstall'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_uninstall().
  */
 function ${1:hook}_uninstall() {
@@ -5010,7 +5329,8 @@ function ${1:hook}_uninstall() {
 }'''
   'h.update':
     'prefix': 'h.update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update().
  */
 function ${1:hook}_update(\$node) {
@@ -5018,7 +5338,8 @@ function ${1:hook}_update(\$node) {
 }'''
   'h.update_N':
     'prefix': 'h.update_N'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_N().
  */
 function ${1:hook}_update_${2:N}(&\$sandbox) {
@@ -5026,7 +5347,8 @@ function ${1:hook}_update_${2:N}(&\$sandbox) {
 }'''
   'h.update_dependencies':
     'prefix': 'h.update_dependencies'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_dependencies().
  */
 function ${1:hook}_update_dependencies() {
@@ -5034,7 +5356,8 @@ function ${1:hook}_update_dependencies() {
 }'''
   'h.update_index':
     'prefix': 'h.update_index'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_index().
  */
 function ${1:hook}_update_index() {
@@ -5042,7 +5365,8 @@ function ${1:hook}_update_index() {
 }'''
   'h.update_last_removed':
     'prefix': 'h.update_last_removed'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_last_removed().
  */
 function ${1:hook}_update_last_removed() {
@@ -5050,7 +5374,8 @@ function ${1:hook}_update_last_removed() {
 }'''
   'h.update_projects_alter':
     'prefix': 'h.update_projects_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_projects_alter().
  */
 function ${1:hook}_update_projects_alter(&\$projects) {
@@ -5058,7 +5383,8 @@ function ${1:hook}_update_projects_alter(&\$projects) {
 }'''
   'h.update_status_alter':
     'prefix': 'h.update_status_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_update_status_alter().
  */
 function ${1:hook}_update_status_alter(&\$projects) {
@@ -5066,7 +5392,8 @@ function ${1:hook}_update_status_alter(&\$projects) {
 }'''
   'h.updater_info':
     'prefix': 'h.updater_info'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_updater_info().
  */
 function ${1:hook}_updater_info() {
@@ -5074,7 +5401,8 @@ function ${1:hook}_updater_info() {
 }'''
   'h.updater_info_alter':
     'prefix': 'h.updater_info_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_updater_info_alter().
  */
 function ${1:hook}_updater_info_alter(&\$updaters) {
@@ -5082,7 +5410,8 @@ function ${1:hook}_updater_info_alter(&\$updaters) {
 }'''
   'h.url_inbound_alter':
     'prefix': 'h.url_inbound_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_url_inbound_alter().
  */
 function ${1:hook}_url_inbound_alter(&\$path, \$original_path, \$path_language) {
@@ -5090,7 +5419,8 @@ function ${1:hook}_url_inbound_alter(&\$path, \$original_path, \$path_language) 
 }'''
   'h.url_outbound_alter':
     'prefix': 'h.url_outbound_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_url_outbound_alter().
  */
 function ${1:hook}_url_outbound_alter(&\$path, &\$options, \$original_path) {
@@ -5098,7 +5428,8 @@ function ${1:hook}_url_outbound_alter(&\$path, &\$options, \$original_path) {
 }'''
   'h.user_cancel':
     'prefix': 'h.user_cancel'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_cancel().
  */
 function ${1:hook}_user_cancel(\$edit, \$account, \$method) {
@@ -5106,7 +5437,8 @@ function ${1:hook}_user_cancel(\$edit, \$account, \$method) {
 }'''
   'h.user_cancel_methods_alter':
     'prefix': 'h.user_cancel_methods_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_cancel_methods_alter().
  */
 function ${1:hook}_user_cancel_methods_alter(&\$methods) {
@@ -5114,7 +5446,8 @@ function ${1:hook}_user_cancel_methods_alter(&\$methods) {
 }'''
   'h.user_categories':
     'prefix': 'h.user_categories'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_categories().
  */
 function ${1:hook}_user_categories() {
@@ -5122,7 +5455,8 @@ function ${1:hook}_user_categories() {
 }'''
   'h.user_delete':
     'prefix': 'h.user_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_delete().
  */
 function ${1:hook}_user_delete(\$account) {
@@ -5130,7 +5464,8 @@ function ${1:hook}_user_delete(\$account) {
 }'''
   'h.user_insert':
     'prefix': 'h.user_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_insert().
  */
 function ${1:hook}_user_insert(&\$edit, \$account, \$category) {
@@ -5138,7 +5473,8 @@ function ${1:hook}_user_insert(&\$edit, \$account, \$category) {
 }'''
   'h.user_load':
     'prefix': 'h.user_load'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_load().
  */
 function ${1:hook}_user_load(\$users) {
@@ -5146,7 +5482,8 @@ function ${1:hook}_user_load(\$users) {
 }'''
   'h.user_login':
     'prefix': 'h.user_login'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_login().
  */
 function ${1:hook}_user_login(&\$edit, \$account) {
@@ -5154,7 +5491,8 @@ function ${1:hook}_user_login(&\$edit, \$account) {
 }'''
   'h.user_logout':
     'prefix': 'h.user_logout'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_logout().
  */
 function ${1:hook}_user_logout(\$account) {
@@ -5162,7 +5500,8 @@ function ${1:hook}_user_logout(\$account) {
 }'''
   'h.user_operations':
     'prefix': 'h.user_operations'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_operations().
  */
 function ${1:hook}_user_operations() {
@@ -5170,7 +5509,8 @@ function ${1:hook}_user_operations() {
 }'''
   'h.user_presave':
     'prefix': 'h.user_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_presave().
  */
 function ${1:hook}_user_presave(&\$edit, \$account, \$category) {
@@ -5178,7 +5518,8 @@ function ${1:hook}_user_presave(&\$edit, \$account, \$category) {
 }'''
   'h.user_role_delete':
     'prefix': 'h.user_role_delete'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_role_delete().
  */
 function ${1:hook}_user_role_delete(\$role) {
@@ -5186,7 +5527,8 @@ function ${1:hook}_user_role_delete(\$role) {
 }'''
   'h.user_role_insert':
     'prefix': 'h.user_role_insert'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_role_insert().
  */
 function ${1:hook}_user_role_insert(\$role) {
@@ -5194,7 +5536,8 @@ function ${1:hook}_user_role_insert(\$role) {
 }'''
   'h.user_role_presave':
     'prefix': 'h.user_role_presave'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_role_presave().
  */
 function ${1:hook}_user_role_presave(\$role) {
@@ -5202,7 +5545,8 @@ function ${1:hook}_user_role_presave(\$role) {
 }'''
   'h.user_role_update':
     'prefix': 'h.user_role_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_role_update().
  */
 function ${1:hook}_user_role_update(\$role) {
@@ -5210,7 +5554,8 @@ function ${1:hook}_user_role_update(\$role) {
 }'''
   'h.user_update':
     'prefix': 'h.user_update'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_update().
  */
 function ${1:hook}_user_update(&\$edit, \$account, \$category) {
@@ -5218,7 +5563,8 @@ function ${1:hook}_user_update(&\$edit, \$account, \$category) {
 }'''
   'h.user_view':
     'prefix': 'h.user_view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_view().
  */
 function ${1:hook}_user_view(\$account, \$view_mode, \$langcode) {
@@ -5226,7 +5572,8 @@ function ${1:hook}_user_view(\$account, \$view_mode, \$langcode) {
 }'''
   'h.user_view_alter':
     'prefix': 'h.user_view_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_user_view_alter().
  */
 function ${1:hook}_user_view_alter(&\$build) {
@@ -5234,7 +5581,8 @@ function ${1:hook}_user_view_alter(&\$build) {
 }'''
   'h.username_alter':
     'prefix': 'h.username_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_username_alter().
  */
 function ${1:hook}_username_alter(&\$name, \$account) {
@@ -5242,7 +5590,8 @@ function ${1:hook}_username_alter(&\$name, \$account) {
 }'''
   'h.validate':
     'prefix': 'h.validate'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_validate().
  */
 function ${1:hook}_validate(\$node, \$form, &\$form_state) {
@@ -5250,7 +5599,8 @@ function ${1:hook}_validate(\$node, \$form, &\$form_state) {
 }'''
   'h.verify_update_archive':
     'prefix': 'h.verify_update_archive'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_verify_update_archive().
  */
 function ${1:hook}_verify_update_archive(\$project, \$archive_file, \$directory) {
@@ -5258,7 +5608,8 @@ function ${1:hook}_verify_update_archive(\$project, \$archive_file, \$directory)
 }'''
   'h.view':
     'prefix': 'h.view'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_view().
  */
 function ${1:hook}_view(\$node, \$view_mode) {
@@ -5266,7 +5617,8 @@ function ${1:hook}_view(\$node, \$view_mode) {
 }'''
   'h.watchdog':
     'prefix': 'h.watchdog'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_watchdog().
  */
 function ${1:hook}_watchdog(array \$log_entry) {
@@ -5274,7 +5626,8 @@ function ${1:hook}_watchdog(array \$log_entry) {
 }'''
   'h.xmlrpc':
     'prefix': 'h.xmlrpc'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_xmlrpc().
  */
 function ${1:hook}_xmlrpc() {
@@ -5282,7 +5635,8 @@ function ${1:hook}_xmlrpc() {
 }'''
   'h.xmlrpc_alter':
     'prefix': 'h.xmlrpc_alter'
-    'body': '''/**
+    'body': '''
+/**
  * Implements hook_xmlrpc_alter().
  */
 function ${1:hook}_xmlrpc_alter(&\$methods) {

@@ -3994,18 +3994,18 @@ function ${1:hook}_form(\$node, &\$form_state) {
     'prefix': 'h.form_BASE_FORM_ID_alter'
     'body': '''
 /**
- * Implements hook_form_BASE_FORM_ID_alter() for ${1:BASE_FORM_ID}().
+ * Implements hook_form_BASE_FORM_ID_alter() for ${2:BASE_FORM_ID}().
  */
-function ${1:hook}_form_${1}_alter(&\$form, &\$form_state, \$form_id) {
+function ${1:hook}_form_$2_alter(&\$form, &\$form_state, \$form_id) {
 	$0
 }'''
   'h.form_FORM_ID_alter':
     'prefix': 'h.form_FORM_ID_alter'
     'body': '''
 /**
- * Implements hook_form_FORM_ID_alter() for ${1:FORM_ID}().
+ * Implements hook_form_FORM_ID_alter() for ${2:FORM_ID}().
  */
-function ${1:hook}_form_${1}_alter(&\$form, &\$form_state, \$form_id) {
+function ${1:hook}_form_$2_alter(&\$form, &\$form_state, \$form_id) {
 	$0
 }'''
   'h.form_alter':

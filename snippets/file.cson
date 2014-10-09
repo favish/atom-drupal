@@ -1,0 +1,172 @@
+'.source.php':
+  'drupal_basename':
+    'prefix': 'drupal_basename'
+    'body': '''drupal_basename(${1:uri}${2:, ${3:suffix}})'''
+  'drupal_chmod':
+    'prefix': 'drupal_chmod'
+    'body': '''drupal_chmod(${1:uri}${2:, ${3:mode}})'''
+  'drupal_dirname':
+    'prefix': 'drupal_dirname'
+    'body': '''drupal_dirname(${1:uri})'''
+  'drupal_mkdir':
+    'prefix': 'drupal_mkdir'
+    'body': '''drupal_mkdir(${1:uri}${2:, ${3:mode}${4:, ${5:recursive}${6:, ${7:context}}}})'''
+  'drupal_move_uploaded_file':
+    'prefix': 'drupal_move_uploaded_file'
+    'body': '''drupal_move_uploaded_file(${1:filename}, ${2:uri})'''
+  'drupal_realpath':
+    'prefix': 'drupal_realpath'
+    'body': '''drupal_realpath(${1:uri})'''
+  'drupal_rmdir':
+    'prefix': 'drupal_rmdir'
+    'body': '''drupal_rmdir(${1:uri}${2:, ${3:context}})'''
+  'drupal_tempnam':
+    'prefix': 'drupal_tempnam'
+    'body': '''drupal_tempnam(${1:directory}, ${2:prefix})'''
+  'drupal_unlink':
+    'prefix': 'drupal_unlink'
+    'body': '''drupal_unlink(${1:uri}${2:, ${3:context}})'''
+  'file_build_uri':
+    'prefix': 'file_build_uri'
+    'body': '''file_build_uri(${1:path})'''
+  'file_copy':
+    'prefix': 'file_copy'
+    'body': '''file_copy(${1:$source}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_create_filename':
+    'prefix': 'file_create_filename'
+    'body': '''file_create_filename(${1:basename}, ${2:directory})'''
+  'file_create_htaccess':
+    'prefix': 'file_create_htaccess'
+    'body': '''file_create_htaccess(${1:directory}${2:, ${3:private}${4:, ${5:force_overwrite}}})'''
+  'file_create_url':
+    'prefix': 'file_create_url'
+    'body': '''file_create_url(${1:uri})'''
+  'file_default_scheme':
+    'prefix': 'file_default_scheme'
+    'body': '''file_default_scheme()'''
+  'file_delete':
+    'prefix': 'file_delete'
+    'body': '''file_delete(${1:$file}${2:, ${3:force}})'''
+  'file_destination':
+    'prefix': 'file_destination'
+    'body': '''file_destination(${1:destination}, ${2:replace})'''
+  'file_directory_temp':
+    'prefix': 'file_directory_temp'
+    'body': '''file_directory_temp()'''
+  'file_download':
+    'prefix': 'file_download'
+    'body': '''file_download()'''
+  'file_download_access':
+    'prefix': 'file_download_access'
+    'body': '''file_download_access(${1:uri})'''
+  'file_download_headers':
+    'prefix': 'file_download_headers'
+    'body': '''file_download_headers(${1:uri})'''
+  'file_ensure_htaccess':
+    'prefix': 'file_ensure_htaccess'
+    'body': '''file_ensure_htaccess()'''
+  'file_get_content_headers':
+    'prefix': 'file_get_content_headers'
+    'body': '''file_get_content_headers(${1:file})'''
+  'file_get_mimetype':
+    'prefix': 'file_get_mimetype'
+    'body': '''file_get_mimetype(${1:uri}${2:, ${3:mapping}})'''
+  'file_get_stream_wrappers':
+    'prefix': 'file_get_stream_wrappers'
+    'body': '''file_get_stream_wrappers(${1:, ${2:filter}})'''
+  'file_htaccess_lines':
+    'prefix': 'file_htaccess_lines'
+    'body': '''file_htaccess_lines(${1:, ${2:private}})'''
+  'file_load':
+    'prefix': 'file_load'
+    'body': '''file_load(${1:fid})'''
+  'file_move':
+    'prefix': 'file_move'
+    'body': '''file_move(${1:$source}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_munge_filename':
+    'prefix': 'file_munge_filename'
+    'body': '''file_munge_filename(${1:filename}, ${2:extensions}${3:, ${4:alerts}})'''
+  'file_prepare_directory':
+    'prefix': 'file_prepare_directory'
+    'body': '''file_prepare_directory(${1:directory}${2:, ${3:options}})'''
+  'file_save':
+    'prefix': 'file_save'
+    'body': '''file_save(${1:$file})'''
+  'file_save_data':
+    'prefix': 'file_save_data'
+    'body': '''file_save_data(${1:data}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_space_used':
+    'prefix': 'file_space_used'
+    'body': '''file_space_used(${1:, ${2:uid}${3:, ${4:status}}})'''
+  'file_stream_wrapper_get_class':
+    'prefix': 'file_stream_wrapper_get_class'
+    'body': '''file_stream_wrapper_get_class(${1:scheme})'''
+  'file_stream_wrapper_get_instance_by_scheme':
+    'prefix': 'file_stream_wrapper_get_instance_by_scheme'
+    'body': '''file_stream_wrapper_get_instance_by_scheme(${1:scheme})'''
+  'file_stream_wrapper_get_instance_by_uri':
+    'prefix': 'file_stream_wrapper_get_instance_by_uri'
+    'body': '''file_stream_wrapper_get_instance_by_uri(${1:uri})'''
+  'file_stream_wrapper_uri_normalize':
+    'prefix': 'file_stream_wrapper_uri_normalize'
+    'body': '''file_stream_wrapper_uri_normalize(${1:uri})'''
+  'file_stream_wrapper_valid_scheme':
+    'prefix': 'file_stream_wrapper_valid_scheme'
+    'body': '''file_stream_wrapper_valid_scheme(${1:scheme})'''
+  'file_transfer':
+    'prefix': 'file_transfer'
+    'body': '''file_transfer(${1:uri}, ${2:headers})'''
+  'file_unmanaged_copy':
+    'prefix': 'file_unmanaged_copy'
+    'body': '''file_unmanaged_copy(${1:source}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_unmanaged_delete':
+    'prefix': 'file_unmanaged_delete'
+    'body': '''file_unmanaged_delete(${1:path})'''
+  'file_unmanaged_delete_recursive':
+    'prefix': 'file_unmanaged_delete_recursive'
+    'body': '''file_unmanaged_delete_recursive(${1:path})'''
+  'file_unmanaged_move':
+    'prefix': 'file_unmanaged_move'
+    'body': '''file_unmanaged_move(${1:source}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_unmanaged_save_data':
+    'prefix': 'file_unmanaged_save_data'
+    'body': '''file_unmanaged_save_data(${1:data}${2:, ${3:destination}${4:, ${5:replace}}})'''
+  'file_unmunge_filename':
+    'prefix': 'file_unmunge_filename'
+    'body': '''file_unmunge_filename(${1:filename})'''
+  'file_upload_max_size':
+    'prefix': 'file_upload_max_size'
+    'body': '''file_upload_max_size()'''
+  'file_uri_scheme':
+    'prefix': 'file_uri_scheme'
+    'body': '''file_uri_scheme(${1:uri})'''
+  'file_uri_target':
+    'prefix': 'file_uri_target'
+    'body': '''file_uri_target(${1:uri})'''
+  'file_usage_add':
+    'prefix': 'file_usage_add'
+    'body': '''file_usage_add(${1:$file}, ${2:module}, ${3:type}, ${4:id}${5:, ${6:count}})'''
+  'file_usage_delete':
+    'prefix': 'file_usage_delete'
+    'body': '''file_usage_delete(${1:$file}, ${2:module}${3:, ${4:type}${5:, ${6:id}${7:, ${8:count}}}})'''
+  'file_usage_list':
+    'prefix': 'file_usage_list'
+    'body': '''file_usage_list(${1:$file})'''
+  'file_valid_uri':
+    'prefix': 'file_valid_uri'
+    'body': '''file_valid_uri(${1:uri})'''
+  'file_validate_extensions':
+    'prefix': 'file_validate_extensions'
+    'body': '''file_validate_extensions(${1:$file}, ${2:extensions})'''
+  'file_validate_image_resolution':
+    'prefix': 'file_validate_image_resolution'
+    'body': '''file_validate_image_resolution(${1:$file}${2:, ${3:maximum_dimensions}${4:, ${5:minimum_dimensions}}})'''
+  'file_validate_is_image':
+    'prefix': 'file_validate_is_image'
+    'body': '''file_validate_is_image(${1:$file})'''
+  'file_validate_name_length':
+    'prefix': 'file_validate_name_length'
+    'body': '''file_validate_name_length(${1:$file})'''
+  'file_validate_size':
+    'prefix': 'file_validate_size'
+    'body': '''file_validate_size(${1:$file}${2:, ${3:file_limit}${4:, ${5:user_limit}}})'''

@@ -2561,7 +2561,7 @@ function ${1:hook}_block_configure(\$delta = '') {
 /**
  * Implements hook_block_info().
  */
-function ${1:hook}_${1:block_info}() {
+function ${1:hook}_block_info() {
 	$0
 }
 '''
@@ -2589,7 +2589,7 @@ function ${1:hook}_block_list_alter(&\$blocks) {
 /**
  * Implements hook_block_save().
  */
-function ${1:hook}_${1:block_save}(\$delta = '', \$edit = array()) {
+function ${1:hook}_block_save(\$delta = '', \$edit = array()) {
 	$0
 }
 '''

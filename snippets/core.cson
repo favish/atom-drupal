@@ -9949,9 +9949,6 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
   'watchdog_severity_levels':
     'prefix': 'watchdog_severity_levels'
     'body': '''watchdog_severity_levels()'''
-'.source.python':
   'menu_get_object':
     'prefix': 'menu_get_object'
-    'body': '''
-menu_get_object(${1:node${2:, ${3:position${4:, ${5:path}}}}});
-'''
+    'body': '''menu_get_object(${1:node${2:, ${3:position${4:, ${5:path}}}}});'''

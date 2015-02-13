@@ -1,0 +1,15 @@
+'.source.php':
+  'hook_libraries_info':
+    'prefix': 'h.libraries_info'
+    'body': '''
+/**
+ * Implements hook_libraries_info().
+ */
+function ${1:hook}_libraries_info() {
+  return array(
+    '${2:library}' => array(
+      $0
+    ),
+  );
+}
+'''

@@ -1,0 +1,20 @@
+'name': 'Drupal Info File'
+'scopeName': 'source.drupal'
+'fileTypes': [
+  'info'
+]
+'patterns': [
+  {
+    'match': "^([a-zA-Z0-9\\-_\\]+\\[\\s]+)\\s*=\\s*(.+)$"
+    'captures': {
+      '1':
+        'name': 'keyword.name'
+      '2':
+        'name': 'string'
+    }
+  }
+  {
+    'match': '^;.+'
+    'name': 'comment.line'
+  }
+]

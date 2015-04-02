@@ -1,6 +1,19 @@
-'.undefined':
-  'undefined':
-    'prefix': 'undefined'
-    'body': '''
-${1:name} = ${2:value}
-'''
+'.drupal':
+  'Name':
+    'prefix': 'n'
+    'body': 'name = ${1:name}'
+  'Core':
+    'prefix': 'c'
+    'body': 'core = ${1:7.x}'
+  'Package':
+    'prefix': 'p'
+    'body': 'package = ${1:package}'
+  'Dependency':
+    'prefix': 'dep'
+    'body': 'dependencies[] = ${1:dependency}'
+  'Description':
+    'prefix': 'des'
+    'body': 'description = ${1:description}'
+  'File':
+    'prefix': 'f'
+    'body': 'files[$2] = ${1:file}'

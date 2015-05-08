@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'pre_admin_block':
     'prefix': 'pre_admin_block'
     'body': '''/**

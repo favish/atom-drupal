@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'drupal_basename':
     'prefix': 'drupal_basename'
     'body': '''drupal_basename(${1:uri}${2:, ${3:suffix}})'''

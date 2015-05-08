@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'hook_libraries_info':
     'prefix': 'h.libraries_info'
     'body': '''

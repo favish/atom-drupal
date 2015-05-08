@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'aggregator_admin_form':
     'prefix': 'aggregator_admin_form'
     'body': '''aggregator_admin_form(${1:form}, ${2:form_state})'''

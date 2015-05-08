@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'qcon':
     'prefix': 'qcon'
     'body': '''\$${1:query}->condition(${2:'${3:field}'}, ${4:'${5:value}'}, '${6:=}')${7:;}'''

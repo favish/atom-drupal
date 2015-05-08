@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'block':
     'prefix': 'block'
     'body': '''

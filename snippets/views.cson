@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'aggregator_views_api':
     'prefix': 'aggregator_views_api'
     'body': '''aggregator_views_api()'''

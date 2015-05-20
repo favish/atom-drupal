@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'fapi.fieldset':
     'prefix': 'fapi.fieldset'
     'body': '''

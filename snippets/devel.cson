@@ -1,4 +1,4 @@
-'.source.php':
+'.text.html.php':
   'dd':
     'prefix': 'dd'
     'body': '''dd($1);'''

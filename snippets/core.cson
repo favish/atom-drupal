@@ -40,13 +40,13 @@
     'body': '''aggregator_aggregator_remove(${1:feed})'''
   'aggregator_block_configure':
     'prefix': 'aggregator_block_configure'
-    'body': '''aggregator_block_configure(${1:, ${2:delta}})'''
+    'body': '''aggregator_block_configure(${1:delta})'''
   'aggregator_block_info':
     'prefix': 'aggregator_block_info'
     'body': '''aggregator_block_info()'''
   'aggregator_block_view':
     'prefix': 'aggregator_block_view'
-    'body': '''aggregator_block_view(${1:, ${2:delta}})'''
+    'body': '''aggregator_block_view(${2:delta})'''
   'aggregator_categorize_items':
     'prefix': 'aggregator_categorize_items'
     'body': '''aggregator_categorize_items(${1:items}${2:, ${3:feed_source}})'''
@@ -130,7 +130,7 @@
     'body': '''aggregator_page_last()'''
   'aggregator_page_opml':
     'prefix': 'aggregator_page_opml'
-    'body': '''aggregator_page_opml(${1:, ${2:cid}})'''
+    'body': '''aggregator_page_opml(${2:cid})'''
   'aggregator_page_rss':
     'prefix': 'aggregator_page_rss'
     'body': '''aggregator_page_rss()'''
@@ -214,10 +214,10 @@
     'body': '''block_admin_configure_validate(${1:form}, ${2:form_state})'''
   'block_admin_demo':
     'prefix': 'block_admin_demo'
-    'body': '''block_admin_demo(${1:, ${2:theme}})'''
+    'body': '''block_admin_demo(${1:theme})'''
   'block_admin_display':
     'prefix': 'block_admin_display'
-    'body': '''block_admin_display(${1:, ${2:theme}})'''
+    'body': '''block_admin_display(${1:theme})'''
   'block_admin_display_form':
     'prefix': 'block_admin_display_form'
     'body': '''block_admin_display_form(${1:form}, ${2:form_state}, ${3:blocks}, ${4:theme}${5:, ${6:block_regions}})'''
@@ -232,7 +232,7 @@
     'body': '''block_admin_paths()'''
   'block_block_configure':
     'prefix': 'block_block_configure'
-    'body': '''block_block_configure(${1:, ${2:delta}})'''
+    'body': '''block_block_configure(${1:delta})'''
   'block_block_info':
     'prefix': 'block_block_info'
     'body': '''block_block_info()'''
@@ -241,7 +241,7 @@
     'body': '''block_block_list_alter(${1:blocks})'''
   'block_block_view':
     'prefix': 'block_block_view'
-    'body': '''block_block_view(${1:, ${2:delta}})'''
+    'body': '''block_block_view(${1:delta})'''
   'block_custom_block_delete':
     'prefix': 'block_custom_block_delete'
     'body': '''block_custom_block_delete(${1:form}, ${2:form_state}, ${3:module}, ${4:delta})'''
@@ -310,13 +310,13 @@
     'body': '''blocked_ip_load(${1:iid})'''
   'blog_block_configure':
     'prefix': 'blog_block_configure'
-    'body': '''blog_block_configure(${1:, ${2:delta}})'''
+    'body': '''blog_block_configure(${1:delta})'''
   'blog_block_info':
     'prefix': 'blog_block_info'
     'body': '''blog_block_info()'''
   'blog_block_view':
     'prefix': 'blog_block_view'
-    'body': '''blog_block_view(${1:, ${2:delta}})'''
+    'body': '''blog_block_view(${1:delta})'''
   'blog_feed_last':
     'prefix': 'blog_feed_last'
     'body': '''blog_feed_last()'''
@@ -382,13 +382,13 @@
     'body': '''book_admin_settings_validate(${1:form}, ${2:form_state})'''
   'book_block_configure':
     'prefix': 'book_block_configure'
-    'body': '''book_block_configure(${1:, ${2:delta}})'''
+    'body': '''book_block_configure(${1:delta})'''
   'book_block_info':
     'prefix': 'book_block_info'
     'body': '''book_block_info()'''
   'book_block_view':
     'prefix': 'book_block_view'
-    'body': '''book_block_view(${1:, ${2:delta}})'''
+    'body': '''book_block_view(${1:delta})'''
   'book_children':
     'prefix': 'book_children'
     'body': '''book_children(${1:book_link})'''
@@ -565,7 +565,7 @@
     'body': '''comment_action_info()'''
   'comment_admin':
     'prefix': 'comment_admin'
-    'body': '''comment_admin(${1:, ${2:type}})'''
+    'body': '''comment_admin(${1:type})'''
   'comment_admin_overview':
     'prefix': 'comment_admin_overview'
     'body': '''comment_admin_overview(${1:form}, ${2:form_state}, ${3:arg})'''
@@ -580,13 +580,13 @@
     'body': '''comment_approve(${1:cid})'''
   'comment_block_configure':
     'prefix': 'comment_block_configure'
-    'body': '''comment_block_configure(${1:, ${2:delta}})'''
+    'body': '''comment_block_configure(${1:delta})'''
   'comment_block_info':
     'prefix': 'comment_block_info'
     'body': '''comment_block_info()'''
   'comment_block_view':
     'prefix': 'comment_block_view'
-    'body': '''comment_block_view(${1:, ${2:delta}})'''
+    'body': '''comment_block_view(${1:delta})'''
   'comment_build_content':
     'prefix': 'comment_build_content'
     'body': '''comment_build_content(${1:comment}, ${2:node}${3:, ${4:view_mode}${5:, ${6:langcode}}})'''
@@ -652,7 +652,7 @@
     'body': '''comment_get_display_page(${1:cid}, ${2:node_type})'''
   'comment_get_recent':
     'prefix': 'comment_get_recent'
-    'body': '''comment_get_recent(${1:, ${2:number}})'''
+    'body': '''comment_get_recent(${1:number})'''
   'comment_get_thread':
     'prefix': 'comment_get_thread'
     'body': '''comment_get_thread(${1:node}, ${2:mode}, ${3:comments_per_page})'''
@@ -865,7 +865,7 @@
     'body': '''contextual_preprocess(${1:variables}, ${2:hook})'''
   'dashboard_admin':
     'prefix': 'dashboard_admin'
-    'body': '''dashboard_admin(${1:, ${2:launch_customize}})'''
+    'body': '''dashboard_admin(${1:launch_customize})'''
   'dashboard_admin_blocks':
     'prefix': 'dashboard_admin_blocks'
     'body': '''dashboard_admin_blocks()'''
@@ -1148,7 +1148,7 @@ drupal_explode_tags(${1:tags})
     'body': '''drupal_get_breadcrumb();'''
   'drupal_get_complete_schema':
     'prefix': 'drupal_get_complete_schema'
-    'body': '''drupal_get_complete_schema(${1:, ${2:rebuild}})'''
+    'body': '''drupal_get_complete_schema(${1:rebuild})'''
   'drupal_get_css':
     'prefix': 'drupal_get_css'
     'body': '''drupal_get_css(${1:, ${2:css}${3:, ${4:skip_alter}}})'''
@@ -1157,7 +1157,7 @@ drupal_explode_tags(${1:tags})
     'body': '''drupal_get_destination()'''
   'drupal_get_feeds':
     'prefix': 'drupal_get_feeds'
-    'body': '''drupal_get_feeds(${1:, ${2:delimiter}})'''
+    'body': '''drupal_get_feeds(${1:delimiter})'''
   'drupal_get_filename':
     'prefix': 'drupal_get_filename'
     'body': '''drupal_get_filename(${1:type}, ${2:name}${3:, ${4:filename}})'''
@@ -1172,7 +1172,7 @@ drupal_explode_tags(${1:tags})
     'body': '''drupal_get_html_head()'''
   'drupal_get_http_header':
     'prefix': 'drupal_get_http_header'
-    'body': '''drupal_get_http_header(${1:, ${2:name}})'''
+    'body': '''drupal_get_http_header(${1:name})'''
   'drupal_get_js':
     'prefix': 'drupal_get_js'
     'body': '''drupal_get_js(${1:${2:scope}${3:, ${4:javascript}${5:, ${6:skip_alter}}}})'''
@@ -1214,7 +1214,7 @@ drupal_explode_tags(${1:tags})
     'body': '''drupal_get_title()'''
   'drupal_get_token':
     'prefix': 'drupal_get_token'
-    'body': '''drupal_get_token(${1:, ${2:value}})'''
+    'body': '''drupal_get_token(${1:value})'''
   'drupal_get_updaters':
     'prefix': 'drupal_get_updaters'
     'body': '''drupal_get_updaters()'''
@@ -1267,7 +1267,7 @@ drupal_implode_tags(${1:tags})
     'body': '''drupal_is_front_page()'''
   'drupal_js_defaults':
     'prefix': 'drupal_js_defaults'
-    'body': '''drupal_js_defaults(${1:, ${2:data}})'''
+    'body': '''drupal_js_defaults(${1:data})'''
   'drupal_json_decode':
     'prefix': 'drupal_json_decode'
     'body': '''drupal_json_decode(\$${1:variable})'''
@@ -1312,13 +1312,13 @@ drupal_implode_tags(${1:tags})
     'body': '''drupal_page_footer()'''
   'drupal_page_get_cache':
     'prefix': 'drupal_page_get_cache'
-    'body': '''drupal_page_get_cache(${1:, ${2:check_only}})'''
+    'body': '''drupal_page_get_cache(${1:check_only})'''
   'drupal_page_header':
     'prefix': 'drupal_page_header'
     'body': '''drupal_page_header()'''
   'drupal_page_is_cacheable':
     'prefix': 'drupal_page_is_cacheable'
-    'body': '''drupal_page_is_cacheable(${1:, ${2:allow_caching}})'''
+    'body': '''drupal_page_is_cacheable(${1:allow_caching})'''
   'drupal_page_set_cache':
     'prefix': 'drupal_page_set_cache'
     'body': '''drupal_page_set_cache()'''
@@ -1384,7 +1384,7 @@ drupal_implode_tags(${1:tags})
     'body': '''drupal_render_cid_create(${1:elements})'''
   'drupal_render_cid_parts':
     'prefix': 'drupal_render_cid_parts'
-    'body': '''drupal_render_cid_parts(${1:, ${2:granularity}})'''
+    'body': '''drupal_render_cid_parts(${1:granularity})'''
   'drupal_render_collect_attached':
     'prefix': 'drupal_render_collect_attached'
     'body': '''drupal_render_collect_attached(${1:elements}${2:, ${3:return}})'''
@@ -1405,7 +1405,7 @@ drupal_implode_tags(${1:tags})
     'body': '''drupal_set_message(t(${1:message})${2:, '${3:status}'${4:, FALSE}})'''
   'drupal_set_page_content':
     'prefix': 'drupal_set_page_content'
-    'body': '''drupal_set_page_content(${1:, ${2:content}})'''
+    'body': '''drupal_set_page_content(${1:content})'''
   'drupal_set_time_limit':
     'prefix': 'drupal_set_time_limit'
     'body': '''drupal_set_time_limit(${1:time_limit})'''
@@ -1432,7 +1432,7 @@ drupal_implode_tags(${1:tags})
     'body': '''\$${1:variable} = &drupal_static(${2:__FUNCTION__}${3:, ${4:default}${5:, ${6:reset}}});'''
   'drupal_static_reset':
     'prefix': 'drupal_static_reset'
-    'body': '''drupal_static_reset(${1:, ${2:name}})'''
+    'body': '''drupal_static_reset(${1:name})'''
   'drupal_strip_dangerous_protocols':
     'prefix': 'drupal_strip_dangerous_protocols'
     'body': '''drupal_strip_dangerous_protocols(${1:uri})'''
@@ -1690,7 +1690,7 @@ drupal_implode_tags(${1:tags})
     'body': '''field_help(${1:path}, ${2:arg})'''
   'field_info_bundles':
     'prefix': 'field_info_bundles'
-    'body': '''field_info_bundles(${1:, ${2:entity_type}})'''
+    'body': '''field_info_bundles(${1:entity_type})'''
   'field_info_cache_clear':
     'prefix': 'field_info_cache_clear'
     'body': '''field_info_cache_clear()'''
@@ -1711,7 +1711,7 @@ drupal_implode_tags(${1:tags})
     'body': '''field_info_field_settings(${1:type})'''
   'field_info_field_types':
     'prefix': 'field_info_field_types'
-    'body': '''field_info_field_types(${1:, ${2:field_type}})'''
+    'body': '''field_info_field_types(${1:field_type})'''
   'field_info_fields':
     'prefix': 'field_info_fields'
     'body': '''field_info_fields()'''
@@ -1720,7 +1720,7 @@ drupal_implode_tags(${1:tags})
     'body': '''field_info_formatter_settings(${1:type})'''
   'field_info_formatter_types':
     'prefix': 'field_info_formatter_types'
-    'body': '''field_info_formatter_types(${1:, ${2:formatter_type}})'''
+    'body': '''field_info_formatter_types(${1:formatter_type})'''
   'field_info_instance':
     'prefix': 'field_info_instance'
     'body': '''field_info_instance(${1:entity_type}, ${2:field_name}, ${3:bundle_name})'''
@@ -1738,13 +1738,13 @@ drupal_implode_tags(${1:tags})
     'body': '''field_info_storage_settings(${1:type})'''
   'field_info_storage_types':
     'prefix': 'field_info_storage_types'
-    'body': '''field_info_storage_types(${1:, ${2:storage_type}})'''
+    'body': '''field_info_storage_types(${1:storage_type})'''
   'field_info_widget_settings':
     'prefix': 'field_info_widget_settings'
     'body': '''field_info_widget_settings(${1:type})'''
   'field_info_widget_types':
     'prefix': 'field_info_widget_types'
-    'body': '''field_info_widget_types(${1:, ${2:widget_type}})'''
+    'body': '''field_info_widget_types(${1:widget_type})'''
   'field_is_translatable':
     'prefix': 'field_is_translatable'
     'body': '''field_is_translatable(${1:entity_type}, ${2:field})'''
@@ -1915,7 +1915,7 @@ drupal_implode_tags(${1:tags})
     'body': '''field_ui_form_node_type_form_submit(${1:form}, ${2:form_state})'''
   'field_ui_formatter_options':
     'prefix': 'field_ui_formatter_options'
-    'body': '''field_ui_formatter_options(${1:, ${2:field_type}})'''
+    'body': '''field_ui_formatter_options(${1:field_type})'''
   'field_ui_get_destinations':
     'prefix': 'field_ui_get_destinations'
     'body': '''field_ui_get_destinations(${1:destinations})'''
@@ -2134,7 +2134,7 @@ drupal_implode_tags(${1:tags})
     'body': '''filter_admin_format_form_validate(${1:form}, ${2:form_state})'''
   'filter_admin_format_page':
     'prefix': 'filter_admin_format_page'
-    'body': '''filter_admin_format_page(${1:, ${2:format}})'''
+    'body': '''filter_admin_format_page(${1:format})'''
   'filter_admin_format_title':
     'prefix': 'filter_admin_format_title'
     'body': '''filter_admin_format_title(${1:format})'''
@@ -2146,7 +2146,7 @@ drupal_implode_tags(${1:tags})
     'body': '''filter_admin_overview_submit(${1:form}, ${2:form_state})'''
   'filter_default_format':
     'prefix': 'filter_default_format'
-    'body': '''filter_default_format(${1:, ${2:account}})'''
+    'body': '''filter_default_format(${1:account})'''
   'filter_dom_load':
     'prefix': 'filter_dom_load'
     'body': '''filter_dom_load(${1:text})'''
@@ -2188,7 +2188,7 @@ drupal_implode_tags(${1:tags})
     'body': '''filter_format_save(${1:format})'''
   'filter_formats':
     'prefix': 'filter_formats'
-    'body': '''filter_formats(${1:, ${2:account}})'''
+    'body': '''filter_formats(${1:account})'''
   'filter_formats_reset':
     'prefix': 'filter_formats_reset'
     'body': '''filter_formats_reset()'''
@@ -2269,13 +2269,13 @@ drupal_implode_tags(${1:tags})
     'body': '''forum_admin_settings(${1:form})'''
   'forum_block_configure':
     'prefix': 'forum_block_configure'
-    'body': '''forum_block_configure(${1:, ${2:delta}})'''
+    'body': '''forum_block_configure(${1:delta})'''
   'forum_block_info':
     'prefix': 'forum_block_info'
     'body': '''forum_block_info()'''
   'forum_block_view':
     'prefix': 'forum_block_view'
-    'body': '''forum_block_view(${1:, ${2:delta}})'''
+    'body': '''forum_block_view(${1:delta})'''
   'forum_block_view_pre_render':
     'prefix': 'forum_block_view_pre_render'
     'body': '''forum_block_view_pre_render(${1:elements})'''
@@ -2323,7 +2323,7 @@ drupal_implode_tags(${1:tags})
     'body': '''forum_form_taxonomy_form_vocabulary_alter(${1:form}, ${2:form_state}, ${3:form_id})'''
   'forum_forum_load':
     'prefix': 'forum_forum_load'
-    'body': '''forum_forum_load(${1:, ${2:tid}})'''
+    'body': '''forum_forum_load(${1:tid})'''
   'forum_get_topics':
     'prefix': 'forum_get_topics'
     'body': '''forum_get_topics(${1:tid}, ${2:sortby}, ${3:forum_per_page})'''
@@ -2365,7 +2365,7 @@ drupal_implode_tags(${1:tags})
     'body': '''forum_overview(${1:form}, ${2:form_state})'''
   'forum_page':
     'prefix': 'forum_page'
-    'body': '''forum_page(${1:, ${2:forum_term}})'''
+    'body': '''forum_page(${1:forum_term})'''
   'forum_permission':
     'prefix': 'forum_permission'
     'body': '''forum_permission()'''
@@ -5926,7 +5926,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''image_style_name_validate(${1:element}, ${2:form_state})'''
   'image_style_options':
     'prefix': 'image_style_options'
-    'body': '''image_style_options(${1:, ${2:include_empty}})'''
+    'body': '''image_style_options(${1:include_empty})'''
   'image_style_path':
     'prefix': 'image_style_path'
     'body': '''image_style_path(${1:style_name}, ${2:uri})'''
@@ -5959,7 +5959,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''initializeRegistry()'''
   'int2vancode':
     'prefix': 'int2vancode'
-    'body': '''int2vancode(${1:, ${2:i}})'''
+    'body': '''int2vancode(${1:i})'''
   'ip_address':
     'prefix': 'ip_address'
     'body': '''ip_address()'''
@@ -6025,7 +6025,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''list_options_list(${1:field}, ${2:instance}, ${3:entity_type}, ${4:entity})'''
   'list_themes':
     'prefix': 'list_themes'
-    'body': '''list_themes(${1:, ${2:refresh}})'''
+    'body': '''list_themes(${1:refresh})'''
   'locale':
     'prefix': 'locale'
     'body': '''locale(${1:, ${2:string}${3:, ${4:context}${5:, ${6:langcode}}}})'''
@@ -6160,7 +6160,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''locale_library_alter(${1:libraries}, ${2:module})'''
   'locale_locale':
     'prefix': 'locale_locale'
-    'body': '''locale_locale(${1:, ${2:op}})'''
+    'body': '''locale_locale(${1:op})'''
   'locale_menu':
     'prefix': 'locale_menu'
     'body': '''locale_menu()'''
@@ -6253,7 +6253,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''menu_block_info()'''
   'menu_block_view':
     'prefix': 'menu_block_view'
-    'body': '''menu_block_view(${1:, ${2:delta}})'''
+    'body': '''menu_block_view(${1:delta})'''
   'menu_block_view_alter':
     'prefix': 'menu_block_view_alter'
     'body': '''menu_block_view_alter(${1:data}, ${2:block})'''
@@ -6301,7 +6301,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''menu_form_node_type_form_alter(${1:form}, ${2:form_state})'''
   'menu_get_menus':
     'prefix': 'menu_get_menus'
-    'body': '''menu_get_menus(${1:, ${2:all}})'''
+    'body': '''menu_get_menus(${1:all})'''
   'menu_help':
     'prefix': 'menu_help'
     'body': '''menu_help(${1:path}, ${2:arg})'''
@@ -6402,13 +6402,13 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''node_access_grants(${1:op}${2:, ${3:account}})'''
   'node_access_needs_rebuild':
     'prefix': 'node_access_needs_rebuild'
-    'body': '''node_access_needs_rebuild(${1:, ${2:rebuild}})'''
+    'body': '''node_access_needs_rebuild(${1:rebuild})'''
   'node_access_rebuild':
     'prefix': 'node_access_rebuild'
-    'body': '''node_access_rebuild(${1:, ${2:batch_mode}})'''
+    'body': '''node_access_rebuild(${1:batch_mode})'''
   'node_access_view_all_nodes':
     'prefix': 'node_access_view_all_nodes'
-    'body': '''node_access_view_all_nodes(${1:, ${2:account}})'''
+    'body': '''node_access_view_all_nodes(${1:account})'''
   'node_access_write_grants':
     'prefix': 'node_access_write_grants'
     'body': '''node_access_write_grants(${1:node}, ${2:grants}${3:, ${4:realm}${5:, ${6:delete}}})'''
@@ -6453,7 +6453,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''node_assign_owner_action_validate(${1:form}, ${2:form_state})'''
   'node_block_configure':
     'prefix': 'node_block_configure'
-    'body': '''node_block_configure(${1:, ${2:delta}})'''
+    'body': '''node_block_configure(${1:delta})'''
   'node_block_info':
     'prefix': 'node_block_info'
     'body': '''node_block_info()'''
@@ -6462,7 +6462,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''node_block_list_alter(${1:blocks})'''
   'node_block_view':
     'prefix': 'node_block_view'
-    'body': '''node_block_view(${1:, ${2:delta}})'''
+    'body': '''node_block_view(${1:delta})'''
   'node_build_content':
     'prefix': 'node_build_content'
     'body': '''node_build_content(${1:node}${2:, ${3:view_mode}${4:, ${5:langcode}}})'''
@@ -6555,7 +6555,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''node_forms()'''
   'node_get_recent':
     'prefix': 'node_get_recent'
-    'body': '''node_get_recent(${1:, ${2:number}})'''
+    'body': '''node_get_recent(${1:number})'''
   'node_help':
     'prefix': 'node_help'
     'body': '''node_help(${1:path}, ${2:arg})'''
@@ -7011,7 +7011,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''overlay_disable_message()'''
   'overlay_display_empty_page':
     'prefix': 'overlay_display_empty_page'
-    'body': '''overlay_display_empty_page(${1:, ${2:value}})'''
+    'body': '''overlay_display_empty_page(${1:value})'''
   'overlay_drupal_goto_alter':
     'prefix': 'overlay_drupal_goto_alter'
     'body': '''overlay_drupal_goto_alter(${1:path}, ${2:options}, ${3:http_response_code})'''
@@ -7080,10 +7080,10 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''overlay_request_refresh(${1:region})'''
   'overlay_set_mode':
     'prefix': 'overlay_set_mode'
-    'body': '''overlay_set_mode(${1:, ${2:mode}})'''
+    'body': '''overlay_set_mode(${1:mode})'''
   'overlay_set_regions_to_render':
     'prefix': 'overlay_set_regions_to_render'
-    'body': '''overlay_set_regions_to_render(${1:, ${2:regions}})'''
+    'body': '''overlay_set_regions_to_render(${1:regions})'''
   'overlay_store_rendered_content':
     'prefix': 'overlay_store_rendered_content'
     'body': '''overlay_store_rendered_content(${1:, ${2:id}${3:, ${4:content}}})'''
@@ -7134,7 +7134,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''path_admin_form_validate(${1:form}, ${2:form_state})'''
   'path_admin_overview':
     'prefix': 'path_admin_overview'
-    'body': '''path_admin_overview(${1:, ${2:keys}})'''
+    'body': '''path_admin_overview(${1:keys})'''
   'path_form_element_validate':
     'prefix': 'path_form_element_validate'
     'body': '''path_form_element_validate(${1:element}, ${2:form_state}, ${3:complete_form})'''
@@ -7194,7 +7194,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''poll_block_latest_poll_view(${1:node})'''
   'poll_block_view':
     'prefix': 'poll_block_view'
-    'body': '''poll_block_view(${1:, ${2:delta}})'''
+    'body': '''poll_block_view(${1:delta})'''
   'poll_cancel':
     'prefix': 'poll_cancel'
     'body': '''poll_cancel(${1:form}, ${2:form_state})'''
@@ -7305,13 +7305,13 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''profile_autocomplete(${1:field}, ${2:string})'''
   'profile_block_configure':
     'prefix': 'profile_block_configure'
-    'body': '''profile_block_configure(${1:, ${2:delta}})'''
+    'body': '''profile_block_configure(${1:delta})'''
   'profile_block_info':
     'prefix': 'profile_block_info'
     'body': '''profile_block_info()'''
   'profile_block_view':
     'prefix': 'profile_block_view'
-    'body': '''profile_block_view(${1:, ${2:delta}})'''
+    'body': '''profile_block_view(${1:delta})'''
   'profile_browse':
     'prefix': 'profile_browse'
     'body': '''profile_browse()'''
@@ -7476,7 +7476,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''search_block_info()'''
   'search_block_view':
     'prefix': 'search_block_view'
-    'body': '''search_block_view(${1:, ${2:delta}})'''
+    'body': '''search_block_view(${1:delta})'''
   'search_box':
     'prefix': 'search_box'
     'body': '''search_box(${1:form}, ${2:form_state}, ${3:form_id})'''
@@ -7506,7 +7506,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''search_data(${1:keys}, ${2:module}${3:, ${4:conditions}})'''
   'search_dirty':
     'prefix': 'search_dirty'
-    'body': '''search_dirty(${1:, ${2:word}})'''
+    'body': '''search_dirty(${1:word})'''
   'search_excerpt':
     'prefix': 'search_excerpt'
     'body': '''search_excerpt(${1:keys}, ${2:text})'''
@@ -7536,7 +7536,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''search_get_default_module_info()'''
   'search_get_info':
     'prefix': 'search_get_info'
-    'body': '''search_get_info(${1:, ${2:all}})'''
+    'body': '''search_get_info(${1:all})'''
   'search_help':
     'prefix': 'search_help'
     'body': '''search_help(${1:path}, ${2:arg})'''
@@ -7602,13 +7602,13 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''shortcut_block_info()'''
   'shortcut_block_view':
     'prefix': 'shortcut_block_view'
-    'body': '''shortcut_block_view(${1:, ${2:delta}})'''
+    'body': '''shortcut_block_view(${1:delta})'''
   'shortcut_current_displayed_set':
     'prefix': 'shortcut_current_displayed_set'
-    'body': '''shortcut_current_displayed_set(${1:, ${2:account}})'''
+    'body': '''shortcut_current_displayed_set(${1:account})'''
   'shortcut_default_set':
     'prefix': 'shortcut_default_set'
-    'body': '''shortcut_default_set(${1:, ${2:account}})'''
+    'body': '''shortcut_default_set(${1:account})'''
   'shortcut_help':
     'prefix': 'shortcut_help'
     'body': '''shortcut_help(${1:path}, ${2:arg})'''
@@ -7656,7 +7656,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''shortcut_preprocess_page(${1:variables})'''
   'shortcut_renderable_links':
     'prefix': 'shortcut_renderable_links'
-    'body': '''shortcut_renderable_links(${1:, ${2:shortcut_set}})'''
+    'body': '''shortcut_renderable_links(${1:shortcut_set})'''
   'shortcut_set_add_form':
     'prefix': 'shortcut_set_add_form'
     'body': '''shortcut_set_add_form(${1:form}, ${2:form_state})'''
@@ -7692,7 +7692,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''shortcut_set_delete_form_submit(${1:form}, ${2:form_state})'''
   'shortcut_set_edit_access':
     'prefix': 'shortcut_set_edit_access'
-    'body': '''shortcut_set_edit_access(${1:, ${2:shortcut_set}})'''
+    'body': '''shortcut_set_edit_access(${1:shortcut_set})'''
   'shortcut_set_edit_form':
     'prefix': 'shortcut_set_edit_form'
     'body': '''shortcut_set_edit_form(${1:form}, ${2:form_state}, ${3:shortcut_set})'''
@@ -7722,7 +7722,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''shortcut_set_switch(${1:form}, ${2:form_state}${3:, ${4:account}})'''
   'shortcut_set_switch_access':
     'prefix': 'shortcut_set_switch_access'
-    'body': '''shortcut_set_switch_access(${1:, ${2:account}})'''
+    'body': '''shortcut_set_switch_access(${1:account})'''
   'shortcut_set_switch_submit':
     'prefix': 'shortcut_set_switch_submit'
     'body': '''shortcut_set_switch_submit(${1:form}, ${2:form_state})'''
@@ -7761,7 +7761,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''simpletest_clean_environment()'''
   'simpletest_clean_results_table':
     'prefix': 'simpletest_clean_results_table'
-    'body': '''simpletest_clean_results_table(${1:, ${2:test_id}})'''
+    'body': '''simpletest_clean_results_table(${1:test_id})'''
   'simpletest_clean_temporary_directories':
     'prefix': 'simpletest_clean_temporary_directories'
     'body': '''simpletest_clean_temporary_directories()'''
@@ -7833,13 +7833,13 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''statistics_access_log(${1:aid})'''
   'statistics_block_configure':
     'prefix': 'statistics_block_configure'
-    'body': '''statistics_block_configure(${1:, ${2:delta}})'''
+    'body': '''statistics_block_configure(${1:delta})'''
   'statistics_block_info':
     'prefix': 'statistics_block_info'
     'body': '''statistics_block_info()'''
   'statistics_block_view':
     'prefix': 'statistics_block_view'
-    'body': '''statistics_block_view(${1:, ${2:delta}})'''
+    'body': '''statistics_block_view(${1:delta})'''
   'statistics_cron':
     'prefix': 'statistics_cron'
     'body': '''statistics_cron()'''
@@ -7968,7 +7968,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_admin_compact_mode()'''
   'system_admin_compact_page':
     'prefix': 'system_admin_compact_page'
-    'body': '''system_admin_compact_page(${1:, ${2:mode}})'''
+    'body': '''system_admin_compact_page(${1:mode})'''
   'system_admin_config_page':
     'prefix': 'system_admin_config_page'
     'body': '''system_admin_config_page()'''
@@ -8004,7 +8004,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_block_ip_action()'''
   'system_block_view':
     'prefix': 'system_block_view'
-    'body': '''system_block_view(${1:, ${2:delta}})'''
+    'body': '''system_block_view(${1:delta})'''
   'system_check_directory':
     'prefix': 'system_check_directory'
     'body': '''system_check_directory(${1:form_element})'''
@@ -8106,10 +8106,10 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_get_date_format(${1:dfid})'''
   'system_get_date_formats':
     'prefix': 'system_get_date_formats'
-    'body': '''system_get_date_formats(${1:, ${2:type}})'''
+    'body': '''system_get_date_formats(${1:type})'''
   'system_get_date_types':
     'prefix': 'system_get_date_types'
-    'body': '''system_get_date_types(${1:, ${2:type}})'''
+    'body': '''system_get_date_types(${1:type})'''
   'system_get_files_database':
     'prefix': 'system_get_files_database'
     'body': '''system_get_files_database(${1:files}, ${2:type})'''
@@ -8145,7 +8145,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_init()'''
   'system_ip_blocking':
     'prefix': 'system_ip_blocking'
-    'body': '''system_ip_blocking(${1:, ${2:default_ip}})'''
+    'body': '''system_ip_blocking(${1:default_ip})'''
   'system_ip_blocking_delete':
     'prefix': 'system_ip_blocking_delete'
     'body': '''system_ip_blocking_delete(${1:form}, ${2:form_state}, ${3:iid})'''
@@ -8277,7 +8277,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_sort_themes(${1:a}, ${2:b})'''
   'system_status':
     'prefix': 'system_status'
-    'body': '''system_status(${1:, ${2:check}})'''
+    'body': '''system_status(${1:check})'''
   'system_stream_wrappers':
     'prefix': 'system_stream_wrappers'
     'body': '''system_stream_wrappers()'''
@@ -8316,7 +8316,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''system_themes_page()'''
   'system_time_zones':
     'prefix': 'system_time_zones'
-    'body': '''system_time_zones(${1:, ${2:blank}})'''
+    'body': '''system_time_zones(${1:blank})'''
   'system_timezone':
     'prefix': 'system_timezone'
     'body': '''system_timezone(${1:, ${2:abbreviation}${3:, ${4:offset}${5:, ${6:is_daylight_saving_time}}}})'''
@@ -8556,7 +8556,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''taxonomy_vocabulary_save(${1:vocabulary})'''
   'taxonomy_vocabulary_static_reset':
     'prefix': 'taxonomy_vocabulary_static_reset'
-    'body': '''taxonomy_vocabulary_static_reset(${1:, ${2:ids}})'''
+    'body': '''taxonomy_vocabulary_static_reset(${1:ids})'''
   'template_preprocess':
     'prefix': 'template_preprocess'
     'body': '''template_preprocess(${1:variables}, ${2:hook})'''
@@ -8883,7 +8883,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''theme_forum_form(${1:variables})'''
   'theme_get_registry':
     'prefix': 'theme_get_registry'
-    'body': '''theme_get_registry(${1:, ${2:complete}})'''
+    'body': '''theme_get_registry(${1:complete})'''
   'theme_get_setting':
     'prefix': 'theme_get_setting'
     'body': '''theme_get_setting(${1:setting_name}${2:, ${3:theme}})'''
@@ -9246,7 +9246,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''trigger_actions_delete(${1:aid})'''
   'trigger_assign':
     'prefix': 'trigger_assign'
-    'body': '''trigger_assign(${1:, ${2:module_to_display}})'''
+    'body': '''trigger_assign(${1:module_to_display})'''
   'trigger_assign_form':
     'prefix': 'trigger_assign_form'
     'body': '''trigger_assign_form(${1:form}, ${2:form_state}, ${3:module}, ${4:hook}, ${5:label})'''
@@ -9402,7 +9402,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''update_form_system_modules_alter(${1:form}, ${2:form_state})'''
   'update_get_available':
     'prefix': 'update_get_available'
-    'body': '''update_get_available(${1:, ${2:refresh}})'''
+    'body': '''update_get_available(${1:refresh})'''
   'update_get_project_name':
     'prefix': 'update_get_project_name'
     'body': '''update_get_project_name(${1:file})'''
@@ -9519,7 +9519,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''user_action_info()'''
   'user_admin':
     'prefix': 'user_admin'
-    'body': '''user_admin(${1:, ${2:callback_arg}})'''
+    'body': '''user_admin(${1:callback_arg})'''
   'user_admin_account':
     'prefix': 'user_admin_account'
     'body': '''user_admin_account()'''
@@ -9570,16 +9570,16 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''user_authenticate(${1:name}, ${2:password})'''
   'user_autocomplete':
     'prefix': 'user_autocomplete'
-    'body': '''user_autocomplete(${1:, ${2:string}})'''
+    'body': '''user_autocomplete(${1:string})'''
   'user_block_configure':
     'prefix': 'user_block_configure'
-    'body': '''user_block_configure(${1:, ${2:delta}})'''
+    'body': '''user_block_configure(${1:delta})'''
   'user_block_info':
     'prefix': 'user_block_info'
     'body': '''user_block_info()'''
   'user_block_view':
     'prefix': 'user_block_view'
-    'body': '''user_block_view(${1:, ${2:delta}})'''
+    'body': '''user_block_view(${1:delta})'''
   'user_build_content':
     'prefix': 'user_build_content'
     'body': '''user_build_content(${1:account}${2:, ${3:view_mode}${4:, ${5:langcode}}})'''
@@ -9681,7 +9681,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''user_form_process_password_confirm(${1:element})'''
   'user_get_authmaps':
     'prefix': 'user_get_authmaps'
-    'body': '''user_get_authmaps(${1:, ${2:authname}})'''
+    'body': '''user_get_authmaps(${1:authname})'''
   'user_help':
     'prefix': 'user_help'
     'body': '''user_help(${1:path}, ${2:arg})'''
@@ -9801,7 +9801,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''user_pass_validate(${1:form}, ${2:form_state})'''
   'user_password':
     'prefix': 'user_password'
-    'body': '''user_password(${1:, ${2:length}})'''
+    'body': '''user_password(${1:length})'''
   'user_permission':
     'prefix': 'user_permission'
     'body': '''user_permission()'''
@@ -9882,7 +9882,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''user_uid_only_optional_to_arg(${1:arg})'''
   'user_uid_optional_load':
     'prefix': 'user_uid_optional_load'
-    'body': '''user_uid_optional_load(${1:, ${2:uid}})'''
+    'body': '''user_uid_optional_load(${1:uid})'''
   'user_uid_optional_to_arg':
     'prefix': 'user_uid_optional_to_arg'
     'body': '''user_uid_optional_to_arg(${1:arg})'''
@@ -9933,7 +9933,7 @@ module_load_include(${1:type}, ${2:module}${3:, ${4:name}})
     'body': '''valid_url(${1:url}${2:, ${3:absolute}})'''
   'vancode2int':
     'prefix': 'vancode2int'
-    'body': '''vancode2int(${1:, ${2:c}})'''
+    'body': '''vancode2int(${1:c})'''
   'variable_del':
     'prefix': 'variable_del'
     'body': '''variable_del('${1:variable}')$0'''

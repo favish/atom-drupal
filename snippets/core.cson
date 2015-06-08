@@ -5971,7 +5971,7 @@ function ${1:hook}_xmlrpc_alter(&\$methods) {
     'body': '''language_default(${1:property})'''
   'language_list':
     'prefix': 'language_list'
-    'body': '''language_list(${1:, ${2:field}})'''
+    'body': '''language_list(${1:field})'''
   'language_types':
     'prefix': 'language_types'
     'body': '''language_types()'''

@@ -6,7 +6,7 @@ module.exports =
     php.activate().done(@.doit)
   doit: ->
     if not atom.config.get('drupal.fileTypesPhp')
-      defaults = "module,install,inc,test"
+      defaults = "module,install,inc,test,profile"
       atom.config.set('drupal.fileTypesPhp', defaults)
     typeString = atom.config.get('drupal.fileTypesPhp')
     typeList = typeString.split(",")

@@ -934,7 +934,7 @@
     'body': '''date_iso8601(${1:date})'''
   'db_delete':
     'prefix': 'db_delete'
-    'body': '''db_delete('${1:table}'${2:, ${3:array($4)}}PDOException);$0'''
+    'body': '''db_delete('${1:table}'${2:, ${3:array($4)}});$0'''
   'db_insert':
     'prefix': 'db_insert'
     'body': '''

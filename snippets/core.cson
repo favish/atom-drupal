@@ -934,21 +934,19 @@
     'body': '''date_iso8601(${1:date})'''
   'db_delete':
     'prefix': 'db_delete'
-    'body': '''db_delete('${1:table}'${2:, ${3:array($4)}});$0'''
+    'body': '''db_delete('${1:table}'${2:, ${3:array($4)}})$0'''
   'db_insert':
     'prefix': 'db_insert'
-    'body': '''
-db_insert(${1:table}${2:, ${3:array($4)}})
-'''
+    'body': '''db_insert(${1:table}${2:, ${3:array($4)}})$0'''
   'db_query':
     'prefix': 'db_query'
-    'body': '''db_query(${1:'${2:SELECT * FROM table}'});'''
+    'body': '''db_query(${1:'${2:SELECT * FROM table}'})$0'''
   'db_select':
     'prefix': 'db_select'
-    'body': '''db_select('${1:table}'${2:, '${3:alias}'${4:, array($5)}});$0'''
+    'body': '''db_select('${1:table}'${2:, '${3:alias}'${4:, array($5)}})$0'''
   'db_update':
     'prefix': 'db_update'
-    'body': '''db_update('${1:table}'${2:, ${3:options}});$0'''
+    'body': '''db_update('${1:table}'${2:, ${3:options}})$0'''
   'dblog_build_filter_query':
     'prefix': 'dblog_build_filter_query'
     'body': '''dblog_build_filter_query()'''

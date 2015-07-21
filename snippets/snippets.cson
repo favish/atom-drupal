@@ -111,12 +111,13 @@ else {
 '''
   'hook':
     'prefix': 'hook'
-    'body': '''/**
- * Implements hook_${1:hook}().
- */
-function ${1:hook}_${2:function}(${3:args}) {
-	$0
-}'''
+    'body': '''
+    /**
+     * Implements hook_${1:hook}().
+     */
+    function ${2:module}_${1:function}(${3:args}) {
+    	$0
+    }'''
   'menu':
     'prefix': 'menu'
     'body': '''

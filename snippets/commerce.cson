@@ -1,0 +1,90 @@
+'.text.html.php':
+# Core commerce hooks
+  'hook_commerce_currency_info()':
+    'prefix': 'h.commerce_currency_info'
+    'body': '''
+  /**
+   * Implements hook_commerce_currency_info().
+   */
+  function ${1:hook}_commerce_currency_info() {
+    return array(
+        'CURRENCY_SHORTCODE' => array(
+          'code' => 'SHORTCODE',
+          'numeric_code' => 'NUM',
+          'symbol' => '',
+          'name' => t(''),
+          'symbol_placement' => '',
+          'code_placement' => '',
+          'minor_unit' => t(''),
+          'major_unit' => t(''),
+          'rounding_step' => '',
+        ),
+      );
+    }
+  '''
+
+  'h.commerce_currency_info_alter()':
+    'prefix': 'h.commerce_currency_info_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_currency_info_alter().
+   */
+  function ${1:hook}_commerce_currency_info_alter(&$currencies, $langcode) {
+    // Sample: $currencies['CHF']['code_placement'] = 'after';
+  }
+  '''
+
+  'h.commerce_entity_access()':
+    'prefix': 'h.commerce_entity_access'
+    'body': '''
+  /**
+   * Implements hook_commerce_entity_access().
+   */
+  function ${1:hook}_commerce_entity_access($op, $entity, $account, $entity_type) {
+    // Code goes here.
+  }
+  '''
+
+  'h.ccommerce_entity_access_condition_alter()':
+    'prefix': 'h.commerce_entity_access_condition_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_entity_access_condition_alter().
+   */
+  function ${1:hook}_commerce_entity_access_condition_alter() {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_entity_access_condition_ENTITY_TYPE_alter()':
+    'prefix': 'h.commerce_entity_access_condition_ENTITY_TYPE_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_entity_access_condition_ENTITY_TYPE_alter().
+   */
+  function ${1:hook}_commerce_entity_access_condition_ENTITY_TYPE_alter() {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_entity_create_alter()':
+    'prefix': 'h.commerce_entity_create_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_entity_create_alter().
+   */
+  function ${1:hook}_commerce_entity_create_alter($entity_type, $entity) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_entity_create_alter()':
+    'prefix': 'h.commerce_entity_create_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_entity_create_alter().
+   */
+  function ${1:hook}_commerce_entity_create_alter($entity_type, $entity) {
+    // Code goes here.
+  }
+  '''

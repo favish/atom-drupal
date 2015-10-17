@@ -88,3 +88,140 @@
     // Code goes here.
   }
   '''
+
+# Commerce cart hooks
+
+  'h.commerce_cart_attributes_refresh_alter()':
+    'prefix': 'h.commerce_cart_attributes_refresh_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_attributes_refresh_alter().
+   */
+  function ${1:hook}_commerce_cart_attributes_refresh_alter(&$commands, $form, $form_state) {
+    // Display an alert message showing the new default product ID.
+    // Sample: $commands[] = ajax_command_alert(t('Now defaulted to product @product_id.', array('@product_id' => $form['product_id']['#value'])));
+  }
+  '''
+
+  'h.commerce_cart_line_item_refresh()':
+    'prefix': 'h.commerce_cart_line_item_refresh'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_line_item_refresh().
+   */
+  function ${1:hook}_commerce_cart_line_item_refresh($line_item, $order_wrapper) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_convert()':
+    'prefix': 'h.commerce_cart_order_convert'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_convert().
+   */
+  function ${1:hook}_commerce_cart_order_convert($order_wrapper, $account) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_empty()':
+    'prefix': 'h.commerce_cart_order_empty'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_empty().
+   */
+  function ${1:hook}_commerce_cart_order_empty($order) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_id()':
+    'prefix': 'h.commerce_cart_order_id'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_id().
+   */
+  function ${1:hook}_commerce_cart_order_id($uid) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_is_cart()':
+    'prefix': 'h.commerce_cart_order_is_cart'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_is_cart().
+   */
+  function ${1:hook}_commerce_cart_order_is_cart($order, &$is_cart) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_is_cart_alter()':
+    'prefix': 'h.commerce_cart_order_is_cart_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_is_cart_alter().
+   */
+  function ${1:hook}_commerce_cart_order_is_cart_alter(&$is_cart, $order)
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_order_refresh()':
+    'prefix': 'h.commerce_cart_order_refresh'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_order_refresh().
+   */
+  function ${1:hook}_commerce_cart_order_refresh($order_wrapper) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_product_add()':
+    'prefix': 'h.commerce_cart_product_add'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_product_add().
+   */
+  function ${1:hook}_commerce_cart_product_add($order, $product, $quantity, $line_item) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_product_comparison_properties_alter()':
+    'prefix': 'h.commerce_cart_product_comparison_properties_alter'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_product_comparison_properties_alter().
+   */
+  function ${1:hook}_commerce_cart_product_comparison_properties_alter(&$comparison_properties) {
+    // Force separate line items when the same product is added to the cart from
+    // different display paths.
+    // Sample: $comparison_properties[] = 'commerce_display_path';
+  }
+  '''
+
+  'h.commerce_cart_product_prepare()':
+    'prefix': 'h.commerce_cart_product_prepare'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_product_prepare().
+   */
+  function ${1:hook}_commerce_cart_product_prepare($order, $product, $quantity) {
+    // Code goes here.
+  }
+  '''
+
+  'h.commerce_cart_product_remove()':
+    'prefix': 'h.commerce_cart_product_remove'
+    'body': '''
+  /**
+   * Implements hook_commerce_cart_product_remove().
+   */
+  function ${1:hook}_commerce_cart_product_remove($order, $product, $quantity, $line_item) {
+    // Code goes here.
+  }
+  '''

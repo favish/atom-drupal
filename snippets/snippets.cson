@@ -81,9 +81,9 @@ ${2:\$$1->entityCondition('${3:entity_type}', '${4:node}')
   'form_function':
     'prefix': 'form_function'
     'body': '''/**
- * $2
+ * $4
  */
-function ${1:hook}_${1:function}(\$form, &\$form_state) {
+function ${1:hook}_${2:function}(\$form, &\$form_state) {
 	if (!is_array(\$form)) {
 		\$form = array();
 	}
@@ -92,9 +92,9 @@ function ${1:hook}_${1:function}(\$form, &\$form_state) {
 }${3:
 
 /**
- * Summit handler for ${1:hook}_$1
+ * Summit handler for ${1:hook}_$2
  */
-function ${1:hook}_$1_submit(\$form, &$form_state) {
+function ${1:hook}_$2_submit(\$form, &$form_state) {
 
 }}'''
   'get_cache':

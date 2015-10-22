@@ -4033,16 +4033,6 @@ function ${1:hook}_form_system_theme_settings_alter(&\$form, &\$form_state) {
 function ${1:hook}_forms(\$form_id, \$args) {
 	$0
 }'''
-  'h':
-    'prefix': 'h'
-    'body': '''
-/**
- * Implements hook_$1().
- */
-function ${1:hook}_${1:function_name}(${2:args}) {
-	$0
-}
-'''
   'h.help':
     'prefix': 'h.help'
     'body': '''

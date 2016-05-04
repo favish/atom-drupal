@@ -19,6 +19,7 @@ module.exports =
     drupal7 = false
     drupal8 = false
     paths = atom.project.getPaths()
+
     for path in paths
       containsIncludes = fs.existsSync(path + '/includes') or fs.existsSync(path + '/public_html/includes')
       containsModules = fs.existsSync(path + '/modules') or fs.existsSync(path + '/public_html/modules')
@@ -27,7 +28,7 @@ module.exports =
         drupal7 = true
       if containsCore and containsModules
         drupal8 = true
-
+    console.log(drupal7, drupal8)
     if drupal7
       scope += '.drupal7'
     else if drupal8

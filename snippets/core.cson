@@ -1,4 +1,4 @@
-'.text.html.php':
+'.text.html.php.drupal7':
   'aggregator_admin_form':
     'prefix': 'aggregator_admin_form'
     'body': '''aggregator_admin_form(${1:form}, ${2:form_state})'''

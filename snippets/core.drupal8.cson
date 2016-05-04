@@ -1,0 +1,28 @@
+'.text.html.php.drupal8':
+  'h.form_BASE_FORM_ID_alter':
+    'prefix': 'h.form_BASE_FORM_ID_alter'
+    'body': '''
+/**
+ * Implements hook_form_BASE_FORM_ID_alter() for ${2:BASE_FORM_ID}().
+ */
+function ${1:hook}_form_$2_alter(&\$form, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, \$form_id) {
+	$0
+}'''
+  'h.form_FORM_ID_alter':
+    'prefix': 'h.form_FORM_ID_alter'
+    'body': '''
+/**
+ * Implements hook_form_FORM_ID_alter() for ${2:FORM_ID}().
+ */
+function ${1:hook}_form_$2_alter(&\$form, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, \$form_id) {
+	$0
+}'''
+  'h.form_alter':
+    'prefix': 'h.form_alter'
+    'body': '''
+/**
+ * Implements hook_form_alter().
+ */
+function ${1:hook}_form_alter(&\$form, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, \$form_id) {
+	$0
+}'''

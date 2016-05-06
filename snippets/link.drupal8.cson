@@ -1,0 +1,7 @@
+'.text.html.php.drupal8':
+  'use Link':
+    'prefix': 'use_link',
+    'body': 'use \Drupal\Core\Link;'
+  'Link::fromTextAndUrl()':
+    'prefix': 'link_from_text_and_url',
+    'body': "Link::fromTextAndUrl(${1:text}, ${2:url})$0"

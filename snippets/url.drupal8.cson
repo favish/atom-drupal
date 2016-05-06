@@ -1,0 +1,7 @@
+'.text.html.php.drupal8':
+  'use Url':
+    'prefix': 'use_url',
+    'body': 'use \Drupal\Core\Url;'
+  'Url::fromRoute()':
+    'prefix': 'url_from_route',
+    'body': "Url::fromRoute('${1:route}'${2:, ${3:[]})$0"

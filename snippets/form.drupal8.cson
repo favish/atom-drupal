@@ -1,0 +1,4 @@
+'.text.html.php.drupal8':
+  'use FormStateInterface':
+    'prefix': 'use_formstateinterface',
+    'body': 'use \Drupal\Core\Form\FormStateInterface;'

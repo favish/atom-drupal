@@ -3,7 +3,7 @@ module.exports =
 
   activate: (state) ->
     php = atom.packages.loadPackage('language-php')
-    php.activate().done(@.doit)
+    php.activate().then(@.doit)
   doit: ->
     if not atom.config.get('drupal.fileTypesPhp')
       defaults = "module,install,inc,test,profile"

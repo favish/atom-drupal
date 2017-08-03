@@ -20,6 +20,8 @@ module.exports =
     paths = atom.project.getPaths()
 
     for path in paths
+      # probably need something better than checking "public_html" as that is
+      # not standard for everyone...
       containsIncludes = fs.existsSync(path + '/includes') or fs.existsSync(path + '/public_html/includes')
       containsModules = fs.existsSync(path + '/modules') or fs.existsSync(path + '/public_html/modules')
       containsCore = fs.existsSync(path + '/core') or fs.existsSync(path + '/public_html/core')

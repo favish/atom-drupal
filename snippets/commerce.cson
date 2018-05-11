@@ -78,17 +78,6 @@
   }
   '''
 
-  'h.commerce_entity_create_alter()':
-    'prefix': 'h.commerce_entity_create_alter'
-    'body': '''
-  /**
-   * Implements hook_commerce_entity_create_alter().
-   */
-  function ${1:hook}_commerce_entity_create_alter($entity_type, $entity) {
-    // Code goes here.
-  }
-  '''
-
 # Commerce cart hooks
 
   'h.commerce_cart_attributes_refresh_alter()':
